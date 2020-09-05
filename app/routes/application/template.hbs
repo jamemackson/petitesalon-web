@@ -1,21 +1,27 @@
 <div class="{{this.router.currentRouteName}}">
-<div class="centered banner warning">
-  <LinkTo @route="covid-policy">
-    Please read our COVID-19 policy before your appointment!
-  </LinkTo>
-</div>
-<div class="row row-center row-no-padding">
-  <div class="centered">
-    <LinkTo @route="index">
-      <img src="/petite-salon-logo.png" alt="Petite Salon" class="logo" />
-    </LinkTo>
-  </div>
-</div>
-<div class="row row-stretch">
-  <Menu::Main
+  <Menu::Wrapper
     @stpaulArtists={{this.data.stpaulArtists}}
-    @minneapolisArtists={{this.data.minneapolisArtists}}
-  />
-</div>
-{{outlet}}
+    @minneapolisArtists={{this.data.minneapolisArtists}} as |mmw|>
+    <div class="centered banner warning">
+        <LinkTo @route="covid-policy">
+          Please read our COVID-19 policy before your appointment!
+        </LinkTo>
+      </div>
+      <div class="row row-center row-no-padding">
+        <div class="centered">
+          <LinkTo @route="index">
+            <img src="/petite-salon-logo.png" alt="Petite Salon" class="logo" />
+          </LinkTo>
+        </div>
+      </div>
+      <div class="row row-stretch">
+        <mmw.Toggle>{{fa-icon 'ellipsis-v'}}</mmw.Toggle>
+        <Menu::Main
+          @mmw={{mmw}}
+          @stpaulArtists={{this.data.stpaulArtists}}
+          @minneapolisArtists={{this.data.minneapolisArtists}}
+        ></Menu::Main>
+      </div>
+      {{outlet}}
+  </Menu::Wrapper>
 </div>

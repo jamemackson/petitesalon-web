@@ -7,4 +7,19 @@
     flex: 0 0 100%;
     max-width: 100%;
   }
+
+  .main-menu {
+    display: none;
+  }
+}
+
+.mobile-menu__toggle {
+  border: black 1pt solid;
+  float: left;
+}
+
+@media (min-width: 600px) {
+  .mobile-menu__toggle {
+    display: none;
+  }
 }
