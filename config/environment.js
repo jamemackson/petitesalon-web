@@ -74,7 +74,15 @@ module.exports = function (environment) {
     }
   };
 
-  // config/environment.js
+  ENV['ember-meta'] = {
+    description: 'Petite Salon has locations in Saint Paul and Minneapolis.',
+    imgSrc: '/petite-salon-logo.png',
+    siteName: 'Petite Salon',
+    title: 'Petite Salon',
+    // twitterUsername: '@shipshapecode',
+    url: 'https://petitesalon.com/'
+  };
+
   ENV['ember-simple-auth-token'] = {
     refreshAccessTokens: true, // Enables access token refreshing
     refreshLeeway: 30, // refresh 30 seconds (.5 minutes) before expiration
