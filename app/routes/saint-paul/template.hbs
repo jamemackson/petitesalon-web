@@ -1,0 +1,45 @@
+<div class="row">
+  <div class="column">
+    <LinkTo @route="locations">locations</LinkTo> :: Saint Paul
+  </div>
+</div>
+<div class="row">
+  <div class="feature-wrapper">
+      <div class="opaque content">
+        <p>Petite Saint Paul is open Monday through Saturday.</p>
+        <p>Call <a href="tel:6516994959">(651) 699 - 4959</a> to book over the phone, or click below to book online.</p>
+        <p><a class="button" href="#book-now">BOOK ONLINE</a></p>
+      </div>
+    <img src="/img/petite-saint-paul-aged-front-door.jpg" alt="st paul salon enterance">
+  </div>
+</div>
+<div class="row">
+  <div class="column column-12 map-container">
+    <LeafletMap
+      @lat={{this.lat}}
+      @lng={{this.lng}}
+      @zoom={{this.zoom}}
+      @attributionControl={{false}}
+      @zoomControl={{true}}
+      @dragging={{true}}
+      @doubleClickZoom={{false}}
+      @boxZoom={{true}}
+      @touchZoom={{true}}
+      @scrollWheelZoom={{false}}
+      as |layers|>
+
+      <layers.tile @url="http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png"/>
+      <layers.marker @location={{this.location}} as |marker|>
+        <marker.popup>
+          <h3>Petite Salon - St Paul</h3>
+          1399 St Clair Ave<br>
+          St Paul, MN 55105
+        </marker.popup>
+      </layers.marker>
+    </LeafletMap>
+    {{!-- <Features::Slider @tag="home" @items={{this.items}} /> --}}
+  </div>
+</div>
+<div class="centered row">
+  <Artist::ListHorizontal @artists={{@model}} />
+</div>

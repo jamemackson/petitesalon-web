@@ -1,0 +1,10 @@
+@media (max-width: 600px) {
+  body {
+    font-size: 1.6em;
+  }
+
+  .row .column.column-25 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}

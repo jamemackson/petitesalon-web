@@ -1,0 +1,233 @@
+[
+  {
+    "slug": "brandy",
+    "name": "brandy",
+    "title": "owner | stylist | stp | mpls",
+    "locations": ["saint-paul", "minneapolis"],
+    "image": "//cdn.petitesalon.com/img/petite/team/Brandy-270.png",
+    "hours": [
+      { "day": "Mon", "start": 10, "end": 8 },
+      { "day": "Wed", "start": 10, "end": 8 },
+      { "day": "Fri", "start": 10, "end": 8 }
+    ],
+    "social": [
+      { "network": "facebook", "link": "https://facebook.com/brandymackson" },
+      { "network": "instagram", "link": "https://instagram.com/brandymackson" },
+      { "network": "globe", "link": "https://brandymackson.com" }
+    ],
+    "bio": {
+      "short": "Brandy specializes in fitting a style to your personality. Getting the right combination of cut and color is a art and this is her gift.",
+      "long": "After completing her initial cosmetology education with Aveda in Minneapolis, Brandy completed intensive advanced training at Vidal Sassoon in Santa Monica, CA.  Additionally she completed comprehensive training at the premier Aveda concept salon in the Twin Cities.  She continually seeks to further her craft."
+    },
+    "serviceGroups": [
+      {
+        "name": "haircuts & styling",
+        "services": [
+          { "name": "haircut", "price": 75, "requiresConsultation": false },
+          { "name": "blowout", "price": 65, "requiresConsultation": false }
+        ]
+      },
+      {
+        "name": "color",
+        "services": [
+          { "name": "tint", "price": 100, "requiresConsultation": false },
+          { "name": "full foil", "price": 120, "requiresConsultation": false },
+          { "name": "corrective color", "price": 120, "requiresConsultation": true }
+        ]
+      },
+      {
+        "name": "waxing",
+        "services": [
+          { "name": "brows", "price": 20, "requiresConsultation": false },
+          { "name": "face, lip, chin", "price": 15, "requiresConsultation": false }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "haley",
+    "name": "haley",
+    "title": "owner | stylist |  stp | mpls",
+    "locations": ["minneapolis", "saint-paul"],
+    "image": "//cdn.petitesalon.com/img/petite/team/201903/haley.jpg",
+    "hours": [
+      { "day": "Mon", "start": 10, "end": 8 },
+      { "day": "Wed", "start": 10, "end": 8 },
+      { "day": "Fri", "start": 10, "end": 8 }
+    ],
+    "social": [
+      { "network": "facebook", "link": "https://facebook.com/brandymackson" },
+      { "network": "instagram", "link": "https://instagram.com/brandymackson" },
+      { "network": "globe", "link": "https://brandymackson.com" }
+    ],
+    "bio": {
+      "short": "Brandy specializes in fitting a style to your personality. Getting the right combination of cut and color is a art and this is her gift.",
+      "long": "After completing her initial cosmetology education with Aveda in Minneapolis, Brandy completed intensive advanced training at Vidal Sassoon in Santa Monica, CA.  Additionally she completed comprehensive training at the premier Aveda concept salon in the Twin Cities.  She continually seeks to further her craft."
+    },
+    "serviceGroups": [
+      {
+        "name": "haircuts & styling",
+        "services": [
+          { "name": "haircut", "price": 75, "requiresConsultation": false },
+          { "name": "blowout", "price": 65, "requiresConsultation": false }
+        ]
+      },
+      {
+        "name": "color",
+        "services": [
+          { "name": "tint", "price": 100, "requiresConsultation": false },
+          { "name": "full foil", "price": 120, "requiresConsultation": false },
+          { "name": "corrective color", "price": 120, "requiresConsultation": true }
+        ]
+      },
+      {
+        "name": "waxing",
+        "services": [
+          { "name": "brows", "price": 20, "requiresConsultation": false },
+          { "name": "face, lip, chin", "price": 15, "requiresConsultation": false }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "allison",
+    "name": "allison",
+    "title": "stylist | stp",
+    "locations": ["saint-paul"],
+    "image": "//cdn.petitesalon.com/img/petite/team/201903/allison.jpg"
+  },
+  {
+    "slug": "marne",
+    "name": "marne",
+    "title": "stylist | stp",
+    "locations": ["saint-paul"],
+    "image": "//cdn.petitesalon.com/img/petite/team/201903/marne.jpg"
+  },
+  {
+    "slug": "tony",
+    "name": "tony",
+    "title": "stylist | stp",
+    "locations": ["saint-paul"],
+    "image": "//cdn.petitesalon.com/img/petite/team/201903/tony.jpg"
+  },
+  {
+    "slug": "angela",
+    "name": "angela",
+    "title": "stylist | stp",
+    "locations": ["saint-paul"],
+    "image": "//cdn.petitesalon.com/img/petite/team/201903/angela.jpg"
+  },
+  {
+    "slug": "noelle",
+    "name": "noelle",
+    "title": "stylist | stp",
+    "locations": ["saint-paul"],
+    "image": "//cdn.petitesalon.com/img/petite/team/201903/noelle.jpg"
+  },
+  {
+    "slug": "sue",
+    "name": "sue",
+    "title": "stylist | stp",
+    "locations": ["saint-paul"],
+    "image": "//cdn.petitesalon.com/img/petite/team/201903/sue.jpg"
+  },
+  {
+    "slug": "lori",
+    "name": "lori",
+    "title": "stylist | stp",
+    "locations": ["saint-paul"],
+    "image": "//cdn.petitesalon.com/img/petite/team/201903/lori.jpg"
+  },
+
+  {
+    "slug": "jessica",
+    "name": "jessica",
+    "title": "stylist | mpls",
+    "locations": ["minneapolis"],
+    "image": "//cdn.petitesalon.com/img/petite/team/201903/jessica.jpg"
+  },
+  {
+    "slug": "erin-gonsior",
+    "name": "erin gonsior",
+    "title": "stylist | mpls",
+    "locations": ["minneapolis"],
+    "image": "//cdn.petitesalon.com/img/petite/team/201903/erin-gonsier.jpg"
+  },
+  {
+    "slug": "emily",
+    "name": "emily",
+    "title": "stylist | mpls",
+    "locations": ["minneapolis"],
+    "image": "//cdn.petitesalon.com/img/petite/team/201903/emily.jpg"
+  },
+  {
+    "slug": "heidi",
+    "name": "heidi",
+    "title": "stylist | mpls",
+    "locations": ["minneapolis"],
+    "image": "//cdn.petitesalon.com/img/petite/team/201903/heidi.jpg"
+  },
+  {
+    "slug": "nicole",
+    "name": "nicole",
+    "title": "stylist | mpls",
+    "locations": ["minneapolis"],
+    "image": "//cdn.petitesalon.com/img/petite/team/201903/nicole.jpg"
+  },
+  {
+    "slug": "ann",
+    "name": "ann",
+    "title": "stylist | stp",
+    "locations": ["saint-paul"],
+    "image": "//cdn.petitesalon.com/images/female-silhouette.png"
+  },
+  {
+    "slug": "erin",
+    "name": "erin gilmore",
+    "title": "stylist | stp",
+    "locations": ["saint-paul"],
+    "image": "//cdn.petitesalon.com/images/female-silhouette.png"
+  },
+  {
+    "slug": "sarah",
+    "name": "sarah",
+    "title": "stylist | stp",
+    "locations": ["saint-paul"],
+    "image": "//cdn.petitesalon.com/images/female-silhouette.png"
+  },
+  {
+    "slug": "lindsey",
+    "name": "lindsey",
+    "title": "stylist | mpls",
+    "locations": ["minneapolis"],
+    "image": "//cdn.petitesalon.com/images/female-silhouette.png"
+  },
+  {
+    "slug": "lauren",
+    "name": "lauren",
+    "title": "stylist | mpls",
+    "locations": ["minneapolis"],
+    "image": "//cdn.petitesalon.com/images/female-silhouette.png"
+  },
+  {
+    "slug": "atty",
+    "name": "atty",
+    "title": "stylist | mpls",
+    "locations": ["minneapolis"],
+    "image": "//cdn.petitesalon.com/images/female-silhouette.png"
+  },
+  {
+    "slug": "haley-c",
+    "name": "haley c",
+    "title": "stylist | mpls",
+    "locations": ["minneapolis"],
+    "image": "//cdn.petitesalon.com/images/female-silhouette.png"
+  },
+  {
+    "slug": "minjo",
+    "name": "minjo",
+    "title": "stylist | mpls",
+    "locations": ["minneapolis"],
+    "image": "//cdn.petitesalon.com/images/female-silhouette.png"
+  }
+]

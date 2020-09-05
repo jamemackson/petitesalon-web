@@ -1,0 +1,11 @@
+{
+  "name": "petite web",
+  "description": "https://petitesalon.com",
+  "repository": "https://github.com/jamemackson/petite-web",
+  "logo": "",
+  "keywords": ["ember.js", "static"],
+  "scripts": {
+    "test": "yarn test:ember"
+  },
+  "buildpacks": [{ "url": "https://codon-buildpacks.s3.amazonaws.com/buildpacks/heroku/emberjs.tgz" }]
+}

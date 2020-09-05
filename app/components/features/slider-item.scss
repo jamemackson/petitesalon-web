@@ -1,0 +1,18 @@
+.slider-item {
+  // float: left;
+
+  .title {
+    position: relative;
+    top: 75px;
+  }
+
+  .cta {
+    position: relative;
+    top: -125px;
+    padding: 25px;
+
+    a {
+      font-size: x-large;
+    }
+  }
+}

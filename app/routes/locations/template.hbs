@@ -1,0 +1,54 @@
+<div class="centered row">
+  <div class="column"><LinkTo @route="minneapolis">Minneapolis</LinkTo></div>
+  <div class="column"><LinkTo @route="saint-paul">St Paul</LinkTo></div>
+  <div class="float-right">
+    {{#if this.selectedLocation}}
+    <button type="button" {{on 'click' (fn this.updateLocationSelection undefined)}}>{{fa-icon 'stop'}}</button>
+    {{/if}}
+  </div>
+</div>
+<div class="row">
+  <div class="column column-12 map-container">
+    <LeafletMap
+      @lat={{this.lat}}
+      @lng={{this.lng}}
+      @zoom={{this.zoom}}
+      @attributionControl={{false}}
+      @zoomControl={{true}}
+      @dragging={{true}}
+      @doubleClickZoom={{false}}
+      @boxZoom={{true}}
+      @touchZoom={{true}}
+      @scrollWheelZoom={{true}}
+      @tap={{false}} as |layers|
+    >
+      <layers.tile @url="http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png" />
+      <layers.marker @location={{this.stp}} as |marker|>
+        <marker.popup>
+          <LinkTo @route="saint-paul">
+            <h3 {{did-insert (fn this.updateLocationSelection 'saint-paul')}}>Petite Salon - St Paul</h3>
+            1399 St Clair Ave
+            <br />
+            St Paul, MN 55105
+          </LinkTo>
+        </marker.popup>
+      </layers.marker>
+      <layers.marker @location={{this.mpls}} as |marker|>
+        <marker.popup>
+          <LinkTo @route="minneapolis">
+            <h3 {{did-insert (fn this.updateLocationSelection 'minneapolis')}}>
+              Petite Salon - Minneapolis
+            </h3>
+            4805 Nicollet Ave South
+            <br />
+            Minneapolis, MN 55419
+          </LinkTo>
+        </marker.popup>
+      </layers.marker>
+    </LeafletMap>
+  </div>
+</div>
+<div class="row">
+  <Artist::ListHorizontal @artists={{this.selectedArtists}} />
+</div>
+{{outlet}}

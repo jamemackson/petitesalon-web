@@ -1,0 +1,56 @@
+<ul local-class="menu">
+  <li>
+    <a href="#book-now" class="book-now">book online</a>
+  </li>
+  <li>
+    <div class="dropdown">
+      <LinkTo @route="services" class="dropbtn">
+        services {{fa-icon 'angle-down'}}
+      </LinkTo>
+      <div class="dropdown-content">
+        <LinkTo @route="services.styling">styling</LinkTo>
+        <LinkTo @route="services.color">color</LinkTo>
+        <LinkTo @route="services.spa">spa</LinkTo>
+        <LinkTo @route="services.nails">nails</LinkTo>
+      </div>
+    </div>
+  </li>
+  <li>
+    <div class="dropdown">
+      <LinkTo @route="minneapolis" class="dropbtn">minneapolis {{fa-icon 'angle-down'}}</LinkTo>
+      <div class="dropdown-content">
+        {{#each @minneapolisArtists as |artist|}}
+          <LinkTo @route="profile" @model={{artist.slug}}>{{artist.name}}</LinkTo>
+        {{/each}}
+      </div>
+    </div>
+  </li>
+  <li>
+    <div class="dropdown">
+      <LinkTo @route="saint-paul" class="dropbtn">st paul {{fa-icon 'angle-down'}}</LinkTo>
+      <div class="dropdown-content">
+        {{#each @stpaulArtists as |artist|}}
+          <LinkTo @route="profile" @model={{artist.slug}}>{{artist.name}}</LinkTo>
+        {{/each}}
+      </div>
+    </div>
+  </li>
+  <li>
+    <LinkTo @route="retail">retail products</LinkTo>
+  </li>
+  <li>
+    <div class="dropdown">
+      <LinkTo @route="contact">contact {{fa-icon 'angle-down'}}</LinkTo>
+      <div class="dropdown-content">
+        <a href="sms://+16515048529‬">Text us!</a>
+        <a href="sms://+16516994959">Call us!</a>
+        <a href="sms://+16515048529‬?&body=I%27m%20here%20for%20my%20appointment%20with%20[your service provider]">Text us that your here</a>
+      </div>
+    </div>
+  </li>
+  <li>
+    <a href="https://shop.petitesalon.com" target="petite-shop">
+      shop
+    </a>
+  </li>
+</ul>

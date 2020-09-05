@@ -1,0 +1,19 @@
+<div local-class="slider-item">
+  <p local-class="title">{{@item.title}}</p>
+  <img src={{@item.image}} alt={{@item.title}} />
+  <div local-class="cta">
+  {{#if @item.link}}
+    {{#if @item.link.url}}
+      <a href={{@item.link.url}}>{{@item.link.text}}</a>
+    {{else}}
+      {{#if @item.link.route}}
+        <button type="button"
+          {{on 'click' (fn this.goto @item.link.route @item.link.model)}}>
+          {{@item.link.text}}
+        </button>
+      {{/if}}
+    {{/if}}
+  {{/if}}
+  </div>
+
+</div>

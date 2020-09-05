@@ -1,24 +1,40 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Web</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     {{content-for "head"}}
 
-    <link integrity="" rel="stylesheet" href="{{rootURL}}assets/vendor.css">
-    <link integrity="" rel="stylesheet" href="{{rootURL}}assets/web.css">
+    <link integrity="" type="text/css" rel="stylesheet" href="{{rootURL}}assets/vendor.css" />
+    <link integrity="" type="text/css" rel="stylesheet" href="{{rootURL}}assets/petitesalon-web.css" />
 
     {{content-for "head-footer"}}
+    <!-- script for BLVD online booking -->
+    <script>
+      (function (a) {
+        var b = {
+          businessId: '9d8db12f-b50e-4f1c-a8e8-117f551667f8'
+        };
+        var c = a.createElement('script');
+        var d = a.querySelector('script');
+        c.src = 'https://static.joinboulevard.com/injector.min.js';
+        c.async = true;
+        c.onload = function () {
+          blvd.init(b);
+        };
+        d.parentNode.insertBefore(c, d);
+      })(document);
+    </script>
   </head>
   <body>
     {{content-for "body"}}
 
     <script src="{{rootURL}}assets/vendor.js"></script>
-    <script src="{{rootURL}}assets/web.js"></script>
+    <script src="{{rootURL}}assets/petitesalon-web.js"></script>
 
     {{content-for "body-footer"}}
   </body>

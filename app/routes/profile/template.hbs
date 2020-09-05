@@ -1,0 +1,45 @@
+<div class="container">
+  <div class="row">
+    <div class="column column-33">
+      <div local-class="avatar">
+        <img src={{@model.image}} alt={{@model.name}} />
+      </div>
+      <h1>{{@model.name}}</h1>
+      <a href="#book-now" class="button">
+        book now
+      </a>
+      <h2>typical hours</h2>
+      <ul>
+        {{#each @model.hours as |working|}}
+        <li>{{working.day}}: {{working.start}} - {{working.end}}</li>
+        {{/each}}
+      </ul>
+      <ul class="social-links">
+        {{#each @model.social as |social|}}
+        <li><a href={{social.link}}>{{fa-icon social.network}}</a></li>
+        {{/each}}
+      </ul>
+    </div>
+    <div class="column column-66">
+      <h2>About {{@model.name}}</h2>
+      <strong>{{@model.bio.short}}</strong>
+      <hr>
+      <p>{{@model.bio.long}}</p>
+
+      <h2>Services</h2>
+      <div class="gridish">
+      {{#each @model.serviceGroups as |sg|}}
+        <div class="card">
+          <h3>{{sg.name}}</h3>
+          <ul>
+          {{#each sg.services as |service|}}
+            <li>{{service.name}} - ${{service.price}} {{if service.requiresConsultation '**'}}</li>
+          {{/each}}
+          </ul>
+        </div>
+      {{/each}}
+      </div>
+    </div>
+  </div>
+</div>
+{{outlet}}
