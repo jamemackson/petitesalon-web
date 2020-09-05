@@ -75,10 +75,10 @@ module.exports = function (environment) {
   };
 
   ENV['ember-meta'] = {
-    description: 'Petite Salon has locations in Saint Paul and Minneapolis.',
-    imgSrc: '/petite-salon-logo.png',
+    imgSrc: 'https://cdn.petitesalon.com/img/petite/petite-logo-icon.png',
     siteName: 'Petite Salon',
     title: 'Petite Salon',
+    description: 'Petite Salon has locations in Saint Paul and Minneapolis.',
     // twitterUsername: '@shipshapecode',
     url: 'https://petitesalon.com/'
   };
