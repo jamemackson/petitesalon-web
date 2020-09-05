@@ -73,7 +73,7 @@ module.exports = function (environment) {
       // when it is created
     },
     fastboot: {
-      hostWhitelist: ['petitesalon.com', '*.herokuapp.com', /^localhost:\d+$/]
+      hostWhitelist: ['petitesalon.com', /[a-z1-9-]+.herokuapp.com$/, /^localhost:\d+$/]
     }
   };
 
