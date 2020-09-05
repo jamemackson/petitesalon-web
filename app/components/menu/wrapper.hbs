@@ -1,0 +1,11 @@
+<MobileMenuWrapper as |mmw|>
+  <mmw.MobileMenu>
+    <Menu::Main
+      @stpaulArtists={{@stpaulArtists}}
+      @minneapolisArtists={{@minneapolisArtists}}
+    />
+  </mmw.MobileMenu>
+  <mmw.Content>
+    {{yield mmw}}
+  </mmw.Content>
+</MobileMenuWrapper>
