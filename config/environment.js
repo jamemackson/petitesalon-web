@@ -71,6 +71,10 @@ module.exports = function (environment) {
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
+    },
+    fastboot: {
+      // TODO: change to hostAllowedList when possible. #BLM
+      hostWhitelist: [/[a-z1-9-]+.petitesalon.com$/, /[a-z1-9-]+.herokuapp.com$/, /^localhost:\d+$/]
     }
   };
 
