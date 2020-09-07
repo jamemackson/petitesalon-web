@@ -1,7 +1,7 @@
 {
   "name": "petite web",
   "description": "https://petitesalon.com",
-  "repository": "https://github.com/jamemackson/petite-web",
+  "repository": "https://github.com/jamemackson/petitesalon-web",
   "logo": "",
   "keywords": ["ember.js", "static"],
   "scripts": {

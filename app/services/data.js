@@ -2,6 +2,7 @@ import Service from '@ember/service';
 import { tracked } from '@glimmer/tracking';
 import { action } from '@ember/object';
 import { computed } from '@ember/object';
+import fetch from 'fetch';
 
 export default class DataService extends Service {
   @tracked artists = undefined;
