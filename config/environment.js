@@ -74,7 +74,12 @@ module.exports = function (environment) {
     },
     fastboot: {
       // TODO: change to hostAllowedList when possible. #BLM
-      hostWhitelist: [/[a-z1-9-]+.petitesalon.com$/, /[a-z1-9-]+.herokuapp.com$/, /^localhost:\d+$/]
+      hostWhitelist: [
+        /[a-z1-9-]+.petitesalon.com$/,
+        /[a-z1-9-]+.herokuapp.com$/,
+        /[a-z1-9-]+.ngrok.io$/,
+        /^localhost:\d+$/
+      ]
     }
   };
 
