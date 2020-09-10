@@ -7,4 +7,12 @@ export default class ProfileRoute extends Route {
   async model({ slug }) {
     return this.data.getArtist(slug);
   }
+
+  afterModel(model, transition) {
+    this._super(model, transition);
+    this.metaInfo = {
+      title: `${model.fullName} | Petite Salon | ${model.locations.join(' | ')}`,
+      image: `${model.image}`
+    };
+  }
 }
