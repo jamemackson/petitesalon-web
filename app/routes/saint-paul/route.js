@@ -6,4 +6,12 @@ export default class SaintPaulRoute extends Route {
   async model() {
     return this.data.getLocationArtists('stp');
   }
+
+  afterModel() {
+    this._super(...arguments);
+
+    this.metaInfo = {
+      title: 'Petite Salon - St Paul'
+    };
+  }
 }
