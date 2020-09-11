@@ -1,0 +1,24 @@
+.check-in-menu {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  display: flex;
+  flex-flow: column;
+
+  .check-in {
+    border: 2pt black dashed;
+  }
+}
+
+@media (max-width: 600px) {
+  .check-in-menu {
+    position: relative;
+    top: inherit;
+    right: inherit;
+    flex-flow: row;
+
+    .check-in {
+      // margin: 5px;
+    }
+  }
+}
