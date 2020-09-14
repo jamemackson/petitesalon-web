@@ -1,7 +1,7 @@
 .check-in-menu {
   position: absolute;
   right: 20px;
-  top: 20px;
+  top: 25px;
   display: flex;
   flex-flow: column;
 
@@ -10,7 +10,7 @@
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 640px) {
   .check-in-menu {
     position: relative;
     top: inherit;
@@ -18,7 +18,8 @@
     flex-flow: row;
 
     .check-in {
-      // margin: 5px;
+      margin: 5px;
+      width: 95% !important;
     }
   }
 }
