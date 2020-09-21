@@ -26,7 +26,10 @@
         c.onload = function () {
           blvd.init(b);
         };
-        d.parentNode.insertBefore(c, d);
+        setTimeout(() => {
+          console.log('initializing blvd...');
+          d.parentNode.insertBefore(c, d);
+        }, 1000);
       })(document);
     </script>
   </head>
