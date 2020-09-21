@@ -5,7 +5,7 @@
   <li>
     <div class="dropdown">
       <LinkTo @route="services" class="dropbtn">
-        services {{fa-icon 'angle-down'}}
+        services <FaIcon @icon="angle-down" />
       </LinkTo>
       <div class="dropdown-content">
         <LinkTo @route="services.styling">styling</LinkTo>
@@ -17,7 +17,7 @@
   </li>
   <li>
     <div class="dropdown">
-      <LinkTo @route="minneapolis" class="dropbtn">minneapolis {{fa-icon 'angle-down'}}</LinkTo>
+      <LinkTo @route="minneapolis" class="dropbtn">minneapolis <FaIcon @icon="angle-down" /></LinkTo>
       <div class="dropdown-content">
         {{#each @minneapolisArtists as |artist|}}
           <LinkTo @route="profile" @model={{artist.slug}}>{{artist.name}}</LinkTo>
@@ -27,7 +27,7 @@
   </li>
   <li>
     <div class="dropdown">
-      <LinkTo @route="saint-paul" class="dropbtn">st paul {{fa-icon 'angle-down'}}</LinkTo>
+      <LinkTo @route="saint-paul" class="dropbtn">st paul <FaIcon @icon="angle-down" /></LinkTo>
       <div class="dropdown-content">
         {{#each @stpaulArtists as |artist|}}
           <LinkTo @route="profile" @model={{artist.slug}}>{{artist.name}}</LinkTo>
@@ -40,7 +40,7 @@
   </li>
   <li>
     <div class="dropdown">
-      <LinkTo @route="contact">contact {{fa-icon 'angle-down'}}</LinkTo>
+      <LinkTo @route="contact">contact <FaIcon @icon="angle-down" /></LinkTo>
       <div class="dropdown-content">
         <a href="sms://+16515048529‬">Text us!</a>
         <a href="sms://+16516994959">Call us!</a>

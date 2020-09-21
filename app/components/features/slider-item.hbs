@@ -1,8 +1,9 @@
-<div local-class="slider-item">
-  <p local-class="title">{{@item.title}}</p>
+<div class="feature-wrapper">
   <img src={{@item.image}} alt={{@item.title}} />
-  <div local-class="cta">
-  {{#if @item.link}}
+  <div class="slightly-opaque content">
+    {{!-- @ember-template-lint-ignore-next-line --}}
+    {{{@item.content}}}
+    {{#if @item.link}}
     {{#if @item.link.url}}
       <a href={{@item.link.url}}>{{@item.link.text}}</a>
     {{else}}
@@ -15,5 +16,4 @@
     {{/if}}
   {{/if}}
   </div>
-
 </div>
