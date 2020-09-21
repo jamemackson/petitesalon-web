@@ -16,7 +16,7 @@
       </ul>
       <ul class="social-links">
         {{#each @model.social as |social|}}
-        <li><a href={{social.link}}>{{fa-icon social.network}}</a></li>
+        <li><a href={{social.link}}><FaIcon @icon={{social.network}} @prefix={{social.iconPrefix}}/></a></li>
         {{/each}}
       </ul>
     </div>

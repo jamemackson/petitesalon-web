@@ -3,7 +3,7 @@
   <div class="column"><LinkTo @route="saint-paul">St Paul</LinkTo></div>
   <div class="float-right">
     {{#if this.selectedLocation}}
-    <button type="button" {{on 'click' (fn this.updateLocationSelection undefined)}}>{{fa-icon 'stop'}}</button>
+    <button type="button" {{on 'click' (fn this.updateLocationSelection undefined)}}><FaIcon @icon="stop" /></button>
     {{/if}}
   </div>
 </div>
