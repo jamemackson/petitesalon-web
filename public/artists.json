@@ -11,9 +11,9 @@
       { "day": "Fri", "start": 10, "end": 8 }
     ],
     "social": [
-      { "network": "facebook", "link": "https://facebook.com/brandymackson" },
-      { "network": "instagram", "link": "https://instagram.com/brandymackson" },
-      { "network": "globe", "link": "https://brandymackson.com" }
+      { "network": "facebook", "iconPrefix": "fab", "link": "https://facebook.com/brandymackson" },
+      { "network": "instagram", "iconPrefix": "fab", "link": "https://instagram.com/brandymackson" },
+      { "network": "globe", "iconPrefix": "fas", "link": "https://brandymackson.com" }
     ],
     "bio": {
       "short": "Brandy specializes in fitting a style to your personality. Getting the right combination of cut and color is a art and this is her gift.",
@@ -56,9 +56,9 @@
       { "day": "Fri", "start": 10, "end": 8 }
     ],
     "social": [
-      { "network": "facebook", "link": "https://facebook.com/brandymackson" },
-      { "network": "instagram", "link": "https://instagram.com/brandymackson" },
-      { "network": "globe", "link": "https://brandymackson.com" }
+      { "network": "facebook", "iconPrefix": "fab", "link": "https://facebook.com/brandymackson" },
+      { "network": "instagram", "iconPrefix": "fab", "link": "https://instagram.com/brandymackson" },
+      { "network": "globe", "iconPrefix": "fas", "link": "https://brandymackson.com" }
     ],
     "bio": {
       "short": "Brandy specializes in fitting a style to your personality. Getting the right combination of cut and color is a art and this is her gift.",
