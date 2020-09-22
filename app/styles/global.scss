@@ -4,10 +4,24 @@ body {
   font-size: 2em;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+  font-weight: bold;
+}
+
 a:visited,
 a:hover,
 a {
   color: $textColor;
+}
+
+ul {
+  list-style: none;
 }
 
 button,
@@ -19,6 +33,38 @@ button,
 
 .book-now {
   width: 100;
+}
+
+.check-in-menu {
+  position: absolute;
+  right: 20px;
+  top: 25px;
+  display: flex;
+  flex-flow: column;
+  padding: 15px;
+
+  .check-in {
+    border: 2pt black solid;
+
+    &:hover {
+      background: black;
+      color: white;
+    }
+  }
+}
+
+@media (max-width: 640px) {
+  .check-in-menu {
+    position: relative;
+    top: inherit;
+    right: inherit;
+    flex-flow: row;
+
+    .check-in {
+      margin: 5px;
+      width: 95% !important;
+    }
+  }
 }
 
 a.active {
@@ -101,6 +147,12 @@ a.active {
   li {
     display: inline-block;
     padding-left: 20px;
+  }
+}
+
+@media (max-width: 640px) {
+  .social-links {
+    text-align: center;
   }
 }
 
