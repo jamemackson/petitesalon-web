@@ -22,20 +22,37 @@
         var c = a.createElement('script');
         var d = a.querySelector('script');
         c.src = 'https://static.joinboulevard.com/injector.min.js';
+        // c.src = '/blvd.js';
         c.async = true;
         c.onload = function () {
           blvd.init(b);
         };
-        d.parentNode.insertBefore(c, d);
+        setTimeout(() => {
+          console.log('initializing online booking...');
+          d.parentNode.insertBefore(c, d);
+        }, 1600);
       })(document);
     </script>
   </head>
   <body>
     {{content-for "body"}}
 
-    <script src="{{rootURL}}assets/vendor.js"></script>
-    <script src="{{rootURL}}assets/petitesalon-web.js"></script>
-
+    <script>
+      function addScript(path) {
+        var script = document.createElement('script');
+        script.type = 'text/javascript';
+        script.src = path;
+        document.getElementsByTagName('body')[0].appendChild(script);
+      }
+      setTimeout(() => {
+        console.log('vendor libraries loading...');
+        addScript('{{rootURL}}assets/vendor.js');
+      }, 1000);
+      setTimeout(() => {
+        console.log('app code loading...');
+        addScript('{{rootURL}}assets/petitesalon-web.js');
+      }, 1400);
+    </script>
     {{content-for "body-footer"}}
   </body>
 </html>

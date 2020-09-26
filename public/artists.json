@@ -3,18 +3,18 @@
     "slug": "brandy",
     "name": "brandy",
     "fullName": "brandy mackson",
-    "title": "owner | stylist | stp | mpls",
+    "title": "owner | stylist<br>stp | mpls",
     "locations": ["saint-paul", "minneapolis"],
-    "image": "//cdn.petitesalon.com/img/petite/team/Brandy-270.png",
+    "image": "team/stpaul/brandy.png",
     "hours": [
       { "day": "Mon", "start": 10, "end": 8 },
       { "day": "Wed", "start": 10, "end": 8 },
       { "day": "Fri", "start": 10, "end": 8 }
     ],
     "social": [
-      { "network": "facebook", "link": "https://facebook.com/brandymackson" },
-      { "network": "instagram", "link": "https://instagram.com/brandymackson" },
-      { "network": "globe", "link": "https://brandymackson.com" }
+      { "network": "facebook", "iconPrefix": "fab", "link": "https://facebook.com/brandymackson" },
+      { "network": "instagram", "iconPrefix": "fab", "link": "https://instagram.com/brandymackson" },
+      { "network": "globe", "iconPrefix": "fas", "link": "https://brandymackson.com" }
     ],
     "bio": {
       "short": "Brandy specializes in fitting a style to your personality. Getting the right combination of cut and color is a art and this is her gift.",
@@ -49,18 +49,18 @@
     "slug": "haley",
     "name": "haley",
     "fullName": "haley fruen",
-    "title": "owner | stylist |  stp | mpls",
+    "title": "owner | stylist<br>stp | mpls",
     "locations": ["minneapolis", "saint-paul"],
-    "image": "//cdn.petitesalon.com/img/petite/team/201903/haley.jpg",
+    "image": "w_270/team/minneapolis/haley.jpg",
     "hours": [
       { "day": "Mon", "start": 10, "end": 8 },
       { "day": "Wed", "start": 10, "end": 8 },
       { "day": "Fri", "start": 10, "end": 8 }
     ],
     "social": [
-      { "network": "facebook", "link": "https://facebook.com/brandymackson" },
-      { "network": "instagram", "link": "https://instagram.com/brandymackson" },
-      { "network": "globe", "link": "https://brandymackson.com" }
+      { "network": "facebook", "iconPrefix": "fab", "link": "https://facebook.com/brandymackson" },
+      { "network": "instagram", "iconPrefix": "fab", "link": "https://instagram.com/brandymackson" },
+      { "network": "globe", "iconPrefix": "fas", "link": "https://brandymackson.com" }
     ],
     "bio": {
       "short": "Brandy specializes in fitting a style to your personality. Getting the right combination of cut and color is a art and this is her gift.",
@@ -97,7 +97,7 @@
     "fullName": "allison brown",
     "title": "stylist | stp",
     "locations": ["saint-paul"],
-    "image": "//cdn.petitesalon.com/img/petite/team/201903/allison.jpg"
+    "image": "w_270/team/stpaul/allison.jpg"
   },
   {
     "slug": "marne",
@@ -105,7 +105,7 @@
     "fullName": "marne tschida",
     "title": "stylist | stp",
     "locations": ["saint-paul"],
-    "image": "//cdn.petitesalon.com/img/petite/team/201903/marne.jpg"
+    "image": "w_270/team/stpaul/marne.jpg"
   },
   {
     "slug": "tony",
@@ -113,7 +113,7 @@
     "fullName": "tony wrich",
     "title": "stylist | stp",
     "locations": ["saint-paul"],
-    "image": "//cdn.petitesalon.com/img/petite/team/201903/tony.jpg"
+    "image": "w_270/team/stpaul/tony.jpg"
   },
   {
     "slug": "angela",
@@ -121,7 +121,7 @@
     "fullName": "angela",
     "title": "stylist | stp",
     "locations": ["saint-paul"],
-    "image": "//cdn.petitesalon.com/img/petite/team/201903/angela.jpg"
+    "image": "w_270/team/stpaul/angela.jpg"
   },
   {
     "slug": "noelle",
@@ -129,7 +129,7 @@
     "fullName": "noelle hennessy",
     "title": "stylist | stp",
     "locations": ["saint-paul"],
-    "image": "//cdn.petitesalon.com/img/petite/team/201903/noelle.jpg"
+    "image": "w_270/team/stpaul/noelle.jpg"
   },
   {
     "slug": "sue",
@@ -137,7 +137,7 @@
     "fullName": "sue grabinske",
     "title": "stylist | stp",
     "locations": ["saint-paul"],
-    "image": "//cdn.petitesalon.com/img/petite/team/201903/sue.jpg"
+    "image": "w_270/team/stpaul/sue.jpg"
   },
   {
     "slug": "lori",
@@ -145,7 +145,7 @@
     "fullName": "lori jasper",
     "title": "stylist | stp",
     "locations": ["saint-paul"],
-    "image": "//cdn.petitesalon.com/img/petite/team/201903/lori.jpg"
+    "image": "w_270/team/stpaul/lori.jpg"
   },
 
   {
@@ -154,7 +154,7 @@
     "fullName": "jessica dione",
     "title": "stylist | mpls",
     "locations": ["minneapolis"],
-    "image": "//cdn.petitesalon.com/img/petite/team/201903/jessica.jpg"
+    "image": "w_270/team/minneapolis/jessica.jpg"
   },
   {
     "slug": "erin-gonsior",
@@ -162,7 +162,7 @@
     "fullName": "erin gonsior",
     "title": "stylist | mpls",
     "locations": ["minneapolis"],
-    "image": "//cdn.petitesalon.com/img/petite/team/201903/erin-gonsier.jpg"
+    "image": "w_270/team/minneapolis/erin-gonsier.jpg"
   },
   {
     "slug": "emily",
@@ -170,7 +170,7 @@
     "fullName": "emily fett",
     "title": "stylist | mpls",
     "locations": ["minneapolis"],
-    "image": "//cdn.petitesalon.com/img/petite/team/201903/emily.jpg"
+    "image": "w_270/team/minneapolis/emily.jpg"
   },
   {
     "slug": "heidi",
@@ -178,7 +178,7 @@
     "fullName": "heidi ladoucer",
     "title": "stylist | mpls",
     "locations": ["minneapolis"],
-    "image": "//cdn.petitesalon.com/img/petite/team/201903/heidi.jpg"
+    "image": "w_270/team/minneapolis/heidi.jpg"
   },
   {
     "slug": "nicole",
@@ -186,7 +186,7 @@
     "fullName": "nicole twito",
     "title": "stylist | mpls",
     "locations": ["minneapolis"],
-    "image": "//cdn.petitesalon.com/img/petite/team/201903/nicole.jpg"
+    "image": "w_270/team/minneapolis/nicole.jpg"
   },
   {
     "slug": "ann",
@@ -194,7 +194,7 @@
     "fullName": "ann",
     "title": "stylist | stp",
     "locations": ["saint-paul"],
-    "image": "//cdn.petitesalon.com/images/female-silhouette.png"
+    "image": "w_270/female-silhouette.png"
   },
   {
     "slug": "erin",
@@ -202,7 +202,7 @@
     "fullName": "erin gilmore",
     "title": "stylist | stp",
     "locations": ["saint-paul"],
-    "image": "//cdn.petitesalon.com/images/female-silhouette.png"
+    "image": "w_270/female-silhouette.png"
   },
   {
     "slug": "sarah",
@@ -210,7 +210,7 @@
     "fullName": "sarah watson",
     "title": "stylist | stp",
     "locations": ["saint-paul"],
-    "image": "//cdn.petitesalon.com/images/female-silhouette.png"
+    "image": "w_270/female-silhouette.png"
   },
   {
     "slug": "lindsey",
@@ -218,7 +218,7 @@
     "fullName": "lindsey gaudet",
     "title": "stylist | mpls",
     "locations": ["minneapolis"],
-    "image": "//cdn.petitesalon.com/images/female-silhouette.png"
+    "image": "w_270/female-silhouette.png"
   },
   {
     "slug": "lauren",
@@ -226,7 +226,7 @@
     "fullName": "lauren moore",
     "title": "stylist | mpls",
     "locations": ["minneapolis"],
-    "image": "//cdn.petitesalon.com/images/female-silhouette.png"
+    "image": "w_270/female-silhouette.png"
   },
   {
     "slug": "atty",
@@ -234,7 +234,7 @@
     "fullName": "atty kim",
     "title": "stylist | mpls",
     "locations": ["minneapolis"],
-    "image": "//cdn.petitesalon.com/images/female-silhouette.png"
+    "image": "w_270/female-silhouette.png"
   },
   {
     "slug": "haley-c",
@@ -242,7 +242,7 @@
     "fullName": "haley c",
     "title": "stylist | mpls",
     "locations": ["minneapolis"],
-    "image": "//cdn.petitesalon.com/images/female-silhouette.png"
+    "image": "w_270/female-silhouette.png"
   },
   {
     "slug": "minjo",
@@ -250,6 +250,6 @@
     "fullName": "minjo",
     "title": "stylist | mpls",
     "locations": ["minneapolis"],
-    "image": "//cdn.petitesalon.com/images/female-silhouette.png"
+    "image": "w_270/female-silhouette.png"
   }
 ]

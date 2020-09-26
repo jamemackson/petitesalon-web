@@ -1,0 +1,7 @@
+<div class="column">
+  <h2>{{@title}} <span class="muted">{{@priceRange}}</span></h2>
+  {{#if @image}}
+  <Image::Cldnry @src={{@image}} @width={{600}} @alt={{@imageAltText}} />
+  {{/if}}
+  {{yield}}
+</div>

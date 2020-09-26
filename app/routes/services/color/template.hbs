@@ -1,30 +1,39 @@
 <div class="column container">
   <div class="row">
-    <h1 class="centered">color services</h1>
+    <h1 class="centered">hair coloring services</h1>
   </div>
   <div class="row centered">
-    <div class="column">
-      <h2>hair cuts <span class="muted">$40 - $110</span></h2>
-      <img src="https://via.placeholder.com/300x100" alt="placeholder">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-    </div>
-    <div class="column">
-      <h2>blowouts <span class="muted">$40 - $110</span></h2>
-      <img src="https://via.placeholder.com/300x100" alt="placeholder">
-      <p class="warning">Due to COVID-19 some blowdry services are being limited right now...</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-    </div>
+    <Service::Description
+      @title="tint / all over color"
+      @priceRange="$40 - $90"
+      @image="services/petite-salon-tech-tray-tools.png"
+      @imageAltText=""
+    >
+      <p>When checking out the best in color application look no further than Petite Salon.</p>
+      <p>A tint or color process is truly the way to amp up your style with a look that’s all you. We’ll take into consideration your skin tone, features, and hairstyle to craft the blend of colors for a stunning transformation. </p>
+      <p>From semi-permanent tints to bold permanent colors, it’s an array of hues to choose from that will let you walk away with the color you should have been born with.</p>
+      <p>No one has to know, but your Petite colorist and you. That’s the fun part! This service includes a finishing style.</p>
+    </Service::Description>
+    <Service::Description
+      @title="balayage"
+      @priceRange="$40 - $90"
+      @image="v1601123999/services/petite-salon-color-mixing-bowl.jpg"
+      @imageAltText=""
+    >
+      <p>The smooth, silky blow out is here for you at Petite. Who wants to style their hair on their own anyway, when you can have a talented stylist execute a stunning blow out for lasting style? It’s truly an art with a round brush and blow dryer, in our humble opinion. We’ve got you covered from root to ends.</p>
+      <p>Have your blow out super straight and sleek, with a slight wave, or even a little beachy, if that’s your desire. This is a service that most discerning women schedule on a weekly basis or even every three days. Our Petite blow out includes luxury wash and finishing blow out style.</p>
+    </Service::Description>
   </div>
   <div class="row centered">
-    <div class="column">
-      <h2>hair cuts <span class="muted">$40 - $110</span></h2>
-      <img src="https://via.placeholder.com/300x100" alt="placeholder">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-    </div>
-    <div class="column">
-      <h2>hair cuts <span class="muted">$40 - $110</span></h2>
-      <img src="https://via.placeholder.com/300x100" alt="placeholder">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-    </div>
+    <Service::Description @title="foils" @image="services/petite-salon-foil-application">
+      <p>For classic highlights or partial ones, foils are a great way to get a sunkissed look that’s blended with your own base color for perfection.</p>
+      <p>Combine a customized array of highlights and lowlights for a stellar effect on your overall aesthetic.</p>
+      <p>Dimension and depth are our specialties. Be bold or natural with your color, it’s going to be your Petite stylist’s pleasure to figure out what will work out best for your lifestyle and end results. </p>
+      <p>We know you’re going to want gorgeous color that’s exactly done the right way to turn heads. This service includes a finishing style.</p>
+    </Service::Description>
+    <Service::Description @title="bleach and tone">words coming soon</Service::Description>
+  </div>
+  <div class="row centered">
+    <Service::Description @title="color correction">words coming soon</Service::Description>
   </div>
 </div>

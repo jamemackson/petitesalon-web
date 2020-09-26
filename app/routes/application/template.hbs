@@ -8,8 +8,17 @@
 <div class="row row-center row-no-padding">
   <div class="centered">
     <LinkTo @route="index">
-      <img src="/petite-salon-logo.png" alt="Petite Salon" class="logo" />
+      <img src="https://res.cloudinary.com/petite/image/upload/w_350/petite-salon-logo.png" alt="Petite Salon" class="logo" />
     </LinkTo>
+  </div>
+  <div class="float right check-in-menu">
+    <div class="opaque centered">
+      Need to check in?
+      <div class="centered">
+        <a href="tel:6516994959" class="check-in button"><FaIcon @icon="phone"/> call</a>
+        <a href="sms:6516994959&body=Hi, I'm here for my appointment" class="check-in button"><FaIcon @icon="comments"/> text</a>
+      </div>
+    </div>
   </div>
 </div>
 <div class="row row-stretch">
