@@ -22,14 +22,15 @@
         var c = a.createElement('script');
         var d = a.querySelector('script');
         c.src = 'https://static.joinboulevard.com/injector.min.js';
+        // c.src = '/blvd.js';
         c.async = true;
         c.onload = function () {
           blvd.init(b);
         };
         setTimeout(() => {
-          console.log('initializing blvd...');
+          console.log('initializing online booking...');
           d.parentNode.insertBefore(c, d);
-        }, 1000);
+        }, 1600);
       })(document);
     </script>
   </head>
@@ -44,11 +45,11 @@
         document.getElementsByTagName('body')[0].appendChild(script);
       }
       setTimeout(() => {
-        console.log('vendor js loading...');
+        console.log('vendor libraries loading...');
         addScript('{{rootURL}}assets/vendor.js');
       }, 1000);
       setTimeout(() => {
-        console.log('app js loading...');
+        console.log('app code loading...');
         addScript('{{rootURL}}assets/petitesalon-web.js');
       }, 1400);
     </script>

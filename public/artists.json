@@ -2,9 +2,9 @@
   {
     "slug": "brandy",
     "name": "brandy",
-    "title": "owner | stylist | stp | mpls",
+    "title": "owner | stylist<br>stp | mpls",
     "locations": ["saint-paul", "minneapolis"],
-    "image": "https://res.cloudinary.com/petite/image/upload/f_auto/fl_lossy/q_auto:eco/team/stpaul/brandy.png",
+    "image": "team/stpaul/brandy.png",
     "hours": [
       { "day": "Mon", "start": 10, "end": 8 },
       { "day": "Wed", "start": 10, "end": 8 },
@@ -47,9 +47,9 @@
   {
     "slug": "haley",
     "name": "haley",
-    "title": "owner | stylist |  stp | mpls",
+    "title": "owner | stylist<br>stp | mpls",
     "locations": ["minneapolis", "saint-paul"],
-    "image": "https://res.cloudinary.com/petite/image/upload/f_auto/fl_lossy/q_auto:eco/w_270/team/minneapolis/haley.jpg",
+    "image": "w_270/team/minneapolis/haley.jpg",
     "hours": [
       { "day": "Mon", "start": 10, "end": 8 },
       { "day": "Wed", "start": 10, "end": 8 },
@@ -94,49 +94,49 @@
     "name": "allison",
     "title": "stylist | stp",
     "locations": ["saint-paul"],
-    "image": "https://res.cloudinary.com/petite/image/upload/f_auto/fl_lossy/q_auto:eco/w_270/team/stpaul/allison.jpg"
+    "image": "w_270/team/stpaul/allison.jpg"
   },
   {
     "slug": "marne",
     "name": "marne",
     "title": "stylist | stp",
     "locations": ["saint-paul"],
-    "image": "https://res.cloudinary.com/petite/image/upload/f_auto/fl_lossy/q_auto:eco/w_270/team/stpaul/marne.jpg"
+    "image": "w_270/team/stpaul/marne.jpg"
   },
   {
     "slug": "tony",
     "name": "tony",
     "title": "stylist | stp",
     "locations": ["saint-paul"],
-    "image": "https://res.cloudinary.com/petite/image/upload/f_auto/fl_lossy/q_auto:eco/w_270/team/stpaul/tony.jpg"
+    "image": "w_270/team/stpaul/tony.jpg"
   },
   {
     "slug": "angela",
     "name": "angela",
     "title": "stylist | stp",
     "locations": ["saint-paul"],
-    "image": "https://res.cloudinary.com/petite/image/upload/f_auto/fl_lossy/q_auto:eco/w_270/team/stpaul/angela.jpg"
+    "image": "w_270/team/stpaul/angela.jpg"
   },
   {
     "slug": "noelle",
     "name": "noelle",
     "title": "stylist | stp",
     "locations": ["saint-paul"],
-    "image": "https://res.cloudinary.com/petite/image/upload/f_auto/fl_lossy/q_auto:eco/w_270/team/stpaul/noelle.jpg"
+    "image": "w_270/team/stpaul/noelle.jpg"
   },
   {
     "slug": "sue",
     "name": "sue",
     "title": "stylist | stp",
     "locations": ["saint-paul"],
-    "image": "https://res.cloudinary.com/petite/image/upload/f_auto/fl_lossy/q_auto:eco/w_270/team/stpaul/sue.jpg"
+    "image": "w_270/team/stpaul/sue.jpg"
   },
   {
     "slug": "lori",
     "name": "lori",
     "title": "stylist | stp",
     "locations": ["saint-paul"],
-    "image": "https://res.cloudinary.com/petite/image/upload/f_auto/fl_lossy/q_auto:eco/w_270/team/stpaul/lori.jpg"
+    "image": "w_270/team/stpaul/lori.jpg"
   },
 
   {
@@ -144,90 +144,90 @@
     "name": "jessica",
     "title": "stylist | mpls",
     "locations": ["minneapolis"],
-    "image": "https://res.cloudinary.com/petite/image/upload/f_auto/fl_lossy/q_auto:eco/w_270/team/minneapolis/jessica.jpg"
+    "image": "w_270/team/minneapolis/jessica.jpg"
   },
   {
     "slug": "erin-gonsior",
     "name": "erin gonsior",
     "title": "stylist | mpls",
     "locations": ["minneapolis"],
-    "image": "https://res.cloudinary.com/petite/image/upload/f_auto/fl_lossy/q_auto:eco/w_270/team/minneapolis/erin-gonsier.jpg"
+    "image": "w_270/team/minneapolis/erin-gonsier.jpg"
   },
   {
     "slug": "emily",
     "name": "emily",
     "title": "stylist | mpls",
     "locations": ["minneapolis"],
-    "image": "https://res.cloudinary.com/petite/image/upload/f_auto/fl_lossy/q_auto:eco/w_270/team/minneapolis/emily.jpg"
+    "image": "w_270/team/minneapolis/emily.jpg"
   },
   {
     "slug": "heidi",
     "name": "heidi",
     "title": "stylist | mpls",
     "locations": ["minneapolis"],
-    "image": "https://res.cloudinary.com/petite/image/upload/f_auto/fl_lossy/q_auto:eco/w_270/team/minneapolis/heidi.jpg"
+    "image": "w_270/team/minneapolis/heidi.jpg"
   },
   {
     "slug": "nicole",
     "name": "nicole",
     "title": "stylist | mpls",
     "locations": ["minneapolis"],
-    "image": "https://res.cloudinary.com/petite/image/upload/f_auto/fl_lossy/q_auto:eco/w_270/team/minneapolis/nicole.jpg"
+    "image": "w_270/team/minneapolis/nicole.jpg"
   },
   {
     "slug": "ann",
     "name": "ann",
     "title": "stylist | stp",
     "locations": ["saint-paul"],
-    "image": "https://res.cloudinary.com/petite/image/upload/w_350/female-silhouette.png"
+    "image": "w_270/female-silhouette.png"
   },
   {
     "slug": "erin",
     "name": "erin gilmore",
     "title": "stylist | stp",
     "locations": ["saint-paul"],
-    "image": "https://res.cloudinary.com/petite/image/upload/w_350/female-silhouette.png"
+    "image": "w_270/female-silhouette.png"
   },
   {
     "slug": "sarah",
     "name": "sarah",
     "title": "stylist | stp",
     "locations": ["saint-paul"],
-    "image": "https://res.cloudinary.com/petite/image/upload/w_350/female-silhouette.png"
+    "image": "w_270/female-silhouette.png"
   },
   {
     "slug": "lindsey",
     "name": "lindsey",
     "title": "stylist | mpls",
     "locations": ["minneapolis"],
-    "image": "https://res.cloudinary.com/petite/image/upload/w_350/female-silhouette.png"
+    "image": "w_270/female-silhouette.png"
   },
   {
     "slug": "lauren",
     "name": "lauren",
     "title": "stylist | mpls",
     "locations": ["minneapolis"],
-    "image": "https://res.cloudinary.com/petite/image/upload/w_350/female-silhouette.png"
+    "image": "w_270/female-silhouette.png"
   },
   {
     "slug": "atty",
     "name": "atty",
     "title": "stylist | mpls",
     "locations": ["minneapolis"],
-    "image": "https://res.cloudinary.com/petite/image/upload/w_350/female-silhouette.png"
+    "image": "w_270/female-silhouette.png"
   },
   {
     "slug": "haley-c",
     "name": "haley c",
     "title": "stylist | mpls",
     "locations": ["minneapolis"],
-    "image": "https://res.cloudinary.com/petite/image/upload/w_350/female-silhouette.png"
+    "image": "w_270/female-silhouette.png"
   },
   {
     "slug": "minjo",
     "name": "minjo",
     "title": "stylist | mpls",
     "locations": ["minneapolis"],
-    "image": "https://res.cloudinary.com/petite/image/upload/w_350/female-silhouette.png"
+    "image": "w_270/female-silhouette.png"
   }
 ]

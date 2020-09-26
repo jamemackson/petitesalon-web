@@ -2,7 +2,7 @@
   <div class="row">
     <div class="column column-33">
       <div local-class="avatar">
-        <img src={{@model.image}} alt={{@model.name}} />
+        <Image::Cldnry @src={{@model.image}} @alt={{@model.name}} />
       </div>
       <h1>{{@model.name}}</h1>
       <a href="#book-now" class="button">
@@ -27,7 +27,7 @@
       <p>{{@model.bio.long}}</p>
 
       <h2>Services</h2>
-      <div class="gridish">
+      <div class="gridish mobile-centered">
       {{#each @model.serviceGroups as |sg|}}
         <div class="card">
           <h3>{{sg.name}}</h3>

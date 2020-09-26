@@ -1,1 +1,55 @@
-{{outlet}}
+<h1 class="centered">Contact Petite Salon</h1>
+<div class="row">
+  <div class="centered column">
+    <p>Petite Salon has convenient and upscale locations in both Saint Paul and Minneapolis.</p>
+  </div>
+</div>
+<div class="row">
+  <div class="centered column">
+    Need to book an appointment?
+    <div class="centered">
+      <a href="#book-now" class="check-in button"><FaIcon @icon="calendar"/> book online</a><br>
+      <a href="tel:6516994959" class="check-in button"><FaIcon @icon="phone"/> call</a>
+      <a href="sms:6516994959" class="check-in button"><FaIcon @icon="comments"/>  text</a>
+      <a href="mailto:reception@petitesalon.com" class="check-in button"><FaIcon @icon="envelope"/> email</a>
+    </div>
+  </div>
+</div>
+<div class="centered row">
+  <div class="column">
+    <h2>Saint Paul</h2>
+    <div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+      <span itemprop="streetAddress">1399 Saint Clair Ave</span><br>
+      <span itemprop="addressLocality">Saint Paul</span>,
+      <span itemprop="addressRegion">MN</span>
+      <span itemprop="postalCode">55105</span>
+    </div>
+    <div class="centered">
+      <a href="http://maps.apple.com/?q=Petite+Salon+1399+St+Clair+Avenue+55105" target="petite=salon-directions" class="ui inverted basic large button">
+        <FaIcon @icon="apple" @prefix="fab" />&nbsp;<span class="bold">Apple Maps</span>
+      </a>
+      <a href="https://goo.gl/36Nzdr" target="petite=salon-directions" class="ui large button">
+        <FaIcon @icon="google" @prefix="fab" />&nbsp;<span class="bold">Google Maps</span>
+      </a>
+    </div>
+  </div>
+  <div class="column">
+    <h2>Minneapolis</h2>
+    <div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+      <span itemprop="streetAddress">4805 Nicollet Ave South</span><br>
+      <span itemprop="addressLocality">Minneapolis</span>,
+      <span itemprop="addressRegion">MN</span>
+      <span itemprop="postalCode">55419</span>
+    </div>
+    <div class="ui segment opaque centered">
+      <a href="https://goo.gl/9a81WW" target="petite=salon-directions" class="ui large button">
+        <FaIcon @icon="google" @prefix="fab" />&nbsp;<span class="bold">Google Maps</span>
+      </a>
+      <a href="http://maps.apple.com/?q=Petite+Salon+4805+Nicollet+Ave+S+55419" target="petite=salon-directions" class="ui large button">
+        <FaIcon @icon="apple" @prefix="fab" />&nbsp;<span class="bold">Apple Maps</span>
+      </a>
+    </div>
+  </div>
+</div>
+<Image::Cldnry @src="petite-salon-locations.png" @width={{1000}}/>
+
