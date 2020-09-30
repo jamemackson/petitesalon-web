@@ -132,7 +132,7 @@
     ]
   },
   {
-    "name": "haley",
+    "name": "haley fruen",
     "slug": "haley",
     "title": "owner | stylist",
     "image": "team/minneapolis/haley",
@@ -986,98 +986,6 @@
           {
             "name": "upper lip wax",
             "price": 15,
-            "requiresConsultation": false
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "jacquie",
-    "slug": "jacquie",
-    "title": "master stylist | mpls",
-    "image": "female-silhouette",
-    "locations": ["minneapolis"],
-    "hours": [
-      {
-        "day": "Thur",
-        "start": "10",
-        "end": 7
-      },
-      {
-        "day": "Wed",
-        "start": "12",
-        "end": 7
-      },
-      {
-        "day": "Tue",
-        "start": 3,
-        "end": 8
-      },
-      {
-        "day": "Sat",
-        "start": "9",
-        "end": 2
-      },
-      {
-        "day": "Fri",
-        "start": "12",
-        "end": 4
-      }
-    ],
-    "social": [
-      {
-        "network": "instagram",
-        "iconPrefix": "fab",
-        "link": "http://www.instagram.com/curlyhair_master"
-      }
-    ],
-    "bio": {
-      "short": "Effortless and Organic",
-      "long": "Jacquie approaches hairstyling as an art form. She loves getting to know someone and finding the right free form movement in your texture and frame your best features.  Finding a new shape that works for you naturally easy and fashion forward.  Jacquie is dedicated to finding the most Eco friendly products and believes in the health of the Earth and You. And using an organic approach to hair and her life. Jacquie is inspired by boho looks the 50's and 70's. Putting a twist to these inspirations to be fashion forward. Jacquie is known for easy moving low maintenance curly hair. With many options on how to change up styling  and drying ideas. Jacquie gets her inspiration from the world around her. Street Art sculpture history travel and advanced education. Supporting local  business and empowering women."
-    },
-    "serviceGroups": [
-      {
-        "name": "all",
-        "services": [
-          {
-            "name": "Haircut",
-            "price": 105,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Childs cut",
-            "price": 45,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Bang Trim",
-            "price": 10,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Custom haircut & color",
-            "price": 250,
-            "requiresConsultation": false
-          },
-          {
-            "name": "tint",
-            "price": 65,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Color correction ",
-            "price": 200,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Olaplex treatment",
-            "price": 65,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Blow out",
-            "price": 65,
             "requiresConsultation": false
           }
         ]
@@ -2296,11 +2204,20 @@
       "short": "",
       "long": null
     },
-    "serviceGroups": [
-      {
-        "name": "all",
-        "services": []
-      }
-    ]
+    "serviceGroups": []
+  },
+  {
+    "name": "haley canaday",
+    "slug": "haley-canaday",
+    "title": "stylist | mpls",
+    "image": "female-silhouette",
+    "locations": ["minneapolis"],
+    "hours": [],
+    "social": [],
+    "bio": {
+      "short": "",
+      "long": null
+    },
+    "serviceGroups": []
   }
 ]
