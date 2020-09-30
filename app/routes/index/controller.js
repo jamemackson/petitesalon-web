@@ -57,20 +57,20 @@ export default class IndexController extends Controller {
         route: 'minneapolis', // trigger a ember transition to this route
         model: undefined // optional model to pass to link to transition
       }
-    },
-    {
-      image: `features/feature-product-bowl-randco-davines-panache.jpg`,
-      title: 'shop the store @ petite!',
-      content: `
-        <p>Contactless pickup is available Monday through Saturday.</p>
-        <p>Call ahead or when your outside!</p>
-      `,
-      link: {
-        text: 'shop online now',
-        url: 'https://petiteshops.com', // trigger standard a link to this url
-        route: undefined, // trigger a ember transition to this route
-        model: undefined // optional model to pass to link to transition
-      }
     }
+    // {
+    //   image: `features/feature-product-bowl-randco-davines-panache.jpg`,
+    //   title: 'shop the store @ petite!',
+    //   content: `
+    //     <p>Contactless pickup is available Monday through Saturday.</p>
+    //     <p>Call ahead or when your outside!</p>
+    //   `,
+    //   link: {
+    //     text: 'shop online now',
+    //     url: 'https://petiteshops.com', // trigger standard a link to this url
+    //     route: undefined, // trigger a ember transition to this route
+    //     model: undefined // optional model to pass to link to transition
+    //   }
+    // }
   ];
 }
