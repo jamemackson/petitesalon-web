@@ -2,7 +2,7 @@
   <div class="row">
     <div class="column column-33">
       <div local-class="avatar">
-        <Image::Cldnry @src={{@model.image}} @alt={{@model.name}} />
+        <Image::Cldnry @src={{@model.image}} @alt={{@model.name}} @width="270"/>
       </div>
       <h1>{{@model.name}}</h1>
       <a href="#book-now" class="button">
@@ -16,7 +16,7 @@
       </ul>
       <ul class="social-links">
         {{#each @model.social as |social|}}
-        <li><a href={{social.link}}><FaIcon @icon={{social.network}} @prefix={{social.iconPrefix}}/></a></li>
+        <li><a href={{social.link}} target="_blank" rel="noopener noreferrer"><FaIcon @icon={{social.network}} @prefix={{social.iconPrefix}}/></a></li>
         {{/each}}
       </ul>
     </div>
@@ -24,7 +24,7 @@
       <h2>About {{@model.name}}</h2>
       <strong>{{@model.bio.short}}</strong>
       <hr>
-      <p>{{@model.bio.long}}</p>
+      <p>{{{@model.bio.long}}}</p>
 
       <h2>Services</h2>
       <div class="gridish mobile-centered">
@@ -33,7 +33,7 @@
           <h3>{{sg.name}}</h3>
           <ul>
           {{#each sg.services as |service|}}
-            <li>{{service.name}} - ${{service.price}} {{if service.requiresConsultation '**'}}</li>
+            <li>{{{service.name}}} - ${{service.price}} {{if service.requiresConsultation '**'}}</li>
           {{/each}}
           </ul>
         </div>
