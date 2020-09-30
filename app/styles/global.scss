@@ -253,6 +253,10 @@ a.active {
     border-radius: 10px;
     border: 1pt solid gray;
     padding: 5px;
+
+    p {
+      font-weight: bold;
+    }
   }
 }
 
