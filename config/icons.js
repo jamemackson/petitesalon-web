@@ -13,6 +13,6 @@ module.exports = function () {
       'paint-brush',
       'spa'
     ],
-    'free-brands-svg-icons': ['facebook', 'instagram', 'twitter', 'apple', 'google']
+    'free-brands-svg-icons': ['facebook', 'instagram', 'pinterest', 'twitter', 'apple', 'google']
   };
 };

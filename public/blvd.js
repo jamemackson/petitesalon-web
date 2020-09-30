@@ -399,9 +399,9 @@
         C
           ? (!0 !== e.newWindow && e.newWindow !== y) || !event || 'click' !== event.type
             ? void location.assign(blvd.url)
-            : void t.open(blvd.url, e.target, 'noopener')
+            : void location.assign(blvd.url) //void t.open(blvd.url, e.target, 'noopener')
           : !0 === e.newWindow || 'desktop' === e.newWindow
-          ? void t.open(blvd.url, e.target, 'noopener')
+          ? void location.assign(blvd.url) // void t.open(blvd.url, e.target, 'noopener')
           : void k.open()
       );
     });

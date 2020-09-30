@@ -1,19 +1,20 @@
 <div class="feature-wrapper">
-  <img src={{@item.image}} alt={{@item.title}} />
+
   <div class="slightly-opaque content">
     {{!-- @ember-template-lint-ignore-next-line --}}
     {{{@item.content}}}
     {{#if @item.link}}
-    {{#if @item.link.url}}
-      <a href={{@item.link.url}}>{{@item.link.text}}</a>
-    {{else}}
-      {{#if @item.link.route}}
-        <button type="button"
-          {{on 'click' (fn this.goto @item.link.route @item.link.model)}}>
-          {{@item.link.text}}
-        </button>
+      {{#if @item.link.url}}
+        <a class="button" href={{@item.link.url}}>{{@item.link.text}}</a>
+      {{else}}
+        {{#if @item.link.route}}
+          <button type="button"
+            {{on 'click' (fn this.goto @item.link.route @item.link.model)}}>
+            {{@item.link.text}}
+          </button>
+        {{/if}}
       {{/if}}
     {{/if}}
-  {{/if}}
   </div>
+  <Image::Cldnry @src={{@item.image}} @alt={{@item.title}} @width={{1200}}/>
 </div>
