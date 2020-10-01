@@ -3,7 +3,7 @@
     "name": "brandy",
     "slug": "brandy",
     "title": "owner | stylist",
-    "image": "team/stpaul/brandy",
+    "image": "e_grayscale/team/stpaul/brandy",
     "locations": ["saint-paul", "minneapolis"],
     "hours": [
       {
@@ -1087,7 +1087,7 @@
     "name": "erin gilmore",
     "slug": "erin-gilmore",
     "title": "stylist | stp",
-    "image": "team/stpaul/erin-270",
+    "image": "e_grayscale/team/stpaul/erin-270",
     "locations": ["saint-paul"],
     "hours": [
       {
@@ -1194,7 +1194,7 @@
     "name": "sarah",
     "slug": "sarah",
     "title": "stylist | stp",
-    "image": "team/stpaul/sarah-270",
+    "image": "e_grayscale/team/stpaul/sarah-270",
     "locations": ["saint-paul"],
     "hours": [
       {
