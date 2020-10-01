@@ -239,7 +239,6 @@ a.active {
   position: relative;
   display: inline-block; /* Make the width of box same as image */
   width: 100%;
-  // position: relative;
 
   .content {
     position: absolute;
@@ -272,6 +271,11 @@ a.active {
   .feature-wrapper {
     .content {
       width: 90%; /* Set the width of the positioned div */
+      position: relative;
+      left: auto;
+      right: auto;
+      top: auto;
+      margin: auto;
     }
   }
 }
