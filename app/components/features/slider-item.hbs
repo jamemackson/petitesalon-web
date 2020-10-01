@@ -1,7 +1,6 @@
 <div class="feature-wrapper">
-
+  <Image::Cldnry @src={{@item.image}} @alt={{@item.title}} @width={{1200}}/>
   <div class="slightly-opaque content">
-    {{!-- @ember-template-lint-ignore-next-line --}}
     {{{@item.content}}}
     {{#if @item.link}}
       {{#if @item.link.url}}
@@ -16,5 +15,4 @@
       {{/if}}
     {{/if}}
   </div>
-  <Image::Cldnry @src={{@item.image}} @alt={{@item.title}} @width={{1200}}/>
 </div>
