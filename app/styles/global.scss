@@ -193,6 +193,7 @@ a.active {
   flex-wrap: nowrap;
   overflow-x: auto;
 }
+
 .card {
   flex: 0 0 auto;
   width: 200px;
@@ -216,7 +217,7 @@ a.active {
     flex: 0 0 auto;
     width: 200px;
     // padding: 20px;
-    margin: 20px;
+    margin: auto;
 
     img {
       // height: 250px;
