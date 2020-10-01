@@ -22,4 +22,5 @@ Router.map(function () {
   this.route('covid-policy');
   this.route('profile', { path: ':slug' });
   this.route('retail');
+  this.route('online-booking');
 });

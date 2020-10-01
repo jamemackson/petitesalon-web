@@ -35,10 +35,8 @@ export default class IndexController extends Controller {
       title: 'Visit us in St Paul',
       content: `
         <h2>Visit us in St. Paul</h2>
-        <p>Located in the heart of the mac/groveland neighborhood.</p>
-        <p>Petite Saint Paul is open Monday through Saturday.</p>
-        <p>Call <a href="tel:6516994959">(651) 699 - 4959</a> to book over the phone, or click below to book online.</p>
-        <p><a class="button" href="#book-now">BOOK ONLINE</a></p>
+        <p>Petite Saint Paul is open Monday through Saturday.<br>Call <a href="tel:6516994959">(651) 699 - 4959</a> to book over the phone, or click below to book online.</p>
+        <p><!--<a class="button" href="#book-now">BOOK ONLINE</a>--></p>
       `,
       link: {
         text: 'meet the artists',
@@ -52,10 +50,8 @@ export default class IndexController extends Controller {
       title: 'Visit us in Minneapolis',
       content: `
         <h2>Visit us in Minneapolis</h2>
-        <p>Located in the tangletown neighborhood.</p>
-        <p>Petite Minneapolis is open Monday through Saturday.</p>
-        <p>Call <a href="tel:6516994959">(651) 699 - 4959</a> to book over the phone, or click below to book online.</p>
-        <p><a class="button" href="#book-now">BOOK ONLINE</a></p>
+        <p>Petite Minneapolis is open Monday through Saturday.<br>Call <a href="tel:6516994959">(651) 699 - 4959</a> to book over the phone, or click below to book online.</p>
+        <p><!--<a class="button" href="#book-now">BOOK ONLINE</a>--></p>
       `,
       link: {
         text: 'meet the artists',
