@@ -4,7 +4,7 @@ body {
   font-size: 2em;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
   body {
     font-size: 1.2em;
   }
@@ -267,7 +267,7 @@ a.active {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
   .feature-wrapper {
     .content {
       width: 90%; /* Set the width of the positioned div */
