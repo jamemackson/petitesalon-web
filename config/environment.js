@@ -89,7 +89,8 @@ module.exports = function (environment) {
     title: 'Petite Salon',
     description: 'Petite Salon has locations in Saint Paul and Minneapolis.',
     // twitterUsername: '@petitesalon',
-    url: 'https://petitesalon.com/'
+    url: 'https://petitesalon.com/',
+    'fb:app_id': '1693461784267837' // petite salon
   };
 
   ENV['ember-simple-auth-token'] = {
