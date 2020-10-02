@@ -1,14 +1,9 @@
 [
   {
     "name": "brandy",
-<<<<<<< HEAD
-    "fullName": "brandy mackson",
-    "title": "owner | stylist<br>stp | mpls",
-=======
     "slug": "brandy",
     "title": "owner | stylist",
     "image": "e_grayscale/team/stpaul/brandy",
->>>>>>> main
     "locations": ["saint-paul", "minneapolis"],
     "hours": [
       {
@@ -139,17 +134,9 @@
   {
     "name": "haley fruen",
     "slug": "haley",
-<<<<<<< HEAD
-    "name": "haley",
-    "fullName": "haley fruen",
-    "title": "owner | stylist<br>stp | mpls",
-    "locations": ["minneapolis", "saint-paul"],
-    "image": "w_270/team/minneapolis/haley.jpg",
-=======
     "title": "owner | stylist",
     "image": "team/minneapolis/haley",
     "locations": ["saint-paul", "minneapolis"],
->>>>>>> main
     "hours": [
       {
         "day": "Thur",
@@ -464,11 +451,7 @@
   },
   {
     "name": "allison",
-<<<<<<< HEAD
     "fullName": "allison brown",
-=======
-    "slug": "allison",
->>>>>>> main
     "title": "stylist | stp",
     "image": "team/stpaul/allison",
     "locations": ["saint-paul"],
@@ -594,14 +577,8 @@
     ]
   },
   {
-<<<<<<< HEAD
-    "slug": "marne",
-    "name": "marne",
-    "fullName": "marne tschida",
-=======
     "name": "tony",
     "slug": "tony",
->>>>>>> main
     "title": "stylist | stp",
     "image": "team/stpaul/tony",
     "locations": ["saint-paul"],
@@ -707,14 +684,8 @@
     ]
   },
   {
-<<<<<<< HEAD
-    "slug": "tony",
-    "name": "tony",
-    "fullName": "tony wrich",
-=======
     "name": "marne",
     "slug": "marne",
->>>>>>> main
     "title": "stylist | stp",
     "image": "team/stpaul/marne",
     "locations": ["saint-paul"],
@@ -850,14 +821,8 @@
     ]
   },
   {
-<<<<<<< HEAD
-    "slug": "angela",
-    "name": "angela",
-    "fullName": "angela",
-=======
     "name": "ann",
     "slug": "ann",
->>>>>>> main
     "title": "stylist | stp",
     "image": "female-silhouette",
     "locations": ["saint-paul"],
@@ -1029,11 +994,7 @@
   },
   {
     "name": "noelle",
-<<<<<<< HEAD
-    "fullName": "noelle hennessy",
-=======
     "slug": "noelle",
->>>>>>> main
     "title": "stylist | stp",
     "image": "team/stpaul/noelle",
     "locations": ["saint-paul"],
@@ -1123,14 +1084,8 @@
     ]
   },
   {
-<<<<<<< HEAD
-    "slug": "sue",
-    "name": "sue",
-    "fullName": "sue grabinske",
-=======
     "name": "erin gilmore",
     "slug": "erin-gilmore",
->>>>>>> main
     "title": "stylist | stp",
     "image": "e_grayscale/team/stpaul/erin-270",
     "locations": ["saint-paul"],
@@ -1236,51 +1191,11 @@
     ]
   },
   {
-<<<<<<< HEAD
-    "slug": "lori",
-    "name": "lori",
-    "fullName": "lori jasper",
-=======
     "name": "sarah",
     "slug": "sarah",
->>>>>>> main
     "title": "stylist | stp",
     "image": "e_grayscale/team/stpaul/sarah-270",
     "locations": ["saint-paul"],
-<<<<<<< HEAD
-    "image": "w_270/team/stpaul/lori.jpg"
-  },
-
-  {
-    "slug": "jessica",
-    "name": "jessica",
-    "fullName": "jessica dione",
-    "title": "stylist | mpls",
-    "locations": ["minneapolis"],
-    "image": "w_270/team/minneapolis/jessica.jpg"
-  },
-  {
-    "slug": "erin-gonsior",
-    "name": "erin gonsior",
-    "fullName": "erin gonsior",
-    "title": "stylist | mpls",
-    "locations": ["minneapolis"],
-    "image": "w_270/team/minneapolis/erin-gonsier.jpg"
-  },
-  {
-    "slug": "emily",
-    "name": "emily",
-    "fullName": "emily fett",
-    "title": "stylist | mpls",
-    "locations": ["minneapolis"],
-    "image": "w_270/team/minneapolis/emily.jpg"
-  },
-  {
-    "slug": "heidi",
-    "name": "heidi",
-    "fullName": "heidi ladoucer",
-    "title": "stylist | mpls",
-=======
     "hours": [
       {
         "day": "Wed",
@@ -1494,7 +1409,6 @@
     "slug": "atty",
     "title": "nail technician | mpls",
     "image": "female-silhouette",
->>>>>>> main
     "locations": ["minneapolis"],
     "hours": [
       {
@@ -1578,19 +1492,6 @@
     ]
   },
   {
-<<<<<<< HEAD
-    "slug": "nicole",
-    "name": "nicole",
-    "fullName": "nicole twito",
-    "title": "stylist | mpls",
-    "locations": ["minneapolis"],
-    "image": "w_270/team/minneapolis/nicole.jpg"
-  },
-  {
-    "slug": "ann",
-    "name": "ann",
-    "fullName": "ann",
-=======
     "name": "lori",
     "slug": "lori",
     "title": "master barber | stp",
@@ -1690,7 +1591,6 @@
   {
     "name": "angela",
     "slug": "angela",
->>>>>>> main
     "title": "stylist | stp",
     "image": "team/stpaul/angela",
     "locations": ["saint-paul"],
@@ -1796,27 +1696,6 @@
     ]
   },
   {
-<<<<<<< HEAD
-    "slug": "erin",
-    "name": "erin gilmore",
-    "fullName": "erin gilmore",
-    "title": "stylist | stp",
-    "locations": ["saint-paul"],
-    "image": "w_270/female-silhouette.png"
-  },
-  {
-    "slug": "sarah",
-    "name": "sarah",
-    "fullName": "sarah watson",
-    "title": "stylist | stp",
-    "locations": ["saint-paul"],
-    "image": "w_270/female-silhouette.png"
-  },
-  {
-    "slug": "lindsey",
-    "name": "lindsey",
-    "fullName": "lindsey gaudet",
-=======
     "name": "lindsey gaudet",
     "slug": "lindsey",
     "title": "master stylist | mpls",
@@ -1972,7 +1851,6 @@
   {
     "name": "erin gonsior",
     "slug": "erin-gonsior",
->>>>>>> main
     "title": "stylist | mpls",
     "image": "team/minneapolis/erin-gonsier",
     "locations": ["minneapolis"],
@@ -2057,17 +1935,10 @@
     ]
   },
   {
-<<<<<<< HEAD
-    "slug": "lauren",
-    "name": "lauren",
-    "fullName": "lauren moore",
-    "title": "stylist | mpls",
-=======
     "name": "emily",
     "slug": "emily",
     "title": "master colorist | mpls",
     "image": "team/minneapolis/emily",
->>>>>>> main
     "locations": ["minneapolis"],
     "hours": [
       {
@@ -2125,17 +1996,10 @@
     ]
   },
   {
-<<<<<<< HEAD
-    "slug": "atty",
-    "name": "atty",
-    "fullName": "atty kim",
-    "title": "stylist | mpls",
-=======
     "name": "nicole",
     "slug": "nicole",
     "title": "esthetician • makeup artist • massage therapist  | mpls",
     "image": "team/minneapolis/nicole",
->>>>>>> main
     "locations": ["minneapolis"],
     "hours": [
       {
@@ -2329,14 +2193,8 @@
     ]
   },
   {
-<<<<<<< HEAD
-    "slug": "haley-c",
-    "name": "haley c",
-    "fullName": "haley c",
-=======
     "name": "lauren",
     "slug": "lauren",
->>>>>>> main
     "title": "stylist | mpls",
     "image": "female-silhouette",
     "locations": ["minneapolis"],
@@ -2349,14 +2207,8 @@
     "serviceGroups": []
   },
   {
-<<<<<<< HEAD
-    "slug": "minjo",
-    "name": "minjo",
-    "fullName": "minjo",
-=======
     "name": "haley canaday",
     "slug": "haley-canaday",
->>>>>>> main
     "title": "stylist | mpls",
     "image": "female-silhouette",
     "locations": ["minneapolis"],
