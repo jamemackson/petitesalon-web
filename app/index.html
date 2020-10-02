@@ -3,8 +3,16 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<<<<<<< HEAD
     <!-- <title>Web</title> -->
     <!-- <meta name="description" content="" /> -->
+=======
+    <title>Petite Salon - 651-699-4959</title>
+    <meta
+      name="description"
+      content="Petite Salon has 2 locations in the Twin Cities.  The St Paul is in the macalster groveland neighborhood, and Minneapolis is in the tangletown neighborhood."
+    />
+>>>>>>> main
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     {{content-for "head"}}
@@ -21,16 +29,16 @@
         };
         var c = a.createElement('script');
         var d = a.querySelector('script');
-        c.src = 'https://static.joinboulevard.com/injector.min.js';
-        // c.src = '/blvd.js';
+        // c.src = 'https://static.joinboulevard.com/injector.min.js';
+        c.src = '/blvd.js';
         c.async = true;
         c.onload = function () {
           blvd.init(b);
         };
-        setTimeout(() => {
-          console.log('initializing online booking...');
-          d.parentNode.insertBefore(c, d);
-        }, 1600);
+        // setTimeout(() => {
+        //   console.log('initializing online booking...');
+        //   d.parentNode.insertBefore(c, d);
+        // }, 1600);
       })(document);
     </script>
   </head>

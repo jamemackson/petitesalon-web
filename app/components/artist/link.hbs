@@ -1,5 +1,5 @@
 <LinkTo @route="profile" @model={{@artist.slug}}>
-  <Image::Cldnry @src={{@artist.image}} @modifiers="ar_1:1,c_fill,g_auto" class="avatar" />
+  <Image::Cldnry @src={{@artist.image}} @modifiers="ar_1:1,c_fill,g_auto" @width="270" class="avatar" />
   <p>{{@artist.name}}</p>
   <p class="muted">{{{@artist.title}}}</p>
 </LinkTo>

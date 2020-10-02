@@ -1,6 +1,7 @@
 <ul local-class="menu">
   <li>
-    <a href="#book-now" class="book-now">book online</a>
+    {{!-- <a href="#book-now" class="book-now">book online</a> --}}
+    <LinkTo @route="online-booking">book online</LinkTo>
   </li>
   <li>
     <div class="dropdown">
@@ -35,9 +36,9 @@
       </div>
     </div>
   </li>
-  <li>
+  {{!-- <li>
     <LinkTo @route="retail">retail products</LinkTo>
-  </li>
+  </li> --}}
   <li>
     <LinkTo @route="contact">contact</LinkTo>
   </li>

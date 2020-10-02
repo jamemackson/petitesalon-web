@@ -2,12 +2,19 @@
   <div class="row">
     <div class="column column-33">
       <div local-class="avatar">
-        <Image::Cldnry @src={{@model.image}} @alt={{@model.name}} />
+        <Image::Cldnry @src={{@model.image}} @alt={{@model.name}} @width="270"/>
       </div>
       <h1>{{@model.name}}</h1>
-      <a href="#book-now" class="button">
-        book now
-      </a>
+
+      <div class="centered column">
+        to book an appointment
+        <div class="centered">
+          {{!-- <a href="#book-now" class="check-in button"><FaIcon @icon="calendar"/> book online</a><br> --}}
+          <a href="tel:6516994959" class="check-in button"><FaIcon @icon="phone"/> call</a>
+          <a href="sms:6516994959" class="check-in button"><FaIcon @icon="comments"/>  text</a>
+          <a href="mailto:reception@petitesalon.com" class="check-in button"><FaIcon @icon="envelope"/> email</a>
+        </div>
+      </div>
       <h2>typical hours</h2>
       <ul>
         {{#each @model.hours as |working|}}
@@ -16,28 +23,31 @@
       </ul>
       <ul class="social-links">
         {{#each @model.social as |social|}}
-        <li><a href={{social.link}}><FaIcon @icon={{social.network}} @prefix={{social.iconPrefix}}/></a></li>
+        <li><a href={{social.link}} target="_blank" rel="noopener noreferrer"><FaIcon @icon={{social.network}} @prefix={{social.iconPrefix}}/></a></li>
         {{/each}}
       </ul>
     </div>
     <div class="column column-66">
       <h2>About {{@model.name}}</h2>
-      <strong>{{@model.bio.short}}</strong>
+      <strong>{{#if @model.bio.short}}{{@model.bio.short}}{{else}}service provider bio coming soon{{/if}}</strong>
       <hr>
-      <p>{{@model.bio.long}}</p>
-
+      <p>{{{@model.bio.long}}}</p>
       <h2>Services</h2>
       <div class="gridish mobile-centered">
+      {{#if @model.serviceGroups}}
       {{#each @model.serviceGroups as |sg|}}
         <div class="card">
           <h3>{{sg.name}}</h3>
           <ul>
           {{#each sg.services as |service|}}
-            <li>{{service.name}} - ${{service.price}} {{if service.requiresConsultation '**'}}</li>
+            <li>{{{service.name}}} - ${{service.price}} {{if service.requiresConsultation '**'}}</li>
           {{/each}}
           </ul>
         </div>
       {{/each}}
+      {{else}}
+        <p>please <LinkTo @route="contact">contact us</LinkTo> for service details and to book an appointment</p>
+      {{/if}}
       </div>
     </div>
   </div>

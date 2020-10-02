@@ -4,7 +4,7 @@ body {
   font-size: 2em;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
   body {
     font-size: 1.2em;
   }
@@ -193,6 +193,7 @@ a.active {
   flex-wrap: nowrap;
   overflow-x: auto;
 }
+
 .card {
   flex: 0 0 auto;
   width: 200px;
@@ -216,7 +217,7 @@ a.active {
     flex: 0 0 auto;
     width: 200px;
     // padding: 20px;
-    margin: 20px;
+    margin: auto;
 
     img {
       // height: 250px;
@@ -239,7 +240,6 @@ a.active {
   position: relative;
   display: inline-block; /* Make the width of box same as image */
   width: 100%;
-  // position: relative;
 
   .content {
     position: absolute;
@@ -253,6 +253,10 @@ a.active {
     border-radius: 10px;
     border: 1pt solid gray;
     padding: 5px;
+
+    p {
+      font-weight: bold;
+    }
   }
 }
 
@@ -264,10 +268,15 @@ a.active {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
   .feature-wrapper {
     .content {
       width: 90%; /* Set the width of the positioned div */
+      position: relative;
+      left: auto;
+      right: auto;
+      top: auto;
+      margin: auto;
     }
   }
 }

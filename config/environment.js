@@ -77,8 +77,8 @@ module.exports = function (environment) {
       hostWhitelist: [
         /[a-z1-9-]+.petitesalon.com$/,
         /[a-z1-9-]+.herokuapp.com$/,
-        /[a-z1-9-]+.ngrok.io$/,
-        /^localhost:\d+$/
+        /^localhost:\d+$/,
+        /[a-z1-9-]+.ngrok.io$/
       ]
     }
   };
