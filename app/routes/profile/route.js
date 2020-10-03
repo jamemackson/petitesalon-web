@@ -1,5 +1,6 @@
 import Route from '@ember/routing/route';
 import { inject as service } from '@ember/service';
+import { cldnryPath } from '../../helpers/cldnry-path';
 
 export default class ProfileRoute extends Route {
   @service data;
@@ -9,10 +10,11 @@ export default class ProfileRoute extends Route {
   }
 
   afterModel(model, transition) {
-    this._super(model, transition);
+    super.afterModel(model, transition);
     this.metaInfo = {
-      title: `${model.fullName} | Petite Salon | ${model.locations.join(' | ')}`,
-      image: `${model.image}`
+      title: `${model.name} | Petite Salon | ${model.locations.join(' | ')}`,
+      imgSrc: `${cldnryPath(null, { src: model.image, width: 250 })}`
     };
+    console.log({ model, meta: this.metaInfo });
   }
 }
