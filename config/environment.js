@@ -1,7 +1,5 @@
 'use strict';
 
-'use strict';
-
 function makeDomain(obj) {
   obj.sources = obj.sources || [];
   obj.protocols = obj.protocols || [];
