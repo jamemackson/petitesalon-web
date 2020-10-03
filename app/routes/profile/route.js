@@ -16,6 +16,6 @@ export default class ProfileRoute extends Route {
       imgSrc: `${cldnryPath(null, { src: model.image, width: 250 })}`,
       description: model.bio.short
     };
-    console.log({ model, meta: this.metaInfo });
+    // console.log({ model, meta: this.metaInfo });
   }
 }
