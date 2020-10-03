@@ -72,13 +72,27 @@ module.exports = function (environment) {
     },
     fastboot: {
       // TODO: change to hostAllowedList when possible. #BLM
-      hostWhitelist: [
-        /[a-z1-9-]+.petitesalon.com$/,
-        /[a-z1-9-]+.herokuapp.com$/,
-        /^localhost:\d+$/,
-        /[a-z1-9-]+.ngrok.io$/
-      ]
-    }
+      hostWhitelist: [/[a-z1-9-]+.petitesalon.com$/, /[\S]+.herokuapp\.com$/, /^localhost:\d+$/, /[a-z1-9-]+.ngrok.io$/]
+    },
+    metricsAdapters: [
+      {
+        name: 'GoogleAnalytics',
+        environments: ['development', 'production'],
+        config: {
+          id: 'UA-60845043-2',
+          // Use `analytics_debug.js` in development
+          debug: environment === 'development',
+          // Use verbose tracing of GA events
+          trace: environment === 'development',
+          // Ensure development env hits aren't sent to GA
+          sendHitTask: environment !== 'development',
+          // Specify Google Analytics plugins
+          require: [
+            /*'ecommerce'*/
+          ]
+        }
+      }
+    ]
   };
 
   ENV['ember-meta'] = {
@@ -155,6 +169,11 @@ module.exports = function (environment) {
       sources: ['font-src', 'script-src', 'style-src'],
       protocols: ['http', 'https', 'ws', 'wss'],
       domain: '*.googleapis.com'
+    },
+    {
+      sources: ['connect-src', 'script-src'],
+      protocols: ['https'],
+      domain: 'www.google-analytics.com'
     }
   ];
 
