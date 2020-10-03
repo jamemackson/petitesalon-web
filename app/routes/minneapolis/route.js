@@ -5,4 +5,12 @@ export default class MinneapolisRoute extends Route {
   async model() {
     return this.data.getLocationArtists('mpls');
   }
+
+  afterModel(model, transition) {
+    this._super(model, transition);
+
+    this.metaInfo = {
+      title: `Minneapolis | Petite Salon`
+    };
+  }
 }
