@@ -15,4 +15,14 @@ export default class ApplicationRoute extends Route {
 
     return this.data.getArtists();
   }
+
+  afterModel() {
+    this._super(...arguments);
+
+    this.metaInfo = {
+      author: 'Jame Mackson',
+      authorId: 'jamemackson',
+      title: 'Petite Salon'
+    };
+  }
 }

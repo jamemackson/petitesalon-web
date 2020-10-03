@@ -1,7 +1,5 @@
 'use strict';
 
-'use strict';
-
 function makeDomain(obj) {
   obj.sources = obj.sources || [];
   obj.protocols = obj.protocols || [];
@@ -83,7 +81,15 @@ module.exports = function (environment) {
     }
   };
 
-  // config/environment.js
+  ENV['ember-meta'] = {
+    imgSrc: 'https://res.cloudinary.com/petite/image/upload/f_auto/fl_lossy/q_auto:eco/w_350/petite-salon-logo',
+    siteName: 'Petite Salon',
+    title: 'Petite Salon',
+    description: 'Petite Salon has locations in Saint Paul and Minneapolis.',
+    // twitterUsername: '@petitesalon',
+    url: 'https://petitesalon.com/'
+  };
+
   ENV['ember-simple-auth-token'] = {
     refreshAccessTokens: true, // Enables access token refreshing
     refreshLeeway: 30, // refresh 30 seconds (.5 minutes) before expiration

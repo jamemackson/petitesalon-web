@@ -4880,6 +4880,15 @@ ember-cli-get-component-path-option@^1.0.0:
   resolved "https://registry.yarnpkg.com/ember-cli-get-component-path-option/-/ember-cli-get-component-path-option-1.0.0.tgz#0d7b595559e2f9050abed804f1d8eff1b08bc771"
   integrity sha1-DXtZVVni+QUKvtgE8djv8bCLx3E=
 
+ember-cli-head@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/ember-cli-head/-/ember-cli-head-1.0.0.tgz#72a71b3db2039b66585c754fd33bc3c36ff86fc1"
+  integrity sha512-7gj8H/KSF+e4pxSKxj9F8hq9PUt2vOjCaOvRdxdmyoHnko4QbiUnv8ASpXuop+m15eNIUGOlaLrJJ3jM8oQEUw==
+  dependencies:
+    ember-cli-babel "^7.19.0"
+    ember-cli-htmlbars "^4.3.1"
+    ember-in-element-polyfill "^1.0.0"
+
 ember-cli-htmlbars-inline-precompile@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/ember-cli-htmlbars-inline-precompile/-/ember-cli-htmlbars-inline-precompile-2.1.0.tgz#61b91ff1879d44ae504cadb46fb1f2604995ae08"
@@ -5426,6 +5435,17 @@ ember-maybe-import-regenerator@^0.1.6:
     ember-cli-babel "^6.0.0-beta.4"
     regenerator-runtime "^0.9.5"
 
+ember-meta@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/ember-meta/-/ember-meta-1.0.0.tgz#a62049f5f9803379ab923f1ded242bb93588de43"
+  integrity sha512-mVz9e+N1LGQp0uC1BdoIMOVk3OQGeduPWwrbCz8wAqzV9CUGY2MpPIf5BjY00CCxzUsXNXQwtYpl02U0/fmhEQ==
+  dependencies:
+    ember-cli-babel "^7.19.0"
+    ember-cli-head "^1.0.0"
+    ember-cli-htmlbars "^4.3.1"
+    ember-get-config "^0.2.4"
+    ember-truth-helpers "^2.1.0"
+
 ember-modifier-manager-polyfill@^1.1.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/ember-modifier-manager-polyfill/-/ember-modifier-manager-polyfill-1.2.0.tgz#cf4444e11a42ac84f5c8badd85e635df57565dda"
@@ -5549,6 +5569,13 @@ ember-test-waiters@^1.1.1:
   dependencies:
     ember-cli-babel "^7.11.0"
     semver "^6.3.0"
+
+ember-truth-helpers@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/ember-truth-helpers/-/ember-truth-helpers-2.1.0.tgz#d4dab4eee7945aa2388126485977baeb33ca0798"
+  integrity sha512-BQlU8aTNl1XHKTYZ243r66yqtR9JU7XKWQcmMA+vkqfkE/c9WWQ9hQZM8YABihCmbyxzzZsngvldokmeX5GhAw==
+  dependencies:
+    ember-cli-babel "^6.6.0"
 
 emoji-regex@^7.0.1:
   version "7.0.3"
