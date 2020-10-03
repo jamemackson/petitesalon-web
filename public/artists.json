@@ -451,7 +451,7 @@
   },
   {
     "name": "allison",
-    "fullName": "allison brown",
+    "slug": "allison",
     "title": "stylist | stp",
     "image": "team/stpaul/allison",
     "locations": ["saint-paul"],
