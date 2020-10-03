@@ -13,7 +13,8 @@ export default class ProfileRoute extends Route {
     super.afterModel(model, transition);
     this.metaInfo = {
       title: `${model.name} | Petite Salon | ${model.locations.join(' | ')}`,
-      imgSrc: `${cldnryPath(null, { src: model.image, width: 250 })}`
+      imgSrc: `${cldnryPath(null, { src: model.image, width: 250 })}`,
+      description: model.bio.short
     };
     console.log({ model, meta: this.metaInfo });
   }
