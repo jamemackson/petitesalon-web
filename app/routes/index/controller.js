@@ -21,7 +21,7 @@ export default class IndexController extends Controller {
       title: 'welcome to petite salon!',
       content: `
         <p>Contactless pickup is available Monday through Saturday.</p>
-        <p>Call ahead to order, then again when youre outside snd well bring it out!</p>
+        <p>Call ahead to order, then again when you're outside and we will bring it out!</p>
       `,
       link: {
         text: 'call us now',

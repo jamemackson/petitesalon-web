@@ -23,4 +23,9 @@ Router.map(function () {
   this.route('profile', { path: ':slug' });
   this.route('retail');
   this.route('online-booking');
+
+  this.route('online-booking', function () {
+    this.route('minneapolis');
+    this.route('saint-paul');
+  });
 });
