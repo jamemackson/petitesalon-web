@@ -27,7 +27,11 @@ export default class DataService extends Service {
   async getArtist(slug) {
     if (!this.artists) await this.getArtists();
     const artists = this.artists.filter((a) => a.slug === slug);
-    if (!artists || !Array.isArray(artists) || artists.length != 1) throw new Error('artist not found.');
+    if (!artists || !Array.isArray(artists) || artists.length != 1) {
+      // throw new Error('artist not found.');
+      console.error('no artist found for ', slug);
+      return undefined;
+    }
     return artists[0];
   }
 

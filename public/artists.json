@@ -6,48 +6,14 @@
     "image": "e_grayscale/team/stpaul/brandy",
     "locations": ["saint-paul", "minneapolis"],
     "hours": [
-      {
-        "day": "Tue",
-        "start": "12",
-        "end": 8
-      },
-      {
-        "day": "Sat",
-        "start": "10",
-        "end": 3
-      },
-      {
-        "day": "Thur",
-        "start": 2,
-        "end": 8
-      },
-      {
-        "day": "Wed",
-        "start": "12",
-        "end": 8
-      },
-      {
-        "day": "Fri",
-        "start": "12",
-        "end": 6
-      }
+      { "day": "Mon", "start": 10, "end": 8 },
+      { "day": "Wed", "start": 10, "end": 8 },
+      { "day": "Fri", "start": 10, "end": 8 }
     ],
     "social": [
-      {
-        "network": "facebook",
-        "iconPrefix": "fab",
-        "link": "https://www.facebook.com/brandy.mackson"
-      },
-      {
-        "network": "instagram",
-        "iconPrefix": "fab",
-        "link": "https://www.instagram.com/brandymackson/"
-      },
-      {
-        "network": "pinterest",
-        "iconPrefix": "fab",
-        "link": "https://www.pinterest.com/brandyj210/"
-      }
+      { "network": "facebook", "iconPrefix": "fab", "link": "https://www.facebook.com/brandy.mackson" },
+      { "network": "instagram", "iconPrefix": "fab", "link": "https://www.instagram.com/brandymackson/" },
+      { "network": "pinterest", "iconPrefix": "fab", "link": "https://www.pinterest.com/brandyj210/" }
     ],
     "bio": {
       "short": "Brandy specializes in fitting a style to your personality. Getting the right combination of cut and color is an art and this is her gift.",
@@ -57,76 +23,35 @@
       {
         "name": "haircuts & styling",
         "services": [
-          {
-            "name": "haircut",
-            "price": 65,
-            "requiresConsultation": false
-          },
-          {
-            "name": "blowout",
-            "price": 65,
-            "requiresConsultation": false
-          }
+          { "name": "haircut", "price": 70, "requiresConsultation": false },
+          { "name": "blowout", "price": 50, "requiresConsultation": false },
+          { "name": "kids haircut", "price": 35, "requiresConsultation": false }
         ]
       },
       {
         "name": "color",
         "services": [
-          {
-            "name": "tint",
-            "price": 65,
-            "requiresConsultation": false
-          },
-          {
-            "name": "full foil",
-            "price": 120,
-            "requiresConsultation": false
-          },
-          {
-            "name": "partial foil",
-            "price": 80,
-            "requiresConsultation": false
-          }
+          { "name": "tint", "price": 65, "requiresConsultation": false },
+          { "name": "full foil", "price": 120, "requiresConsultation": false },
+          { "name": "partial foil", "price": 80, "requiresConsultation": false },
+          { "name": "bleach & tone", "price": 115, "requiresConsultation": false },
+          { "name": "glaze / toner", "price": 35, "requiresConsultation": false }
         ]
       },
       {
         "name": "waxing",
         "services": [
-          {
-            "name": "brow wax",
-            "price": 15,
-            "requiresConsultation": false
-          },
-          {
-            "name": "lip or chin waxing",
-            "price": 10,
-            "requiresConsultation": false
-          }
+          { "name": "brow wax", "price": 15, "requiresConsultation": false },
+          { "name": "lip or chin waxing", "price": 10, "requiresConsultation": false }
         ]
       },
       {
         "name": "treatments",
         "services": [
-          {
-            "name": "conditioning treatment",
-            "price": 50,
-            "requiresConsultation": false
-          },
-          {
-            "name": "conditioning treatment (add-on)",
-            "price": 25,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Keratin smoothing treatment",
-            "price": 200,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Keratin Express treatment",
-            "price": 75,
-            "requiresConsultation": false
-          }
+          { "name": "conditioning treatment", "price": 50, "requiresConsultation": false },
+          { "name": "conditioning treatment (add-on)", "price": 25, "requiresConsultation": false },
+          { "name": "Keratin smoothing treatment", "price": 210, "requiresConsultation": false },
+          { "name": "Keratin Express treatment", "price": 80, "requiresConsultation": false }
         ]
       }
     ]
@@ -138,38 +63,13 @@
     "image": "team/minneapolis/haley",
     "locations": ["saint-paul", "minneapolis"],
     "hours": [
-      {
-        "day": "Thur",
-        "start": "10",
-        "end": 7
-      },
-      {
-        "day": "Wed",
-        "start": "10",
-        "end": 7
-      },
-      {
-        "day": "Sat",
-        "start": "9",
-        "end": 5
-      },
-      {
-        "day": "Fri",
-        "start": "10",
-        "end": 7
-      }
+      { "day": "Tue", "start": 10, "end": 8 },
+      { "day": "Thur", "start": "10", "end": 7 },
+      { "day": "Sat", "start": "9", "end": 6 }
     ],
     "social": [
-      {
-        "network": "facebook",
-        "iconPrefix": "fab",
-        "link": "https://www.facebook.com/haley.fruenmasterhairstylist"
-      },
-      {
-        "network": "instagram",
-        "iconPrefix": "fab",
-        "link": "https://www.instagram.com/haleyfruen/"
-      }
+      { "network": "facebook", "iconPrefix": "fab", "link": "https://www.facebook.com/haley.fruenmasterhairstylist" },
+      { "network": "instagram", "iconPrefix": "fab", "link": "https://www.instagram.com/haleyfruen/" }
     ],
     "bio": {
       "short": "Every time I get done working with a client and they feel beautiful, that’s when I know I chose the right career.",
@@ -177,83 +77,38 @@
     },
     "serviceGroups": [
       {
-        "name": "all",
+        "name": "haircuts & styling",
         "services": [
-          {
-            "name": "haircut",
-            "price": 90,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Blowout",
-            "price": 65,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Special event style",
-            "price": 90,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Updo",
-            "price": 130,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Tint",
-            "price": 70,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Partial Foil",
-            "price": 125,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Full Foil",
-            "price": 150,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Partial Balayage",
-            "price": 140,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Full Balayage",
-            "price": 165,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Partial Balayage with Tint",
-            "price": 160,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Full Balayage with Tint",
-            "price": 185,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Olaplex treatment w/Blowout",
-            "price": 85,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Deep Conditioning Treatment w/Blowout",
-            "price": 85,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Stand alone treatments",
-            "price": 25,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Tape In Hair Extentions By Consultation Only",
-            "price": null,
-            "requiresConsultation": false
-          }
+          { "name": "haircut", "price": 90, "requiresConsultation": false },
+          { "name": "Blowout", "price": 65, "requiresConsultation": false },
+          { "name": "Special event style", "price": 90, "requiresConsultation": false },
+          { "name": "Updo", "price": 130, "requiresConsultation": false }
+        ]
+      },
+      {
+        "name": "color",
+        "services": [
+          { "name": "Tint", "price": 70, "requiresConsultation": false },
+          { "name": "Partial Foil", "price": 125, "requiresConsultation": false },
+          { "name": "Full Foil", "price": 150, "requiresConsultation": false },
+          { "name": "Partial Balayage", "price": 140, "requiresConsultation": false },
+          { "name": "Full Balayage", "price": 165, "requiresConsultation": false },
+          { "name": "Partial Balayage with Tint", "price": 160, "requiresConsultation": false },
+          { "name": "Full Balayage with Tint", "price": 185, "requiresConsultation": false }
+        ]
+      },
+      {
+        "name": "treatments",
+        "services": [
+          { "name": "Olaplex treatment w/Blowout", "price": 85, "requiresConsultation": false },
+          { "name": "Deep Conditioning Treatment w/Blowout", "price": 85, "requiresConsultation": false },
+          { "name": "Stand alone treatments", "price": 25, "requiresConsultation": false }
+        ]
+      },
+      {
+        "name": "extensions",
+        "services": [
+          { "name": "Tape In Hair Extentions By Consultation Only", "price": "200+", "requiresConsultation": false }
         ]
       }
     ]
@@ -265,26 +120,10 @@
     "image": "team/minneapolis/heidi",
     "locations": ["minneapolis"],
     "hours": [
-      {
-        "day": "Sat",
-        "start": "9",
-        "end": 4
-      },
-      {
-        "day": "Tue",
-        "start": "12",
-        "end": 8
-      },
-      {
-        "day": "Wed",
-        "start": "11",
-        "end": 7
-      },
-      {
-        "day": "Thur",
-        "start": "10",
-        "end": 6
-      }
+      { "day": "Tue", "start": "12", "end": 8 },
+      { "day": "Wed", "start": "10", "end": 5 },
+      { "day": "Thur", "start": "11", "end": 7 },
+      { "day": "Sat", "start": "9", "end": 3 }
     ],
     "social": [],
     "bio": {
@@ -293,158 +132,53 @@
     },
     "serviceGroups": [
       {
-        "name": "all",
+        "name": "Esthetics",
         "services": [
-          {
-            "name": "30 min facial",
-            "price": 60,
-            "requiresConsultation": false
-          },
-          {
-            "name": "45 min facial",
-            "price": 75,
-            "requiresConsultation": false
-          },
-          {
-            "name": "60 min facial",
-            "price": 90,
-            "requiresConsultation": false
-          },
-          {
-            "name": "30 min Acne Peel",
-            "price": 50,
-            "requiresConsultation": false
-          },
-          {
-            "name": "30 min Glow Facial",
-            "price": 80,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Microdermabrasion",
-            "price": 105,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Microdermabrasion add on (w/facial)",
-            "price": 50,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Celluma LED treatment",
-            "price": 50,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Celluma LED treatment Add on",
-            "price": 50,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Eye treatment Add on",
-            "price": 50,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Brow",
-            "price": 27,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Brow tint",
-            "price": 27,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Brow tint w/ Wax",
-            "price": 50,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Lash tint",
-            "price": 32,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Lash lift",
-            "price": 75,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Lash Lift & Tint",
-            "price": 100,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Lip",
-            "price": 17,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Cheek",
-            "price": 22,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Nose",
-            "price": 17,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Chin",
-            "price": 17,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Underarm",
-            "price": 27,
-            "requiresConsultation": false
-          },
-          {
-            "name": "1/2 leg",
-            "price": 42,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Full leg",
-            "price": 77,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Back / chest",
-            "price": 60,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Bikini",
-            "price": 42,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Brazilian",
-            "price": 62,
-            "requiresConsultation": false
-          },
-          {
-            "name": "The Heather",
-            "price": 215,
-            "requiresConsultation": false
-          },
-          {
-            "name": "The Kat",
-            "price": 190,
-            "requiresConsultation": false
-          },
-          {
-            "name": "The Lacey",
-            "price": 210,
-            "requiresConsultation": false
-          },
-          {
-            "name": "The Everything",
-            "price": 285,
-            "requiresConsultation": false
-          }
+          { "name": "30 min facial", "price": 60, "requiresConsultation": false },
+          { "name": "45 min facial", "price": 75, "requiresConsultation": false },
+          { "name": "60 min facial", "price": 90, "requiresConsultation": false },
+          { "name": "30 min Acne Peel", "price": 50, "requiresConsultation": false },
+          { "name": "30 min Glow Facial", "price": 80, "requiresConsultation": false },
+          { "name": "Microdermabrasion", "price": 105, "requiresConsultation": false },
+          { "name": "Microdermabrasion add on (w/facial)", "price": 50, "requiresConsultation": false },
+          { "name": "Celluma LED treatment", "price": 50, "requiresConsultation": false },
+          { "name": "Celluma LED treatment Add on", "price": 50, "requiresConsultation": false },
+          { "name": "Eye treatment Add on", "price": 50, "requiresConsultation": false }
+        ]
+      },
+      {
+        "name": "waxing",
+        "services": [
+          { "name": "Lip", "price": 17, "requiresConsultation": false },
+          { "name": "Cheek", "price": 22, "requiresConsultation": false },
+          { "name": "Nose", "price": 17, "requiresConsultation": false },
+          { "name": "Chin", "price": 17, "requiresConsultation": false },
+          { "name": "Underarm", "price": 27, "requiresConsultation": false },
+          { "name": "1/2 leg", "price": 42, "requiresConsultation": false },
+          { "name": "Full leg", "price": 77, "requiresConsultation": false },
+          { "name": "Back / chest", "price": 60, "requiresConsultation": false },
+          { "name": "Bikini", "price": 42, "requiresConsultation": false },
+          { "name": "Brazilian", "price": 62, "requiresConsultation": false }
+        ]
+      },
+      {
+        "name": "lifts, lashes & tints",
+        "services": [
+          { "name": "Brow", "price": 27, "requiresConsultation": false },
+          { "name": "Brow tint", "price": 27, "requiresConsultation": false },
+          { "name": "Brow tint w/ Wax", "price": 50, "requiresConsultation": false },
+          { "name": "Lash tint", "price": 32, "requiresConsultation": false },
+          { "name": "Lash lift", "price": 75, "requiresConsultation": false },
+          { "name": "Lash Lift & Tint", "price": 100, "requiresConsultation": false }
+        ]
+      },
+      {
+        "name": "custom formulations",
+        "services": [
+          { "name": "The Heather", "price": 215, "requiresConsultation": false },
+          { "name": "The Kat", "price": 190, "requiresConsultation": false },
+          { "name": "The Lacey", "price": 210, "requiresConsultation": false },
+          { "name": "The Everything", "price": 285, "requiresConsultation": false }
         ]
       }
     ]
@@ -456,38 +190,13 @@
     "image": "team/stpaul/allison",
     "locations": ["saint-paul"],
     "hours": [
-      {
-        "day": "Thur",
-        "start": "11",
-        "end": 8
-      },
-      {
-        "day": "Tue",
-        "start": "11",
-        "end": 8
-      },
-      {
-        "day": "Mon",
-        "start": "12",
-        "end": 6
-      },
-      {
-        "day": "Fri",
-        "start": "12",
-        "end": 8
-      }
+      { "day": "Mon", "start": "12", "end": 6 },
+      { "day": "Wed", "start": "11", "end": 7 },
+      { "day": "Fri", "start": "12", "end": 6 }
     ],
     "social": [
-      {
-        "network": "facebook",
-        "iconPrefix": "fab",
-        "link": "https://www.facebook.com/allison.virtuebrown"
-      },
-      {
-        "network": "instagram",
-        "iconPrefix": "fab",
-        "link": "https://www.instagram.com/virtuebrown/?hl=en"
-      }
+      { "network": "facebook", "iconPrefix": "fab", "link": "https://www.facebook.com/allison.virtuebrown" },
+      { "network": "instagram", "iconPrefix": "fab", "link": "https://www.instagram.com/virtuebrown/?hl=en" }
     ],
     "bio": {
       "short": "I love working with you to find a style that works for you and your lifestyle.",
@@ -495,85 +204,36 @@
     },
     "serviceGroups": [
       {
-        "name": "all",
+        "name": "haircuts & styling",
         "services": [
-          {
-            "name": "haircut",
-            "price": 55,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Bang Trim",
-            "price": 0,
-            "requiresConsultation": false
-          },
-          {
-            "name": "blowout",
-            "price": 55,
-            "requiresConsultation": false
-          },
-          {
-            "name": "tint",
-            "price": 60,
-            "requiresConsultation": false
-          },
-          {
-            "name": "full foil",
-            "price": 85,
-            "requiresConsultation": false
-          },
-          {
-            "name": "partial foil",
-            "price": 75,
-            "requiresConsultation": false
-          },
-          {
-            "name": "updo's (in salon)",
-            "price": 90,
-            "requiresConsultation": false
-          },
-          {
-            "name": "updo's (on site)",
-            "price": 240,
-            "requiresConsultation": false
-          },
-          {
-            "name": "facial waxing",
-            "price": 15,
-            "requiresConsultation": false
-          },
-          {
-            "name": "conditioning treatment",
-            "price": 25,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Brazilian Blowout",
-            "price": 100,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Bleach & Tone",
-            "price": 95,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Balayge",
-            "price": 100,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Partial Balayge",
-            "price": 80,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Extensions (consultation required)",
-            "price": 120,
-            "requiresConsultation": false
-          }
+          { "name": "haircut", "price": 55, "requiresConsultation": false },
+          { "name": "Bang Trim", "price": 0, "requiresConsultation": false },
+          { "name": "blowout", "price": 55, "requiresConsultation": false },
+          { "name": "updo's (in salon)", "price": 90, "requiresConsultation": false },
+          { "name": "updo's (on site)", "price": 240, "requiresConsultation": false },
+
+          { "name": "Extensions (consultation required)", "price": 120, "requiresConsultation": false }
         ]
-      }
+      },
+      {
+        "name": "color",
+        "services": [
+          { "name": "tint", "price": 60, "requiresConsultation": false },
+          { "name": "full foil", "price": 85, "requiresConsultation": false },
+          { "name": "partial foil", "price": 75, "requiresConsultation": false },
+          { "name": "Bleach & Tone", "price": 95, "requiresConsultation": false },
+          { "name": "Balayge", "price": 100, "requiresConsultation": false },
+          { "name": "Partial Balayge", "price": 80, "requiresConsultation": false }
+        ]
+      },
+      {
+        "name": "treatments",
+        "services": [
+          { "name": "conditioning treatment", "price": 25, "requiresConsultation": false },
+          { "name": "Brazilian Blowout", "price": 100, "requiresConsultation": false }
+        ]
+      },
+      { "name": "waxing", "services": [{ "name": "facial waxing", "price": 15, "requiresConsultation": false }] }
     ]
   },
   {
@@ -583,102 +243,40 @@
     "image": "team/stpaul/tony",
     "locations": ["saint-paul"],
     "hours": [
-      {
-        "day": "Sat",
-        "start": "9",
-        "end": 5
-      },
-      {
-        "day": "Mon",
-        "start": "11",
-        "end": 8
-      },
-      {
-        "day": "Tue",
-        "start": "11",
-        "end": 8
-      },
-      {
-        "day": "Wed",
-        "start": "11",
-        "end": 8
-      },
-      {
-        "day": "Fri",
-        "start": "10",
-        "end": 4
-      }
+      { "day": "Tue", "start": 10, "end": 8 },
+      { "day": "Thur", "start": 10, "end": 8 },
+      { "day": "Sat", "start": 8, "end": 5 }
     ],
-    "social": [
-      {
-        "network": "facebook",
-        "iconPrefix": "fab",
-        "link": "https://www.facebook.com/tony.wrich"
-      }
-    ],
+    "social": [{ "network": "facebook", "iconPrefix": "fab", "link": "https://www.facebook.com/tony.wrich" }],
     "bio": {
       "short": "",
       "long": ""
     },
     "serviceGroups": [
       {
-        "name": "all",
+        "name": "haircuts & styling",
         "services": [
-          {
-            "name": "Haircut",
-            "price": 50,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Mens cut",
-            "price": 45,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Blowout",
-            "price": 45,
-            "requiresConsultation": false
-          },
-          {
-            "name": "bleach & tone",
-            "price": 120,
-            "requiresConsultation": false
-          },
-          {
-            "name": "tint",
-            "price": 60,
-            "requiresConsultation": false
-          },
-          {
-            "name": "partial foil",
-            "price": 100,
-            "requiresConsultation": false
-          },
-          {
-            "name": "full foil",
-            "price": 110,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Balayge",
-            "price": 140,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Partial Balayge",
-            "price": 120,
-            "requiresConsultation": false
-          },
-          {
-            "name": "brow wax",
-            "price": 15,
-            "requiresConsultation": false
-          },
-          {
-            "name": "lip/chin wax",
-            "price": 10,
-            "requiresConsultation": false
-          }
+          { "name": "Haircut", "price": 50, "requiresConsultation": false },
+          { "name": "Mens cut", "price": 45, "requiresConsultation": false },
+          { "name": "Blowout", "price": 45, "requiresConsultation": false }
+        ]
+      },
+      {
+        "name": "color",
+        "services": [
+          { "name": "bleach & tone", "price": 120, "requiresConsultation": false },
+          { "name": "tint", "price": 60, "requiresConsultation": false },
+          { "name": "partial foil", "price": 100, "requiresConsultation": false },
+          { "name": "full foil", "price": 110, "requiresConsultation": false },
+          { "name": "Balayge", "price": 140, "requiresConsultation": false },
+          { "name": "Partial Balayge", "price": 120, "requiresConsultation": false }
+        ]
+      },
+      {
+        "name": "waxing",
+        "services": [
+          { "name": "brow wax", "price": 15, "requiresConsultation": false },
+          { "name": "lip/chin wax", "price": 10, "requiresConsultation": false }
         ]
       }
     ]
@@ -690,132 +288,53 @@
     "image": "team/stpaul/marne",
     "locations": ["saint-paul"],
     "hours": [
-      {
-        "day": "Fri",
-        "start": "9",
-        "end": 7
-      },
-      {
-        "day": "Sat",
-        "start": "10",
-        "end": 5
-      },
-      {
-        "day": "Thur",
-        "start": "10",
-        "end": 8
-      },
-      {
-        "day": "Tue",
-        "start": "10",
-        "end": 8
-      },
-      {
-        "day": "Mon",
-        "start": "10",
-        "end": 8
-      }
+      { "day": "Mon (alt weeks)", "start": 9, "end": 8 },
+      { "day": "Tue (alt weeks)", "start": 10, "end": 8 },
+      { "day": "Wed", "start": 10, "end": 3 },
+      { "day": "Thur", "start": 10, "end": 8 },
+      { "day": "Fri (alt weeks)", "start": 10, "end": 8 },
+      { "day": "Sat (alt weeks)", "start": 10, "end": 6 }
     ],
-    "social": [
-      {
-        "network": "facebook",
-        "iconPrefix": "fab",
-        "link": "https://www.facebook.com/marne.tschida"
-      }
-    ],
+    "social": [{ "network": "facebook", "iconPrefix": "fab", "link": "https://www.facebook.com/marne.tschida" }],
     "bio": {
       "short": "",
       "long": ""
     },
     "serviceGroups": [
       {
-        "name": "all",
+        "name": "haircuts & styling",
         "services": [
-          {
-            "name": "womens haircut",
-            "price": 50,
-            "requiresConsultation": false
-          },
-          {
-            "name": "mens haircut",
-            "price": 45,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Bang trim",
-            "price": 0,
-            "requiresConsultation": false
-          },
-          {
-            "name": "blow out / shampoo style",
-            "price": 40,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Updo",
-            "price": 105,
-            "requiresConsultation": false
-          },
-          {
-            "name": "tint",
-            "price": 70,
-            "requiresConsultation": false
-          },
-          {
-            "name": "full foil",
-            "price": 95,
-            "requiresConsultation": false
-          },
-          {
-            "name": "partial foil",
-            "price": 85,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Balayge",
-            "price": 115,
-            "requiresConsultation": false
-          },
-          {
-            "name": "lip or chin waxing",
-            "price": 10,
-            "requiresConsultation": false
-          },
-          {
-            "name": "brow wax",
-            "price": 15,
-            "requiresConsultation": false
-          },
-          {
-            "name": "conditioning treatment",
-            "price": 20,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Keratin Complex treatment",
-            "price": 155,
-            "requiresConsultation": false
-          },
-          {
-            "name": "thermal straightening / relaxers",
-            "price": 205,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Balayge",
-            "price": 145,
-            "requiresConsultation": false
-          },
-          {
-            "name": "perm",
-            "price": 90,
-            "requiresConsultation": false
-          },
-          {
-            "name": "bleach & tone",
-            "price": 125,
-            "requiresConsultation": false
-          }
+          { "name": "womens haircut", "price": 50, "requiresConsultation": false },
+          { "name": "mens haircut", "price": 45, "requiresConsultation": false },
+          { "name": "Bang trim", "price": 0, "requiresConsultation": false },
+          { "name": "blow out / shampoo style", "price": 40, "requiresConsultation": false },
+          { "name": "Updo", "price": 105, "requiresConsultation": false }
+        ]
+      },
+      {
+        "name": "color",
+        "services": [
+          { "name": "tint", "price": 70, "requiresConsultation": false },
+          { "name": "full foil", "price": 95, "requiresConsultation": false },
+          { "name": "partial foil", "price": 85, "requiresConsultation": false },
+          { "name": "Balayge", "price": 115, "requiresConsultation": false },
+          { "name": "bleach & tone", "price": 125, "requiresConsultation": false }
+        ]
+      },
+      {
+        "name": "treatments",
+        "services": [
+          { "name": "conditioning treatment", "price": 20, "requiresConsultation": false },
+          { "name": "Keratin Complex treatment", "price": 155, "requiresConsultation": false },
+          { "name": "thermal straightening / relaxers", "price": 205, "requiresConsultation": false },
+          { "name": "perm", "price": 90, "requiresConsultation": false }
+        ]
+      },
+      {
+        "name": "waxing",
+        "services": [
+          { "name": "lip or chin waxing", "price": 10, "requiresConsultation": false },
+          { "name": "brow wax", "price": 15, "requiresConsultation": false }
         ]
       }
     ]
@@ -827,43 +346,15 @@
     "image": "female-silhouette",
     "locations": ["saint-paul"],
     "hours": [
-      {
-        "day": "Sat",
-        "start": "10",
-        "end": 2
-      },
-      {
-        "day": "Thur",
-        "start": 4,
-        "end": 9
-      },
-      {
-        "day": "Wed",
-        "start": 4,
-        "end": 9
-      },
-      {
-        "day": "Mon",
-        "start": 4,
-        "end": 9
-      },
-      {
-        "day": "Tue",
-        "start": 4,
-        "end": 9
-      }
+      { "day": "Mon", "start": 9, "end": 4 },
+      { "day": "Tue", "start": 9, "end": 4 },
+      { "day": "Wed", "start": 9, "end": 4 },
+      { "day": "Thur", "start": 9, "end": 4 },
+      { "day": "Sat", "start": 10, "end": 5 }
     ],
     "social": [
-      {
-        "network": "facebook",
-        "iconPrefix": "fab",
-        "link": "https://www.facebook.com/ann.randall.90"
-      },
-      {
-        "network": "instagram",
-        "iconPrefix": "fab",
-        "link": "https://www.instagram.com/haircuttergrl"
-      }
+      { "network": "facebook", "iconPrefix": "fab", "link": "https://www.facebook.com/ann.randall.90" },
+      { "network": "instagram", "iconPrefix": "fab", "link": "https://www.instagram.com/haircuttergrl" }
     ],
     "bio": {
       "short": "Ann specializes in creating movement and shine for your best, most effortless styles.",
@@ -871,123 +362,46 @@
     },
     "serviceGroups": [
       {
-        "name": "all",
+        "name": "haircuts & styling",
         "services": [
-          {
-            "name": "womens haircut",
-            "price": 50,
-            "requiresConsultation": false
-          },
-          {
-            "name": "mens haircut",
-            "price": 45,
-            "requiresConsultation": false
-          },
-          {
-            "name": "youth haircut",
-            "price": 30,
-            "requiresConsultation": false
-          },
-          {
-            "name": "blowout",
-            "price": 50,
-            "requiresConsultation": false
-          },
-          {
-            "name": "special event style",
-            "price": 85,
-            "requiresConsultation": false
-          },
-          {
-            "name": "updo",
-            "price": 100,
-            "requiresConsultation": false
-          },
-          {
-            "name": "mens tint",
-            "price": 35,
-            "requiresConsultation": false
-          },
-          {
-            "name": "root tint",
-            "price": 80,
-            "requiresConsultation": false
-          },
-          {
-            "name": "root tint & gloss",
-            "price": 100,
-            "requiresConsultation": false
-          },
-          {
-            "name": "partial foil",
-            "price": 110,
-            "requiresConsultation": false
-          },
-          {
-            "name": "full foil",
-            "price": 130,
-            "requiresConsultation": false
-          },
-          {
-            "name": "partial balayage",
-            "price": 130,
-            "requiresConsultation": false
-          },
-          {
-            "name": "full balayage",
-            "price": 155,
-            "requiresConsultation": false
-          },
-          {
-            "name": "partial balayage / foil with root tint",
-            "price": 155,
-            "requiresConsultation": false
-          },
-          {
-            "name": "full balayage / foil with root tint",
-            "price": 180,
-            "requiresConsultation": false
-          },
-          {
-            "name": "bleach and tint",
-            "price": 200,
-            "requiresConsultation": false
-          },
-          {
-            "name": "glossing treatment with blowout",
-            "price": 65,
-            "requiresConsultation": false
-          },
-          {
-            "name": "olaplex treatment with blowout",
-            "price": 65,
-            "requiresConsultation": false
-          },
-          {
-            "name": "texture wave",
-            "price": 100,
-            "requiresConsultation": false
-          },
-          {
-            "name": "specialty texture wrap",
-            "price": 200,
-            "requiresConsultation": false
-          },
-          {
-            "name": "lasio smoothing treatment",
-            "price": 250,
-            "requiresConsultation": false
-          },
-          {
-            "name": "eyebrow wax",
-            "price": 15,
-            "requiresConsultation": false
-          },
-          {
-            "name": "upper lip wax",
-            "price": 15,
-            "requiresConsultation": false
-          }
+          { "name": "womens haircut", "price": 50, "requiresConsultation": false },
+          { "name": "mens haircut", "price": 45, "requiresConsultation": false },
+          { "name": "youth haircut", "price": 30, "requiresConsultation": false },
+          { "name": "blowout", "price": 50, "requiresConsultation": false },
+          { "name": "special event style", "price": 85, "requiresConsultation": false },
+          { "name": "updo", "price": 100, "requiresConsultation": false }
+        ]
+      },
+      {
+        "name": "color",
+        "services": [
+          { "name": "mens tint", "price": 35, "requiresConsultation": false },
+          { "name": "root tint", "price": 80, "requiresConsultation": false },
+          { "name": "root tint & gloss", "price": 100, "requiresConsultation": false },
+          { "name": "partial foil", "price": 110, "requiresConsultation": false },
+          { "name": "full foil", "price": 130, "requiresConsultation": false },
+          { "name": "partial balayage", "price": 130, "requiresConsultation": false },
+          { "name": "full balayage", "price": 155, "requiresConsultation": false },
+          { "name": "partial balayage / foil with root tint", "price": 155, "requiresConsultation": false },
+          { "name": "full balayage / foil with root tint", "price": 180, "requiresConsultation": false },
+          { "name": "bleach and tint", "price": 200, "requiresConsultation": false },
+          { "name": "glossing treatment with blowout", "price": 65, "requiresConsultation": false },
+          { "name": "olaplex treatment with blowout", "price": 65, "requiresConsultation": false }
+        ]
+      },
+      {
+        "name": "treatments",
+        "services": [
+          { "name": "texture wave", "price": 100, "requiresConsultation": false },
+          { "name": "specialty texture wrap", "price": 200, "requiresConsultation": false },
+          { "name": "lasio smoothing treatment", "price": 250, "requiresConsultation": false }
+        ]
+      },
+      {
+        "name": "waxing",
+        "services": [
+          { "name": "eyebrow wax", "price": 15, "requiresConsultation": false },
+          { "name": "upper lip wax", "price": 15, "requiresConsultation": false }
         ]
       }
     ]
@@ -998,18 +412,14 @@
     "title": "stylist | stp",
     "image": "team/stpaul/noelle",
     "locations": ["saint-paul"],
-    "hours": [],
+    "hours": [
+      { "day": "Tue", "start": 9, "end": 9 },
+      { "day": "Thur", "start": 9, "end": 9 },
+      { "day": "Sat", "start": 10, "end": 8 }
+    ],
     "social": [
-      {
-        "network": "facebook",
-        "iconPrefix": "fab",
-        "link": "https://www.facebook.com/elleon.yssenneh"
-      },
-      {
-        "network": "instagram",
-        "iconPrefix": "fab",
-        "link": "https://www.instagram.com/noellehennessy/?hl=en"
-      }
+      { "network": "facebook", "iconPrefix": "fab", "link": "https://www.facebook.com/elleon.yssenneh" },
+      { "network": "instagram", "iconPrefix": "fab", "link": "https://www.instagram.com/noellehennessy/?hl=en" }
     ],
     "bio": {
       "short": "",
@@ -1017,68 +427,33 @@
     },
     "serviceGroups": [
       {
-        "name": "all",
+        "name": "haircuts & styling",
         "services": [
-          {
-            "name": "haircut",
-            "price": 55,
-            "requiresConsultation": false
-          },
-          {
-            "name": "mens cut",
-            "price": 40,
-            "requiresConsultation": false
-          },
-          {
-            "name": "bang trim",
-            "price": 0,
-            "requiresConsultation": false
-          },
-          {
-            "name": "tint",
-            "price": 60,
-            "requiresConsultation": false
-          },
-          {
-            "name": "partial foil",
-            "price": 85,
-            "requiresConsultation": false
-          },
-          {
-            "name": "full foil",
-            "price": 110,
-            "requiresConsultation": false
-          },
-          {
-            "name": "updo's (in salon)",
-            "price": 90,
-            "requiresConsultation": false
-          },
-          {
-            "name": "blow out",
-            "price": 45,
-            "requiresConsultation": false
-          },
-          {
-            "name": "updo's (on site)",
-            "price": 240,
-            "requiresConsultation": false
-          },
-          {
-            "name": "brow wax",
-            "price": 22,
-            "requiresConsultation": false
-          },
-          {
-            "name": "conditioning treatment",
-            "price": 15,
-            "requiresConsultation": false
-          },
-          {
-            "name": "lip or chin wax",
-            "price": 10,
-            "requiresConsultation": false
-          }
+          { "name": "haircut", "price": 55, "requiresConsultation": false },
+          { "name": "mens cut", "price": 40, "requiresConsultation": false },
+          { "name": "bang trim", "price": 0, "requiresConsultation": false },
+          { "name": "updo's (in salon)", "price": 90, "requiresConsultation": false },
+          { "name": "blow out", "price": 45, "requiresConsultation": false },
+          { "name": "updo's (on site)", "price": 240, "requiresConsultation": false }
+        ]
+      },
+      {
+        "name": "color",
+        "services": [
+          { "name": "tint", "price": 60, "requiresConsultation": false },
+          { "name": "partial foil", "price": 85, "requiresConsultation": false },
+          { "name": "full foil", "price": 110, "requiresConsultation": false }
+        ]
+      },
+      {
+        "name": "treatments",
+        "services": [{ "name": "conditioning treatment", "price": 15, "requiresConsultation": false }]
+      },
+      {
+        "name": "waxing",
+        "services": [
+          { "name": "brow wax", "price": 22, "requiresConsultation": false },
+          { "name": "lip or chin wax", "price": 10, "requiresConsultation": false }
         ]
       }
     ]
@@ -1090,38 +465,13 @@
     "image": "e_grayscale/team/stpaul/erin-270",
     "locations": ["saint-paul"],
     "hours": [
-      {
-        "day": "Sat",
-        "start": "9",
-        "end": 4
-      },
-      {
-        "day": "Tue",
-        "start": 2,
-        "end": 8
-      },
-      {
-        "day": "Wed",
-        "start": "9",
-        "end": 8
-      },
-      {
-        "day": "Fri",
-        "start": "9",
-        "end": 2
-      }
+      { "day": "Tue", "start": 11, "end": 4 },
+      { "day": "Wed", "start": 10, "end": 9 },
+      { "day": "Sat", "start": 9, "end": 3 }
     ],
     "social": [
-      {
-        "network": "facebook",
-        "iconPrefix": "fab",
-        "link": "https://www.facebook.com/erin.bartholow"
-      },
-      {
-        "network": "instagram",
-        "iconPrefix": "fab",
-        "link": "https://www.instagram.com/erinbartholowgilmore/?hl=en"
-      }
+      { "network": "facebook", "iconPrefix": "fab", "link": "https://www.facebook.com/erin.bartholow" },
+      { "network": "instagram", "iconPrefix": "fab", "link": "https://www.instagram.com/erinbartholowgilmore/?hl=en" }
     ],
     "bio": {
       "short": "",
@@ -1129,63 +479,29 @@
     },
     "serviceGroups": [
       {
-        "name": "all",
+        "name": "haircuts & styling",
         "services": [
-          {
-            "name": "haircut",
-            "price": 40,
-            "requiresConsultation": false
-          },
-          {
-            "name": "bang trim",
-            "price": 0,
-            "requiresConsultation": false
-          },
-          {
-            "name": "blowout",
-            "price": 40,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Kids Cut (under 10)",
-            "price": 25,
-            "requiresConsultation": false
-          },
-          {
-            "name": "tint",
-            "price": 60,
-            "requiresConsultation": false
-          },
-          {
-            "name": "full foil",
-            "price": 125,
-            "requiresConsultation": false
-          },
-          {
-            "name": "partial foil",
-            "price": 95,
-            "requiresConsultation": false
-          },
-          {
-            "name": "lip & chin wax",
-            "price": 10,
-            "requiresConsultation": false
-          },
-          {
-            "name": "brow wax",
-            "price": 15,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Balayge",
-            "price": 115,
-            "requiresConsultation": false
-          },
-          {
-            "name": "bleach & tone",
-            "price": 105,
-            "requiresConsultation": false
-          }
+          { "name": "haircut", "price": 40, "requiresConsultation": false },
+          { "name": "bang trim", "price": 0, "requiresConsultation": false },
+          { "name": "blowout", "price": 40, "requiresConsultation": false },
+          { "name": "Kids Cut (under 10)", "price": 25, "requiresConsultation": false }
+        ]
+      },
+      {
+        "name": "color",
+        "services": [
+          { "name": "tint", "price": 60, "requiresConsultation": false },
+          { "name": "full foil", "price": 125, "requiresConsultation": false },
+          { "name": "partial foil", "price": 95, "requiresConsultation": false },
+          { "name": "Balayge", "price": 115, "requiresConsultation": false },
+          { "name": "bleach & tone", "price": 105, "requiresConsultation": false }
+        ]
+      },
+      {
+        "name": "waxing",
+        "services": [
+          { "name": "lip & chin wax", "price": 10, "requiresConsultation": false },
+          { "name": "brow wax", "price": 15, "requiresConsultation": false }
         ]
       }
     ]
@@ -1197,21 +513,9 @@
     "image": "e_grayscale/team/stpaul/sarah-270",
     "locations": ["saint-paul"],
     "hours": [
-      {
-        "day": "Wed",
-        "start": "10",
-        "end": 7
-      },
-      {
-        "day": "Fri",
-        "start": "10",
-        "end": 7
-      },
-      {
-        "day": "Sat",
-        "start": "10",
-        "end": 4
-      }
+      { "day": "Mon", "start": 10, "end": 8 },
+      { "day": "Wed", "start": 10, "end": 8 },
+      { "day": "Fri", "start": 10, "end": 8 }
     ],
     "social": [
       {
@@ -1226,89 +530,38 @@
     },
     "serviceGroups": [
       {
-        "name": "all",
+        "name": "haircuts & styling",
         "services": [
-          {
-            "name": "womans cut",
-            "price": 60,
-            "requiresConsultation": false
-          },
-          {
-            "name": "mens cut",
-            "price": 45,
-            "requiresConsultation": false
-          },
-          {
-            "name": "bang trim",
-            "price": 0,
-            "requiresConsultation": false
-          },
-          {
-            "name": "blowout",
-            "price": 55,
-            "requiresConsultation": false
-          },
-          {
-            "name": "updo's (in salon)",
-            "price": 75,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Bridal Updo",
-            "price": 85,
-            "requiresConsultation": false
-          },
-          {
-            "name": "tint",
-            "price": 85,
-            "requiresConsultation": false
-          },
-          {
-            "name": "full foil",
-            "price": 125,
-            "requiresConsultation": false
-          },
-          {
-            "name": "partial foil",
-            "price": 95,
-            "requiresConsultation": false
-          },
-          {
-            "name": "20pk foils",
-            "price": 75,
-            "requiresConsultation": false
-          },
-          {
-            "name": "root touch up",
-            "price": 75,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Baylage",
-            "price": 125,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Hombre",
-            "price": 125,
-            "requiresConsultation": false
-          },
-          {
-            "name": "brow waxing",
-            "price": 20,
-            "requiresConsultation": false
-          },
-          {
-            "name": "lip or chin wax",
-            "price": 15,
-            "requiresConsultation": false
-          },
-          {
-            "name": "extensions",
-            "price": 200,
-            "requiresConsultation": false
-          }
+          { "name": "womans cut", "price": 60, "requiresConsultation": false },
+          { "name": "mens cut", "price": 45, "requiresConsultation": false },
+          { "name": "bang trim", "price": 0, "requiresConsultation": false },
+          { "name": "blowout", "price": 55, "requiresConsultation": false },
+          { "name": "updo's (in salon)", "price": 75, "requiresConsultation": false },
+          { "name": "Bridal Updo", "price": 85, "requiresConsultation": false }
         ]
+      },
+      {
+        "name": "color",
+        "services": [
+          { "name": "tint", "price": 85, "requiresConsultation": false },
+          { "name": "full foil", "price": 125, "requiresConsultation": false },
+          { "name": "partial foil", "price": 95, "requiresConsultation": false },
+          { "name": "20pk foils", "price": 75, "requiresConsultation": false },
+          { "name": "root touch up", "price": 75, "requiresConsultation": false },
+          { "name": "Baylage", "price": 125, "requiresConsultation": false },
+          { "name": "Hombre", "price": 125, "requiresConsultation": false }
+        ]
+      },
+      {
+        "name": "waxing",
+        "services": [
+          { "name": "brow waxing", "price": 20, "requiresConsultation": false },
+          { "name": "lip or chin wax", "price": 15, "requiresConsultation": false }
+        ]
+      },
+      {
+        "name": "extensions",
+        "services": [{ "name": "extensions", "price": "200+", "requiresConsultation": true }]
       }
     ]
   },
@@ -1319,31 +572,9 @@
     "image": "team/stpaul/sue",
     "locations": ["saint-paul"],
     "hours": [
-      {
-        "day": "Thur",
-        "start": "10",
-        "end": 6
-      },
-      {
-        "day": "Fri",
-        "start": "10",
-        "end": 6
-      },
-      {
-        "day": "Sat",
-        "start": "9",
-        "end": 4
-      },
-      {
-        "day": "Mon",
-        "start": "9",
-        "end": 7
-      },
-      {
-        "day": "Wed",
-        "start": "10",
-        "end": 7
-      }
+      { "day": "Mon", "start": 10, "end": 7 },
+      { "day": "Wed", "start": 10, "end": 7 },
+      { "day": "Thur", "start": 10, "end": 6 }
     ],
     "social": [
       {
@@ -1358,48 +589,26 @@
     },
     "serviceGroups": [
       {
-        "name": "all",
+        "name": "manicures",
         "services": [
-          {
-            "name": "Manicure",
-            "price": 35,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Shellac Manicure",
-            "price": 40,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Spa Pedicure",
-            "price": 60,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Mini Pedicure",
-            "price": 50,
-            "requiresConsultation": false
-          },
-          {
-            "name": "toe polish change",
-            "price": 30,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Hard Gel Full Set",
-            "price": 50,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Hard Gel Fill",
-            "price": 40,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Add shellac polish to any foot service",
-            "price": 5,
-            "requiresConsultation": false
-          }
+          { "name": "Manicure", "price": 35, "requiresConsultation": false },
+          { "name": "Shellac Manicure", "price": 40, "requiresConsultation": false },
+          { "name": "Hard Gel Full Set", "price": 50, "requiresConsultation": false },
+          { "name": "Hard Gel Fill", "price": 40, "requiresConsultation": false }
+        ]
+      },
+      {
+        "name": "pedicures",
+        "services": [
+          { "name": "Spa Pedicure", "price": 60, "requiresConsultation": false },
+          { "name": "Mini Pedicure", "price": 50, "requiresConsultation": false }
+        ]
+      },
+      {
+        "name": "add ons",
+        "services": [
+          { "name": "toe polish change", "price": 30, "requiresConsultation": false },
+          { "name": "Add shellac polish to any foot service", "price": 5, "requiresConsultation": false }
         ]
       }
     ]
@@ -1411,31 +620,10 @@
     "image": "female-silhouette",
     "locations": ["minneapolis"],
     "hours": [
-      {
-        "day": "Sat",
-        "start": "9",
-        "end": 5
-      },
-      {
-        "day": "Thur",
-        "start": "11",
-        "end": 7
-      },
-      {
-        "day": "Wed",
-        "start": "11",
-        "end": 7
-      },
-      {
-        "day": "Fri",
-        "start": "11",
-        "end": 7
-      },
-      {
-        "day": "Tue",
-        "start": "10",
-        "end": 7
-      }
+      { "day": "Tue", "start": 11, "end": 8 },
+      { "day": "Wed", "start": 11, "end": 7 },
+      { "day": "Thur", "start": 11, "end": 8 },
+      { "day": "Sat", "start": 10, "end": 6 }
     ],
     "social": [
       {
@@ -1450,43 +638,25 @@
     },
     "serviceGroups": [
       {
-        "name": "all",
+        "name": "manicure",
         "services": [
-          {
-            "name": "manicure (60 min)",
-            "price": 47,
-            "requiresConsultation": false
-          },
-          {
-            "name": "no polish manicure (45 min)",
-            "price": 37,
-            "requiresConsultation": false
-          },
-          {
-            "name": "pedicure (90 min)",
-            "price": 85,
-            "requiresConsultation": false
-          },
-          {
-            "name": "no polish pedicure (75 min)",
-            "price": 75,
-            "requiresConsultation": false
-          },
-          {
-            "name": "express pedicure (75 min)",
-            "price": 75,
-            "requiresConsultation": false
-          },
-          {
-            "name": "add on gel polish (15 min)",
-            "price": 10,
-            "requiresConsultation": false
-          },
-          {
-            "name": "add on gel polish removal (15 min)",
-            "price": 10,
-            "requiresConsultation": false
-          }
+          { "name": "manicure (60 min)", "price": 47, "requiresConsultation": false },
+          { "name": "no polish manicure (45 min)", "price": 37, "requiresConsultation": false }
+        ]
+      },
+      {
+        "name": "pedicures",
+        "services": [
+          { "name": "pedicure (90 min)", "price": 85, "requiresConsultation": false },
+          { "name": "no polish pedicure (75 min)", "price": 75, "requiresConsultation": false },
+          { "name": "express pedicure (75 min)", "price": 75, "requiresConsultation": false }
+        ]
+      },
+      {
+        "name": "add ons",
+        "services": [
+          { "name": "gel polish (15 min)", "price": 10, "requiresConsultation": false },
+          { "name": "gel polish removal (15 min)", "price": 10, "requiresConsultation": false }
         ]
       }
     ]
@@ -1498,21 +668,9 @@
     "image": "team/stpaul/lori",
     "locations": ["saint-paul"],
     "hours": [
-      {
-        "day": "Fri",
-        "start": "10",
-        "end": 5
-      },
-      {
-        "day": "Thur",
-        "start": "10",
-        "end": 7
-      },
-      {
-        "day": "Tue",
-        "start": "9",
-        "end": 3
-      }
+      { "day": "Tue", "start": 10, "end": 6 },
+      { "day": "Thur", "start": 10, "end": 7 },
+      { "day": "Fri", "start": 10, "end": 6 }
     ],
     "social": [
       {
@@ -1527,63 +685,29 @@
     },
     "serviceGroups": [
       {
-        "name": "all",
+        "name": "haircuts & styling",
         "services": [
-          {
-            "name": "womens haircut",
-            "price": 45,
-            "requiresConsultation": false
-          },
-          {
-            "name": "mens haircut",
-            "price": 35,
-            "requiresConsultation": false
-          },
-          {
-            "name": "kids haircut",
-            "price": 25,
-            "requiresConsultation": false
-          },
-          {
-            "name": "bang/neck trim",
-            "price": 0,
-            "requiresConsultation": false
-          },
-          {
-            "name": "blowout",
-            "price": 35,
-            "requiresConsultation": false
-          },
-          {
-            "name": "tint",
-            "price": 75,
-            "requiresConsultation": false
-          },
-          {
-            "name": "full foil",
-            "price": 95,
-            "requiresConsultation": false
-          },
-          {
-            "name": "partial foil",
-            "price": 85,
-            "requiresConsultation": false
-          },
-          {
-            "name": "brow wax",
-            "price": 15,
-            "requiresConsultation": false
-          },
-          {
-            "name": "perm",
-            "price": 85,
-            "requiresConsultation": false
-          },
-          {
-            "name": "lip and chin wax",
-            "price": 15,
-            "requiresConsultation": false
-          }
+          { "name": "womens haircut", "price": 45, "requiresConsultation": false },
+          { "name": "mens haircut", "price": 35, "requiresConsultation": false },
+          { "name": "kids haircut", "price": 25, "requiresConsultation": false },
+          { "name": "bang/neck trim", "price": 0, "requiresConsultation": false },
+          { "name": "blowout", "price": 35, "requiresConsultation": false },
+          { "name": "perm", "price": 85, "requiresConsultation": false }
+        ]
+      },
+      {
+        "name": "color",
+        "services": [
+          { "name": "tint", "price": 75, "requiresConsultation": false },
+          { "name": "full foil", "price": 95, "requiresConsultation": false },
+          { "name": "partial foil", "price": 85, "requiresConsultation": false }
+        ]
+      },
+      {
+        "name": "waxing",
+        "services": [
+          { "name": "brow wax", "price": 15, "requiresConsultation": false },
+          { "name": "lip and chin wax", "price": 15, "requiresConsultation": false }
         ]
       }
     ]
@@ -1595,38 +719,14 @@
     "image": "team/stpaul/angela",
     "locations": ["saint-paul"],
     "hours": [
-      {
-        "day": "Thur",
-        "start": "9",
-        "end": 7
-      },
-      {
-        "day": "Wed",
-        "start": "10",
-        "end": 6
-      },
-      {
-        "day": "Tue",
-        "start": "9",
-        "end": 7
-      },
-      {
-        "day": "Fri",
-        "start": "10",
-        "end": 6
-      }
+      { "day": "Tue", "start": 9, "end": 7 },
+      { "day": "Wed", "start": 10, "end": 6 },
+      { "day": "Thur", "start": 9, "end": 7 },
+      { "day": "Fri", "start": 10, "end": 6 }
     ],
     "social": [
-      {
-        "network": "facebook",
-        "iconPrefix": "fab",
-        "link": "https://www.facebook.com/angela.ebbers"
-      },
-      {
-        "network": "instagram",
-        "iconPrefix": "fab",
-        "link": "https://www.instagram.com/angelaebbers"
-      }
+      { "network": "facebook", "iconPrefix": "fab", "link": "https://www.facebook.com/angela.ebbers" },
+      { "network": "instagram", "iconPrefix": "fab", "link": "https://www.instagram.com/angelaebbers" }
     ],
     "bio": {
       "short": "",
@@ -1634,63 +734,32 @@
     },
     "serviceGroups": [
       {
-        "name": "all",
+        "name": "haircuts & styling",
         "services": [
-          {
-            "name": "haircut",
-            "price": 60,
-            "requiresConsultation": false
-          },
-          {
-            "name": "kids haircut",
-            "price": 40,
-            "requiresConsultation": false
-          },
-          {
-            "name": "blowout",
-            "price": 50,
-            "requiresConsultation": false
-          },
-          {
-            "name": "tint",
-            "price": 65,
-            "requiresConsultation": false
-          },
-          {
-            "name": "full foil",
-            "price": 90,
-            "requiresConsultation": false
-          },
-          {
-            "name": "partial foil",
-            "price": 80,
-            "requiresConsultation": false
-          },
-          {
-            "name": "bleach & tone",
-            "price": 75,
-            "requiresConsultation": false
-          },
-          {
-            "name": "brow wax",
-            "price": 15,
-            "requiresConsultation": false
-          },
-          {
-            "name": "lip or chin waxing",
-            "price": 10,
-            "requiresConsultation": false
-          },
-          {
-            "name": "updo's (in salon)",
-            "price": 80,
-            "requiresConsultation": false
-          },
-          {
-            "name": "conditioning treatment",
-            "price": 60,
-            "requiresConsultation": false
-          }
+          { "name": "haircut", "price": 60, "requiresConsultation": false },
+          { "name": "kids haircut", "price": 40, "requiresConsultation": false },
+          { "name": "blowout", "price": 50, "requiresConsultation": false },
+          { "name": "updo's (in salon)", "price": 80, "requiresConsultation": false }
+        ]
+      },
+      {
+        "name": "color",
+        "services": [
+          { "name": "tint", "price": 65, "requiresConsultation": false },
+          { "name": "full foil", "price": 90, "requiresConsultation": false },
+          { "name": "partial foil", "price": 80, "requiresConsultation": false },
+          { "name": "bleach & tone", "price": 75, "requiresConsultation": false }
+        ]
+      },
+      {
+        "name": "treatments",
+        "services": [{ "name": "conditioning treatment", "price": 60, "requiresConsultation": false }]
+      },
+      {
+        "name": "waxing",
+        "services": [
+          { "name": "brow wax", "price": 15, "requiresConsultation": false },
+          { "name": "lip or chin waxing", "price": 10, "requiresConsultation": false }
         ]
       }
     ]
@@ -1702,72 +771,30 @@
     "image": "female-silhouette",
     "locations": ["minneapolis"],
     "hours": [
-      {
-        "day": "Fri",
-        "start": "10",
-        "end": 7
-      },
-      {
-        "day": "Thur",
-        "start": 5,
-        "end": 8
-      },
-      {
-        "day": "Wed",
-        "start": "11",
-        "end": 8
-      },
-      {
-        "day": "Tue",
-        "start": "11",
-        "end": 7
-      },
-      {
-        "day": "Sat",
-        "start": "10",
-        "end": 5
-      }
+      { "day": "Tue", "start": 12, "end": 7 },
+      { "day": "Wed", "start": 12, "end": 7 },
+      { "day": "Fri", "start": 12, "end": 7 },
+      { "day": "Sat", "start": 10, "end": 6 }
     ],
-    "social": [
-      {
-        "network": "instagram",
-        "iconPrefix": "fab",
-        "link": "https://www.instagram.com/l.g.stylist"
-      }
-    ],
+    "social": [{ "network": "instagram", "iconPrefix": "fab", "link": "https://www.instagram.com/l.g.stylist" }],
     "bio": {
       "short": "As a haircut specialist for 17yrs, my mission is to create low maintenance hair with tons of style! I listen to the clients needs and create the perfect look to work with their lifestyle.",
       "long": "# What should potential clients know about you?    <hr>I love to do short hair, modern bobs, and long layered haircuts. I specialize in razor cuts, low maintenance hair styles, thick, and curly/wavy hair.    <br>  # Education  <hr>Graduate from the Aveda Institute Minneapolis in 2001  9+ years experience at the premier Aveda salon in Minneapolis  Educator and mentor  Advanced training classes with Vivianne Mackinder, Nick Arrojo, and Ruth Roche, as well as many others.  "
     },
     "serviceGroups": [
       {
-        "name": "all",
+        "name": "services",
         "services": [
-          {
-            "name": "Haircut",
-            "price": 85,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Blowout",
-            "price": 65,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Updo",
-            "price": 125,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Olaplex add-on",
-            "price": 40,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Deep conditioning add-on",
-            "price": 25,
-            "requiresConsultation": false
-          }
+          { "name": "Haircut", "price": 85, "requiresConsultation": false },
+          { "name": "Blowout", "price": 65, "requiresConsultation": false },
+          { "name": "Updo", "price": 125, "requiresConsultation": false }
+        ]
+      },
+      {
+        "name": "addons",
+        "services": [
+          { "name": "Olaplex add-on", "price": 40, "requiresConsultation": false },
+          { "name": "Deep conditioning add-on", "price": 25, "requiresConsultation": false }
         ]
       }
     ]
@@ -1779,26 +806,9 @@
     "image": "team/minneapolis/jessica",
     "locations": ["minneapolis"],
     "hours": [
-      {
-        "day": "Sat",
-        "start": "9",
-        "end": 5
-      },
-      {
-        "day": "Fri",
-        "start": "10",
-        "end": 7
-      },
-      {
-        "day": "Thur",
-        "start": "10",
-        "end": 7
-      },
-      {
-        "day": "Wed",
-        "start": "10",
-        "end": 7
-      }
+      { "day": "Tue", "start": 10, "end": 8 },
+      { "day": "Thur", "start": 10, "end": 8 },
+      { "day": "Sat", "start": 9, "end": 6 }
     ],
     "social": [],
     "bio": {
@@ -1807,43 +817,15 @@
     },
     "serviceGroups": [
       {
-        "name": "all",
+        "name": "color and styling",
         "services": [
-          {
-            "name": "Full Highlight",
-            "price": 150,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Partial Highlight",
-            "price": 120,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Tint",
-            "price": 75,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Full Balayage",
-            "price": 160,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Partial Balayage",
-            "price": 130,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Keratin smoothing treatment",
-            "price": 275,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Blowout",
-            "price": 50,
-            "requiresConsultation": false
-          }
+          { "name": "Full Highlight", "price": 150, "requiresConsultation": false },
+          { "name": "Partial Highlight", "price": 120, "requiresConsultation": false },
+          { "name": "Tint", "price": 75, "requiresConsultation": false },
+          { "name": "Full Balayage", "price": 160, "requiresConsultation": false },
+          { "name": "Partial Balayage", "price": 130, "requiresConsultation": false },
+          { "name": "Keratin smoothing treatment", "price": 275, "requiresConsultation": false },
+          { "name": "Blowout", "price": 50, "requiresConsultation": false }
         ]
       }
     ]
@@ -1855,21 +837,10 @@
     "image": "team/minneapolis/erin-gonsier",
     "locations": ["minneapolis"],
     "hours": [
-      {
-        "day": "Wed",
-        "start": "10",
-        "end": 6
-      },
-      {
-        "day": "Fri",
-        "start": "11",
-        "end": 7
-      },
-      {
-        "day": "Thur",
-        "start": "11",
-        "end": 8
-      }
+      { "day": "Wed", "start": 10, "end": 6 },
+      { "day": "Thur", "start": 11, "end": 8 },
+      { "day": "Fri", "start": 11, "end": 7 },
+      { "day": "Sat", "start": 10, "end": 3 }
     ],
     "social": [],
     "bio": {
@@ -1877,59 +848,24 @@
       "long": "I have been working in Minneapolis since graduating Aveda Institute in 2005.  Along with offering all cutting and coloring services, and special occasion/bridal hair, I am also a certified Great Lengths Extension provider. I have been working with the premier extension company since the beginning of my career, so if you want as little as a trim or a major transformation I can help you. The bonus for me, is when an organic connection with a client blossoms and I truly believe that when that happens, that's where some of the most beautiful hair is found.  "
     },
     "serviceGroups": [
+      { "name": "haircuts & styling", "services": [] },
+      { "name": "color", "services": [] },
+      { "name": "treatments", "services": [] },
+      { "name": "waxing", "services": [] },
+      { "name": "addons", "services": [] },
       {
         "name": "all",
         "services": [
-          {
-            "name": "Haircut",
-            "price": 65,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Partial balayage",
-            "price": 130,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Full balayage",
-            "price": 150,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Partial foil",
-            "price": 120,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Full foil",
-            "price": 140,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Tint",
-            "price": 75,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Special occasion style/updo",
-            "price": 90,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Bridal Updo (includes trial)",
-            "price": 175,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Shampoo style",
-            "price": 45,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Extensions (quote with consultation)",
-            "price": null,
-            "requiresConsultation": false
-          }
+          { "name": "Haircut", "price": 65, "requiresConsultation": false },
+          { "name": "Partial balayage", "price": 130, "requiresConsultation": false },
+          { "name": "Full balayage", "price": 150, "requiresConsultation": false },
+          { "name": "Partial foil", "price": 120, "requiresConsultation": false },
+          { "name": "Full foil", "price": 140, "requiresConsultation": false },
+          { "name": "Tint", "price": 75, "requiresConsultation": false },
+          { "name": "Special occasion style/updo", "price": 90, "requiresConsultation": false },
+          { "name": "Bridal Updo (includes trial)", "price": 175, "requiresConsultation": false },
+          { "name": "Shampoo style", "price": 45, "requiresConsultation": false },
+          { "name": "Extensions (quote with consultation)", "price": null, "requiresConsultation": false }
         ]
       }
     ]
@@ -1941,21 +877,9 @@
     "image": "team/minneapolis/emily",
     "locations": ["minneapolis"],
     "hours": [
-      {
-        "day": "Wed",
-        "start": "10",
-        "end": 8
-      },
-      {
-        "day": "Fri",
-        "start": "10",
-        "end": 8
-      },
-      {
-        "day": "Sat",
-        "start": "9",
-        "end": 5
-      }
+      { "day": "Tue", "start": 10, "end": 4 },
+      { "day": "Wed", "start": 10, "end": 8 },
+      { "day": "Fri", "start": 10, "end": 8 }
     ],
     "social": [],
     "bio": {
@@ -1964,33 +888,13 @@
     },
     "serviceGroups": [
       {
-        "name": "all",
+        "name": "color",
         "services": [
-          {
-            "name": "Tint",
-            "price": 75,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Partial Foil",
-            "price": 125,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Full Foil",
-            "price": 145,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Partial Balayage",
-            "price": 125,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Full Balayage",
-            "price": 145,
-            "requiresConsultation": false
-          }
+          { "name": "Tint", "price": 75, "requiresConsultation": false },
+          { "name": "Partial Foil", "price": 125, "requiresConsultation": false },
+          { "name": "Full Foil", "price": 145, "requiresConsultation": false },
+          { "name": "Partial Balayage", "price": 125, "requiresConsultation": false },
+          { "name": "Full Balayage", "price": 145, "requiresConsultation": false }
         ]
       }
     ]
@@ -2002,38 +906,12 @@
     "image": "team/minneapolis/nicole",
     "locations": ["minneapolis"],
     "hours": [
-      {
-        "day": "Tue",
-        "start": "11",
-        "end": 7
-      },
-      {
-        "day": "Wed",
-        "start": "11",
-        "end": 7
-      },
-      {
-        "day": "Thur",
-        "start": "11",
-        "end": 7
-      },
-      {
-        "day": "Fri",
-        "start": "11",
-        "end": 7
-      },
-      {
-        "day": "Sat",
-        "start": "9",
-        "end": 5
-      }
+      { "day": "Mon", "start": 10, "end": 8 },
+      { "day": "Wed", "start": 10, "end": 8 },
+      { "day": "Fri", "start": 10, "end": 8 }
     ],
     "social": [
-      {
-        "network": "instagram",
-        "iconPrefix": "fab",
-        "link": "https://www.instagram.com/nicole_twito_beauty"
-      }
+      { "network": "instagram", "iconPrefix": "fab", "link": "https://www.instagram.com/nicole_twito_beauty" }
     ],
     "bio": {
       "short": "Nicole offers a full range of skin care, waxing, massage and make up services, in the salon as well as onsite for weddings and photoshoots.",
@@ -2041,154 +919,56 @@
     },
     "serviceGroups": [
       {
-        "name": "all",
+        "name": "Esthetics",
         "services": [
-          {
-            "name": "30 minute massage",
-            "price": 55,
-            "requiresConsultation": false
-          },
-          {
-            "name": "60 minute massage",
-            "price": 85,
-            "requiresConsultation": false
-          },
-          {
-            "name": "90 minute massage",
-            "price": 115,
-            "requiresConsultation": false
-          },
-          {
-            "name": "30 minute facial",
-            "price": 70,
-            "requiresConsultation": false
-          },
-          {
-            "name": "45 minute facial",
-            "price": 90,
-            "requiresConsultation": false
-          },
-          {
-            "name": "60 minute facial",
-            "price": 110,
-            "requiresConsultation": false
-          },
-          {
-            "name": "90 minute facial",
-            "price": 150,
-            "requiresConsultation": false
-          },
-          {
-            "name": "express peel (30 min)",
-            "price": 60,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Peel add-on",
-            "price": 15,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Bikini wax",
-            "price": 40,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Brazilian",
-            "price": 65,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Brow wax",
-            "price": 25,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Brow Tint",
-            "price": 25,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Cheek or Chin",
-            "price": 20,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Back or Chest wax",
-            "price": 50,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Ear wax",
-            "price": 15,
-            "requiresConsultation": false
-          },
-          {
-            "name": "French wax",
-            "price": 55,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Full Arm wax",
-            "price": 50,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Full chest wax",
-            "price": 60,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Full Face wax",
-            "price": 50,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Full Leg wax",
-            "price": 75,
-            "requiresConsultation": false
-          },
-          {
-            "name": "1/2 Arm wax",
-            "price": 40,
-            "requiresConsultation": false
-          },
-          {
-            "name": "1/2 Chest wax",
-            "price": 40,
-            "requiresConsultation": false
-          },
-          {
-            "name": "1/2 Leg wax",
-            "price": 50,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Lash Lift",
-            "price": 75,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Lash Lift & tint",
-            "price": 100,
-            "requiresConsultation": false
-          },
-          {
-            "name": "Lash tint",
-            "price": 30,
-            "requiresConsultation": false
-          },
-          {
-            "name": "false lashes",
-            "price": 15,
-            "requiresConsultation": false
-          },
-          {
-            "name": "makeup application",
-            "price": 70,
-            "requiresConsultation": false
-          }
+          { "name": "30 minute facial", "price": 70, "requiresConsultation": false },
+          { "name": "45 minute facial", "price": 90, "requiresConsultation": false },
+          { "name": "60 minute facial", "price": 110, "requiresConsultation": false },
+          { "name": "90 minute facial", "price": 150, "requiresConsultation": false },
+          { "name": "express peel (30 min)", "price": 60, "requiresConsultation": false },
+          { "name": "Peel add-on", "price": 15, "requiresConsultation": false }
         ]
+      },
+      {
+        "name": "waxing",
+        "services": [
+          { "name": "Bikini wax", "price": 40, "requiresConsultation": false },
+          { "name": "Brazilian", "price": 65, "requiresConsultation": false },
+          { "name": "Brow wax", "price": 25, "requiresConsultation": false },
+          { "name": "Cheek or Chin", "price": 20, "requiresConsultation": false },
+          { "name": "Back or Chest wax", "price": 50, "requiresConsultation": false },
+          { "name": "Ear wax", "price": 15, "requiresConsultation": false },
+          { "name": "French wax", "price": 55, "requiresConsultation": false },
+          { "name": "Full Arm wax", "price": 50, "requiresConsultation": false },
+          { "name": "Full chest wax", "price": 60, "requiresConsultation": false },
+          { "name": "Full Face wax", "price": 50, "requiresConsultation": false },
+          { "name": "Full Leg wax", "price": 75, "requiresConsultation": false },
+          { "name": "1/2 Arm wax", "price": 40, "requiresConsultation": false },
+          { "name": "1/2 Chest wax", "price": 40, "requiresConsultation": false },
+          { "name": "1/2 Leg wax", "price": 50, "requiresConsultation": false }
+        ]
+      },
+      {
+        "name": "massage",
+        "services": [
+          { "name": "30 minute massage", "price": 55, "requiresConsultation": false },
+          { "name": "60 minute massage", "price": 85, "requiresConsultation": false },
+          { "name": "90 minute massage", "price": 115, "requiresConsultation": false }
+        ]
+      },
+      {
+        "name": "lifts, lashes & tints",
+        "services": [
+          { "name": "Brow Tint", "price": 25, "requiresConsultation": false },
+          { "name": "Lash Lift", "price": 75, "requiresConsultation": false },
+          { "name": "Lash Lift & tint", "price": 100, "requiresConsultation": false },
+          { "name": "Lash tint", "price": 30, "requiresConsultation": false },
+          { "name": "false lashes", "price": 15, "requiresConsultation": false }
+        ]
+      },
+      {
+        "name": "makeup",
+        "services": [{ "name": "makeup application", "price": 70, "requiresConsultation": false }]
       }
     ]
   },
@@ -2198,7 +978,11 @@
     "title": "stylist | mpls",
     "image": "female-silhouette",
     "locations": ["minneapolis"],
-    "hours": [],
+    "hours": [
+      { "day": "Mon", "start": 10, "end": 8 },
+      { "day": "Thur", "start": 10, "end": 8 },
+      { "day": "Sat", "start": 9, "end": 6 }
+    ],
     "social": [],
     "bio": {
       "short": "",
@@ -2212,7 +996,10 @@
     "title": "stylist | mpls",
     "image": "female-silhouette",
     "locations": ["minneapolis"],
-    "hours": [],
+    "hours": [
+      { "day": "Fri", "start": 11, "end": 7 },
+      { "day": "Sat", "start": 9, "end": 5 }
+    ],
     "social": [],
     "bio": {
       "short": "",
