@@ -4,6 +4,7 @@ import { cldnryPath } from '../../helpers/cldnry-path';
 
 export default class ProfileRoute extends Route {
   @service data;
+  @service router;
 
   async model({ slug }) {
     return this.data.getArtist(slug);
@@ -14,8 +15,8 @@ export default class ProfileRoute extends Route {
     this.metaInfo = {
       title: `${model.name} | Petite Salon | ${model.locations.join(' | ')}`,
       imgSrc: `${cldnryPath(null, { src: model.image, width: 250 })}`,
-      description: model.bio.short
+      description: model.bio.short,
+      url: `https://petitesalon.com${this.router.currentURL}`
     };
-    // console.log({ model, meta: this.metaInfo });
   }
 }
