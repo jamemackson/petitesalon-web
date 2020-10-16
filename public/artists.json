@@ -24,14 +24,14 @@
         "name": "haircuts & styling",
         "services": [
           { "name": "haircut", "price": 70, "requiresConsultation": false },
-          { "name": "blowout", "price": 50, "requiresConsultation": false },
-          { "name": "kids haircut", "price": 35, "requiresConsultation": false }
+          { "name": "blowout", "price": 55, "requiresConsultation": false },
+          { "name": "kids cut (12 and under)", "price": 35, "requiresConsultation": false }
         ]
       },
       {
         "name": "color",
         "services": [
-          { "name": "tint", "price": 65, "requiresConsultation": false },
+          { "name": "tint", "price": 70, "requiresConsultation": false },
           { "name": "full foil", "price": 120, "requiresConsultation": false },
           { "name": "partial foil", "price": 80, "requiresConsultation": false },
           { "name": "bleach & tone", "price": 115, "requiresConsultation": false },
@@ -687,9 +687,9 @@
       {
         "name": "haircuts & styling",
         "services": [
-          { "name": "womens haircut", "price": 45, "requiresConsultation": false },
+          { "name": "womens haircut", "price": 48, "requiresConsultation": false },
           { "name": "mens haircut", "price": 35, "requiresConsultation": false },
-          { "name": "kids haircut", "price": 25, "requiresConsultation": false },
+          { "name": "kids haircut (12 & under)", "price": 30, "requiresConsultation": false },
           { "name": "bang/neck trim", "price": 0, "requiresConsultation": false },
           { "name": "blowout", "price": 35, "requiresConsultation": false },
           { "name": "perm", "price": 85, "requiresConsultation": false }
@@ -699,8 +699,8 @@
         "name": "color",
         "services": [
           { "name": "tint", "price": 75, "requiresConsultation": false },
-          { "name": "full foil", "price": 95, "requiresConsultation": false },
-          { "name": "partial foil", "price": 85, "requiresConsultation": false }
+          { "name": "full foil", "price": "95+", "requiresConsultation": false },
+          { "name": "partial foil", "price": "85+", "requiresConsultation": false }
         ]
       },
       {
@@ -848,24 +848,24 @@
       "long": "I have been working in Minneapolis since graduating Aveda Institute in 2005.  Along with offering all cutting and coloring services, and special occasion/bridal hair, I am also a certified Great Lengths Extension provider. I have been working with the premier extension company since the beginning of my career, so if you want as little as a trim or a major transformation I can help you. The bonus for me, is when an organic connection with a client blossoms and I truly believe that when that happens, that's where some of the most beautiful hair is found.  "
     },
     "serviceGroups": [
-      { "name": "haircuts & styling", "services": [] },
-      { "name": "color", "services": [] },
-      { "name": "treatments", "services": [] },
-      { "name": "waxing", "services": [] },
-      { "name": "addons", "services": [] },
       {
-        "name": "all",
+        "name": "haircuts & styling",
         "services": [
           { "name": "Haircut", "price": 65, "requiresConsultation": false },
-          { "name": "Partial balayage", "price": 130, "requiresConsultation": false },
-          { "name": "Full balayage", "price": 150, "requiresConsultation": false },
-          { "name": "Partial foil", "price": 120, "requiresConsultation": false },
-          { "name": "Full foil", "price": 140, "requiresConsultation": false },
-          { "name": "Tint", "price": 75, "requiresConsultation": false },
           { "name": "Special occasion style/updo", "price": 90, "requiresConsultation": false },
           { "name": "Bridal Updo (includes trial)", "price": 175, "requiresConsultation": false },
           { "name": "Shampoo style", "price": 45, "requiresConsultation": false },
           { "name": "Extensions (quote with consultation)", "price": null, "requiresConsultation": false }
+        ]
+      },
+      {
+        "name": "color",
+        "services": [
+          { "name": "Partial balayage", "price": 130, "requiresConsultation": false },
+          { "name": "Full balayage", "price": 150, "requiresConsultation": false },
+          { "name": "Partial foil", "price": 120, "requiresConsultation": false },
+          { "name": "Full foil", "price": 140, "requiresConsultation": false },
+          { "name": "Tint", "price": 75, "requiresConsultation": false }
         ]
       }
     ]
