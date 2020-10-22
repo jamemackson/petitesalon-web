@@ -134,9 +134,9 @@
       {
         "name": "Esthetics",
         "services": [
-          { "name": "30 min facial", "price": 60, "requiresConsultation": false },
-          { "name": "45 min facial", "price": 75, "requiresConsultation": false },
-          { "name": "60 min facial", "price": 90, "requiresConsultation": false },
+          { "name": "30 min facial", "price": 65, "requiresConsultation": false },
+          { "name": "45 min facial", "price": 80, "requiresConsultation": false },
+          { "name": "60 min facial", "price": 95, "requiresConsultation": false },
           { "name": "30 min Acne Peel", "price": 50, "requiresConsultation": false },
           { "name": "30 min Glow Facial", "price": 80, "requiresConsultation": false },
           { "name": "Microdermabrasion", "price": 105, "requiresConsultation": false },
@@ -191,8 +191,8 @@
     "locations": ["saint-paul"],
     "hours": [
       { "day": "Mon", "start": "12", "end": 6 },
-      { "day": "Wed", "start": "11", "end": 7 },
-      { "day": "Fri", "start": "12", "end": 6 }
+      { "day": "Wed", "start": "10", "end": 7 },
+      { "day": "Fri", "start": "10", "end": 6 }
     ],
     "social": [
       { "network": "facebook", "iconPrefix": "fab", "link": "https://www.facebook.com/allison.virtuebrown" },
@@ -209,31 +209,35 @@
           { "name": "haircut", "price": 55, "requiresConsultation": false },
           { "name": "Bang Trim", "price": 0, "requiresConsultation": false },
           { "name": "blowout", "price": 55, "requiresConsultation": false },
-          { "name": "updo's (in salon)", "price": 90, "requiresConsultation": false },
-          { "name": "updo's (on site)", "price": 240, "requiresConsultation": false },
-
-          { "name": "Extensions (consultation required)", "price": 120, "requiresConsultation": false }
+          { "name": "Extensions (consultation required)", "price": "200+", "requiresConsultation": true }
         ]
       },
       {
         "name": "color",
         "services": [
           { "name": "tint", "price": 60, "requiresConsultation": false },
-          { "name": "full foil", "price": 85, "requiresConsultation": false },
-          { "name": "partial foil", "price": 75, "requiresConsultation": false },
-          { "name": "Bleach & Tone", "price": 95, "requiresConsultation": false },
-          { "name": "Balayge", "price": 100, "requiresConsultation": false },
-          { "name": "Partial Balayge", "price": 80, "requiresConsultation": false }
+          { "name": "full foil", "price": 100, "requiresConsultation": false },
+          { "name": "partial foil", "price": 80, "requiresConsultation": false },
+          { "name": "Bleach & Tone", "price": 100, "requiresConsultation": false },
+          { "name": "Balayge", "price": 120, "requiresConsultation": false },
+          { "name": "Partial Balayge", "price": 100, "requiresConsultation": false }
         ]
       },
       {
         "name": "treatments",
         "services": [
           { "name": "conditioning treatment", "price": 25, "requiresConsultation": false },
-          { "name": "Brazilian Blowout", "price": 100, "requiresConsultation": false }
+          { "name": "Keratin Smoothing Treatment", "price": "200", "requiresConsultation": false },
+          { "name": "Brazilian Smoothing Blowout", "price": 100, "requiresConsultation": false }
         ]
       },
-      { "name": "waxing", "services": [{ "name": "facial waxing", "price": 15, "requiresConsultation": false }] }
+      {
+        "name": "waxing",
+        "services": [
+          { "name": "lip wax", "price": 15, "requiresConsultation": false },
+          { "name": "brow wax", "price": 15, "requiresConsultation": false }
+        ]
+      }
     ]
   },
   {
@@ -288,12 +292,10 @@
     "image": "team/stpaul/marne",
     "locations": ["saint-paul"],
     "hours": [
-      { "day": "Mon (alt weeks)", "start": 9, "end": 8 },
-      { "day": "Tue (alt weeks)", "start": 10, "end": 8 },
-      { "day": "Wed", "start": 10, "end": 3 },
-      { "day": "Thur", "start": 10, "end": 8 },
-      { "day": "Fri (alt weeks)", "start": 10, "end": 8 },
-      { "day": "Sat (alt weeks)", "start": 10, "end": 6 }
+      { "day": "Mon", "start": "9:45", "end": "7:30" },
+      { "day": "Tue", "start": "9:45", "end": "7:30" },
+      { "day": "Thur", "start": "9:45", "end": "7:30" },
+      { "day": "Fri", "start": "9:30", "end": "7:30" }
     ],
     "social": [{ "network": "facebook", "iconPrefix": "fab", "link": "https://www.facebook.com/marne.tschida" }],
     "bio": {
@@ -314,11 +316,11 @@
       {
         "name": "color",
         "services": [
-          { "name": "tint", "price": 70, "requiresConsultation": false },
-          { "name": "full foil", "price": 95, "requiresConsultation": false },
-          { "name": "partial foil", "price": 85, "requiresConsultation": false },
-          { "name": "Balayge", "price": 115, "requiresConsultation": false },
-          { "name": "bleach & tone", "price": 125, "requiresConsultation": false }
+          { "name": "tint", "price": "70+", "requiresConsultation": false },
+          { "name": "full foil", "price": "95+", "requiresConsultation": false },
+          { "name": "partial foil", "price": "85+", "requiresConsultation": false },
+          { "name": "Balayge", "price": "120+", "requiresConsultation": false },
+          { "name": "bleach & tone", "price": "125+", "requiresConsultation": false }
         ]
       },
       {
@@ -346,11 +348,11 @@
     "image": "female-silhouette",
     "locations": ["saint-paul"],
     "hours": [
-      { "day": "Mon", "start": 9, "end": 4 },
-      { "day": "Tue", "start": 9, "end": 4 },
-      { "day": "Wed", "start": 9, "end": 4 },
-      { "day": "Thur", "start": 9, "end": 4 },
-      { "day": "Sat", "start": 10, "end": 5 }
+      { "day": "Mon", "start": 4, "end": 9 },
+      { "day": "Tue", "start": 4, "end": 9 },
+      { "day": "Wed", "start": 4, "end": 9 },
+      { "day": "Thur", "start": 4, "end": 9 },
+      { "day": "Sat", "start": "9:30", "end": 5 }
     ],
     "social": [
       { "network": "facebook", "iconPrefix": "fab", "link": "https://www.facebook.com/ann.randall.90" },
@@ -467,6 +469,7 @@
     "hours": [
       { "day": "Tue", "start": 11, "end": 4 },
       { "day": "Wed", "start": 10, "end": 9 },
+      { "day": "Fri", "start": 12, "end": 4 },
       { "day": "Sat", "start": 9, "end": 3 }
     ],
     "social": [
@@ -720,9 +723,10 @@
     "locations": ["saint-paul"],
     "hours": [
       { "day": "Tue", "start": 9, "end": 7 },
-      { "day": "Wed", "start": 10, "end": 6 },
+      { "day": "Wed", "start": 9, "end": 6 },
       { "day": "Thur", "start": 9, "end": 7 },
-      { "day": "Fri", "start": 10, "end": 6 }
+      { "day": "Fri", "start": "9:45", "end": 6 },
+      { "day": "Sat", "start": 8, "end": 3 }
     ],
     "social": [
       { "network": "facebook", "iconPrefix": "fab", "link": "https://www.facebook.com/angela.ebbers" },
@@ -736,30 +740,29 @@
       {
         "name": "haircuts & styling",
         "services": [
-          { "name": "haircut", "price": 60, "requiresConsultation": false },
-          { "name": "kids haircut", "price": 40, "requiresConsultation": false },
+          { "name": "haircut", "price": 65, "requiresConsultation": false },
+          { "name": "kids haircut", "price": 45, "requiresConsultation": false },
           { "name": "blowout", "price": 50, "requiresConsultation": false },
-          { "name": "updo's (in salon)", "price": 80, "requiresConsultation": false }
+          { "name": "updo's (in salon)", "price": "85+", "requiresConsultation": false }
         ]
       },
       {
         "name": "color",
         "services": [
-          { "name": "tint", "price": 65, "requiresConsultation": false },
-          { "name": "full foil", "price": 90, "requiresConsultation": false },
-          { "name": "partial foil", "price": 80, "requiresConsultation": false },
-          { "name": "bleach & tone", "price": 75, "requiresConsultation": false }
+          { "name": "tint", "price": 70, "requiresConsultation": false },
+          { "name": "full foil", "price": 110, "requiresConsultation": false },
+          { "name": "partial foil", "price": 85, "requiresConsultation": false }
         ]
       },
       {
         "name": "treatments",
-        "services": [{ "name": "conditioning treatment", "price": 60, "requiresConsultation": false }]
+        "services": [{ "name": "conditioning treatment", "price": 65, "requiresConsultation": false }]
       },
       {
         "name": "waxing",
         "services": [
           { "name": "brow wax", "price": 15, "requiresConsultation": false },
-          { "name": "lip or chin waxing", "price": 10, "requiresConsultation": false }
+          { "name": "lip or chin waxing", "price": 15, "requiresConsultation": false }
         ]
       }
     ]
