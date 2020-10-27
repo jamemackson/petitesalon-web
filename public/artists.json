@@ -342,6 +342,53 @@
     ]
   },
   {
+    "name": "jacquie redlin",
+    "slug": "jacquie",
+    "title": "stylist | mpls",
+    "image": "female-silhouette",
+    "locations": ["minneapolis"],
+    "hours": [
+      { "day": "Mon", "start": "9", "end": "6" },
+      { "day": "Tue", "start": "4", "end": "8" },
+      { "day": "Wed", "start": "9", "end": "6" },
+      { "day": "Fri", "start": "4", "end": "8" }
+    ],
+    "social": [
+      { "network": "facebook", "iconPrefix": "fab", "link": "https://www.facebook.com/jacquie.redlin" },
+      { "network": "instagram", "iconPrefix": "fab", "link": "https://www.instagram.com/curlyhair_master" }
+    ],
+    "bio": {
+      "short": "",
+      "long": ""
+    },
+    "serviceGroups": [
+      {
+        "name": "haircuts & styling",
+        "services": [
+          { "name": "haircut", "price": 105, "requiresConsultation": false },
+          { "name": "kids haircut", "price": 65, "requiresConsultation": false },
+          { "name": "blow out / shampoo style", "price": 75, "requiresConsultation": false },
+          { "name": "special event style", "price": 75, "requiresConsultation": false }
+        ]
+      },
+      {
+        "name": "color",
+        "services": [
+          { "name": "tint", "price": "75", "requiresConsultation": false },
+          { "name": "full foil", "price": "150", "requiresConsultation": false },
+          { "name": "partial foil", "price": "110", "requiresConsultation": false },
+          { "name": "face frame foil", "price": "90", "requiresConsultation": false },
+          { "name": "balayage", "price": "150", "requiresConsultation": false },
+          { "name": "corrective color", "price": "350+", "requiresConsultation": false }
+        ]
+      },
+      {
+        "name": "treatments",
+        "services": [{ "name": "olaplex conditioning treatment", "price": 65, "requiresConsultation": false }]
+      }
+    ]
+  },
+  {
     "name": "ann",
     "slug": "ann",
     "title": "stylist | stp",
