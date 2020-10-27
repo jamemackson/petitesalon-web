@@ -60,7 +60,7 @@
     "name": "haley fruen",
     "slug": "haley",
     "title": "owner | stylist",
-    "image": "team/minneapolis/haley",
+    "image": "team/minneapolis/haley-fruen",
     "locations": ["saint-paul", "minneapolis"],
     "hours": [
       { "day": "Tue", "start": 10, "end": 8 },
@@ -342,57 +342,10 @@
     ]
   },
   {
-    "name": "jacquie redlin",
-    "slug": "jacquie",
-    "title": "stylist | mpls",
-    "image": "female-silhouette",
-    "locations": ["minneapolis"],
-    "hours": [
-      { "day": "Mon", "start": "9", "end": "6" },
-      { "day": "Tue", "start": "4", "end": "8" },
-      { "day": "Wed", "start": "9", "end": "6" },
-      { "day": "Fri", "start": "4", "end": "8" }
-    ],
-    "social": [
-      { "network": "facebook", "iconPrefix": "fab", "link": "https://www.facebook.com/jacquie.redlin" },
-      { "network": "instagram", "iconPrefix": "fab", "link": "https://www.instagram.com/curlyhair_master" }
-    ],
-    "bio": {
-      "short": "Jacquie specializes in naturally curly hair.  She takes a unique freehand approach to create effortless style, setting free your curls to fall naturally framing your face.",
-      "long": "She launched her career in the early 90's focusing in on education and inspiration.  She believes hair is an organic extension of your personality and is inspired by nature and its patterns, vintage shopping, modern art & music."
-    },
-    "serviceGroups": [
-      {
-        "name": "haircuts & styling",
-        "services": [
-          { "name": "haircut", "price": 105, "requiresConsultation": false },
-          { "name": "kids haircut", "price": 65, "requiresConsultation": false },
-          { "name": "blow out / shampoo style", "price": 75, "requiresConsultation": false },
-          { "name": "special event style", "price": 75, "requiresConsultation": false }
-        ]
-      },
-      {
-        "name": "color",
-        "services": [
-          { "name": "tint", "price": "75", "requiresConsultation": false },
-          { "name": "full foil", "price": "150", "requiresConsultation": false },
-          { "name": "partial foil", "price": "110", "requiresConsultation": false },
-          { "name": "face frame foil", "price": "90", "requiresConsultation": false },
-          { "name": "balayage", "price": "150", "requiresConsultation": false },
-          { "name": "corrective color", "price": "350+", "requiresConsultation": false }
-        ]
-      },
-      {
-        "name": "treatments",
-        "services": [{ "name": "olaplex conditioning treatment", "price": 65, "requiresConsultation": false }]
-      }
-    ]
-  },
-  {
     "name": "ann",
     "slug": "ann",
     "title": "stylist | stp",
-    "image": "female-silhouette",
+    "image": "team/stpaul/ann-erickson",
     "locations": ["saint-paul"],
     "hours": [
       { "day": "Mon", "start": 4, "end": 9 },
@@ -667,7 +620,7 @@
     "name": "atty",
     "slug": "atty",
     "title": "nail technician | mpls",
-    "image": "female-silhouette",
+    "image": "team/minneapolis/atty",
     "locations": ["minneapolis"],
     "hours": [
       { "day": "Tue", "start": 11, "end": 8 },
@@ -810,41 +763,6 @@
         "services": [
           { "name": "brow wax", "price": 15, "requiresConsultation": false },
           { "name": "lip or chin waxing", "price": 15, "requiresConsultation": false }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "lindsey gaudet",
-    "slug": "lindsey",
-    "title": "master stylist | mpls",
-    "image": "female-silhouette",
-    "locations": ["minneapolis"],
-    "hours": [
-      { "day": "Tue", "start": 12, "end": 7 },
-      { "day": "Wed", "start": 12, "end": 7 },
-      { "day": "Fri", "start": 12, "end": 7 },
-      { "day": "Sat", "start": 10, "end": 6 }
-    ],
-    "social": [{ "network": "instagram", "iconPrefix": "fab", "link": "https://www.instagram.com/l.g.stylist" }],
-    "bio": {
-      "short": "As a haircut specialist for 17yrs, my mission is to create low maintenance hair with tons of style! I listen to the clients needs and create the perfect look to work with their lifestyle.",
-      "long": "# What should potential clients know about you?    <hr>I love to do short hair, modern bobs, and long layered haircuts. I specialize in razor cuts, low maintenance hair styles, thick, and curly/wavy hair.    <br>  # Education  <hr>Graduate from the Aveda Institute Minneapolis in 2001  9+ years experience at the premier Aveda salon in Minneapolis  Educator and mentor  Advanced training classes with Vivianne Mackinder, Nick Arrojo, and Ruth Roche, as well as many others.  "
-    },
-    "serviceGroups": [
-      {
-        "name": "services",
-        "services": [
-          { "name": "Haircut", "price": 85, "requiresConsultation": false },
-          { "name": "Blowout", "price": 65, "requiresConsultation": false },
-          { "name": "Updo", "price": 125, "requiresConsultation": false }
-        ]
-      },
-      {
-        "name": "addons",
-        "services": [
-          { "name": "Olaplex add-on", "price": 40, "requiresConsultation": false },
-          { "name": "Deep conditioning add-on", "price": 25, "requiresConsultation": false }
         ]
       }
     ]
@@ -1023,6 +941,129 @@
     ]
   },
   {
+    "name": "haley canaday",
+    "slug": "haley-canaday",
+    "title": "stylist | mpls",
+    "image": "team/minneapolis/haley-canaday",
+    "locations": ["minneapolis"],
+    "hours": [
+      { "day": "Fri", "start": 11, "end": 7 },
+      { "day": "Sat", "start": 9, "end": 5 }
+    ],
+    "social": [{ "network": "facebook", "iconPrefix": "fab", "link": "https://www.facebook.com/haley.canaday" }],
+    "bio": {
+      "short": "",
+      "long": null
+    },
+    "serviceGroups": [
+      {
+        "name": "haircuts & styling",
+        "services": [
+          { "name": "haircut", "price": 60, "requiresConsultation": false },
+          { "name": "kids haircut", "price": 45, "requiresConsultation": false },
+          { "name": "blow out / shampoo style", "price": 45, "requiresConsultation": false },
+          { "name": "updo / special event style", "price": 75, "requiresConsultation": false }
+        ]
+      },
+      {
+        "name": "color",
+        "services": [
+          { "name": "tint", "price": "100", "requiresConsultation": false },
+          { "name": "full foil", "price": "120", "requiresConsultation": false },
+          { "name": "partial foil", "price": "95", "requiresConsultation": false },
+          { "name": "balayage", "price": "120", "requiresConsultation": false },
+          { "name": "bleach and tone", "price": "150", "requiresConsultation": false }
+        ]
+      },
+      {
+        "name": "treatments",
+        "services": [{ "name": "olaplex conditioning addon", "price": 25, "requiresConsultation": false }]
+      }
+    ]
+  },
+  {
+    "name": "lindsey gaudet",
+    "slug": "lindsey",
+    "title": "master stylist | mpls",
+    "image": "female-silhouette",
+    "locations": ["minneapolis"],
+    "hours": [
+      { "day": "Tue", "start": 12, "end": 7 },
+      { "day": "Wed", "start": 12, "end": 7 },
+      { "day": "Fri", "start": 12, "end": 7 },
+      { "day": "Sat", "start": 10, "end": 6 }
+    ],
+    "social": [{ "network": "instagram", "iconPrefix": "fab", "link": "https://www.instagram.com/l.g.stylist" }],
+    "bio": {
+      "short": "As a haircut specialist for 17yrs, my mission is to create low maintenance hair with tons of style! I listen to the clients needs and create the perfect look to work with their lifestyle.",
+      "long": "# What should potential clients know about you?    <hr>I love to do short hair, modern bobs, and long layered haircuts. I specialize in razor cuts, low maintenance hair styles, thick, and curly/wavy hair.    <br>  # Education  <hr>Graduate from the Aveda Institute Minneapolis in 2001  9+ years experience at the premier Aveda salon in Minneapolis  Educator and mentor  Advanced training classes with Vivianne Mackinder, Nick Arrojo, and Ruth Roche, as well as many others.  "
+    },
+    "serviceGroups": [
+      {
+        "name": "services",
+        "services": [
+          { "name": "Haircut", "price": 85, "requiresConsultation": false },
+          { "name": "Blowout", "price": 65, "requiresConsultation": false },
+          { "name": "Updo", "price": 125, "requiresConsultation": false }
+        ]
+      },
+      {
+        "name": "addons",
+        "services": [
+          { "name": "Olaplex add-on", "price": 40, "requiresConsultation": false },
+          { "name": "Deep conditioning add-on", "price": 25, "requiresConsultation": false }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "jacquie redlin",
+    "slug": "jacquie",
+    "title": "stylist | mpls",
+    "image": "female-silhouette",
+    "locations": ["minneapolis"],
+    "hours": [
+      { "day": "Mon", "start": "9", "end": "6" },
+      { "day": "Tue", "start": "4", "end": "8" },
+      { "day": "Wed", "start": "9", "end": "6" },
+      { "day": "Fri", "start": "4", "end": "8" }
+    ],
+    "social": [
+      { "network": "facebook", "iconPrefix": "fab", "link": "https://www.facebook.com/jacquie.redlin" },
+      { "network": "instagram", "iconPrefix": "fab", "link": "https://www.instagram.com/curlyhair_master" }
+    ],
+    "bio": {
+      "short": "Jacquie specializes in naturally curly hair.  She takes a unique freehand approach to create effortless style, setting free your curls to fall naturally framing your face.",
+      "long": "She launched her career in the early 90's focusing in on education and inspiration.  She believes hair is an organic extension of your personality and is inspired by nature and its patterns, vintage shopping, modern art & music."
+    },
+    "serviceGroups": [
+      {
+        "name": "haircuts & styling",
+        "services": [
+          { "name": "haircut", "price": 105, "requiresConsultation": false },
+          { "name": "kids haircut", "price": 65, "requiresConsultation": false },
+          { "name": "blow out / shampoo style", "price": 75, "requiresConsultation": false },
+          { "name": "special event style", "price": 75, "requiresConsultation": false }
+        ]
+      },
+      {
+        "name": "color",
+        "services": [
+          { "name": "tint", "price": "75", "requiresConsultation": false },
+          { "name": "full foil", "price": "150", "requiresConsultation": false },
+          { "name": "partial foil", "price": "110", "requiresConsultation": false },
+          { "name": "face frame foil", "price": "90", "requiresConsultation": false },
+          { "name": "balayage", "price": "150", "requiresConsultation": false },
+          { "name": "corrective color", "price": "350+", "requiresConsultation": false }
+        ]
+      },
+      {
+        "name": "treatments",
+        "services": [{ "name": "olaplex conditioning treatment", "price": 65, "requiresConsultation": false }]
+      }
+    ]
+  },
+  {
     "name": "lauren",
     "slug": "lauren",
     "title": "stylist | mpls",
@@ -1032,23 +1073,6 @@
       { "day": "Mon", "start": 10, "end": 8 },
       { "day": "Thur", "start": 10, "end": 8 },
       { "day": "Sat", "start": 9, "end": 6 }
-    ],
-    "social": [],
-    "bio": {
-      "short": "",
-      "long": null
-    },
-    "serviceGroups": []
-  },
-  {
-    "name": "haley canaday",
-    "slug": "haley-canaday",
-    "title": "stylist | mpls",
-    "image": "female-silhouette",
-    "locations": ["minneapolis"],
-    "hours": [
-      { "day": "Fri", "start": 11, "end": 7 },
-      { "day": "Sat", "start": 9, "end": 5 }
     ],
     "social": [],
     "bio": {
