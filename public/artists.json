@@ -693,9 +693,8 @@
           { "name": "womens haircut", "price": 48, "requiresConsultation": false },
           { "name": "mens haircut", "price": 35, "requiresConsultation": false },
           { "name": "kids haircut (12 & under)", "price": 30, "requiresConsultation": false },
-          { "name": "bang/neck trim", "price": 0, "requiresConsultation": false },
           { "name": "blowout", "price": 35, "requiresConsultation": false },
-          { "name": "perm", "price": 85, "requiresConsultation": false }
+          { "name": "perm", "price": 95, "requiresConsultation": false }
         ]
       },
       {
