@@ -984,7 +984,7 @@
     "name": "lindsey gaudet",
     "slug": "lindsey",
     "title": "master stylist | mpls",
-    "image": "female-silhouette",
+    "image": "team/minneapolis/lindsey",
     "locations": ["minneapolis"],
     "hours": [
       { "day": "Tue", "start": 12, "end": 7 },
