@@ -1079,5 +1079,59 @@
       "long": null
     },
     "serviceGroups": []
+  },
+  {
+    "name": "minjo",
+    "slug": "minjo",
+    "title": "stylist",
+    "image": "female-silhouette",
+    "locations": ["minneapolis"],
+    "hours": [
+      { "day": "Mon", "start": 10, "end": 7 },
+      { "day": "Tue", "start": 10, "end": 7 },
+      { "day": "Wed", "start": 10, "end": 7 },
+      { "day": "Thu", "start": 10, "end": 7 },
+      { "day": "Fri", "start": 10, "end": 7 },
+      { "day": "Sat", "start": 9, "end": 2 }
+    ],
+    "social": [
+      { "network": "facebook", "iconPrefix": "fab", "link": "https://www.facebook.com/profile.php?id=100008269681254" },
+      { "network": "instagram", "iconPrefix": "fab", "link": "https://www.instagram.com/mini_1/" }
+    ],
+    "bio": {
+      "short": "My specialty is tailoring haircuts to reveal the dynamic movement and texture in hair",
+      "long": ""
+    },
+    "serviceGroups": [
+      {
+        "name": "haircuts & styling",
+        "services": [
+          { "name": "Haircut", "price": 90, "requiresConsultation": false },
+          { "name": "Blowout", "price": 65, "requiresConsultation": false },
+          { "name": "Special event style", "price": 90, "requiresConsultation": false },
+          { "name": "Updo", "price": 130, "requiresConsultation": false }
+        ]
+      },
+      {
+        "name": "color",
+        "services": [
+          { "name": "Tint", "price": 70, "requiresConsultation": false },
+          { "name": "Partial Foil", "price": 125, "requiresConsultation": false },
+          { "name": "Full Foil", "price": 150, "requiresConsultation": false },
+          { "name": "Partial Balayage", "price": 140, "requiresConsultation": false },
+          { "name": "Full Balayage", "price": 165, "requiresConsultation": false },
+          { "name": "Partial Balayage with Tint", "price": 160, "requiresConsultation": false },
+          { "name": "Full Balayage with Tint", "price": 185, "requiresConsultation": false }
+        ]
+      },
+      {
+        "name": "treatments",
+        "services": [
+          { "name": "Olaplex treatment w/Blowout", "price": 85, "requiresConsultation": false },
+          { "name": "Deep Conditioning Treatment w/Blowout", "price": 85, "requiresConsultation": false },
+          { "name": "Stand alone treatments", "price": 25, "requiresConsultation": false }
+        ]
+      }
+    ]
   }
 ]
