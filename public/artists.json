@@ -1122,7 +1122,7 @@
     },
     "serviceGroups": [
       {
-        "name": "haircuts & styling",
+        "name": "",
         "services": [{ "name": "Haircut", "price": 65, "requiresConsultation": false }]
       }
     ]
