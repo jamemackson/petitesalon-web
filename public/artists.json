@@ -981,22 +981,43 @@
     ]
   },
   {
-    "name": "lindsey gaudet",
+    "name": "Lindsey Gaudet",
     "slug": "lindsey",
     "title": "master stylist | mpls",
     "image": "team/minneapolis/lindsey",
     "locations": ["minneapolis"],
     "hours": [
       { "day": "Tue", "start": 12, "end": 7 },
-      { "day": "Wed", "start": 12, "end": 7 },
+      { "day": "Wed", "start": 12, "end": "6:30" },
       { "day": "Fri", "start": 12, "end": 7 },
-      { "day": "Sat", "start": 10, "end": 6 }
+      { "day": "Sat", "start": 12, "end": 4 }
     ],
     "social": [{ "network": "instagram", "iconPrefix": "fab", "link": "https://www.instagram.com/l.g.stylist" }],
     "bio": {
-      "short": "As a haircut specialist for 17yrs, my mission is to create low maintenance hair with tons of style! I listen to the clients needs and create the perfect look to work with their lifestyle.",
-      "long": "# What should potential clients know about you?    <hr>I love to do short hair, modern bobs, and long layered haircuts. I specialize in razor cuts, low maintenance hair styles, thick, and curly/wavy hair.    <br>  # Education  <hr>Graduate from the Aveda Institute Minneapolis in 2001  9+ years experience at the premier Aveda salon in Minneapolis  Educator and mentor  Advanced training classes with Vivianne Mackinder, Nick Arrojo, and Ruth Roche, as well as many others.  "
+      "short": "As a haircut specialist for 19 yrs, my mission is to create low maintenance hair with tons of style! I listen to the clients needs and create the perfect look to work with their hair and lifestyle.",
+      "long": [
+        "I love to do short hair, modern bobs, and long layered haircuts. I specialize in razor cuts, low maintenance hair styles, thick, and curly/wavy hair.\n\n",
+        "19+ years experience in the industry, starting at the premier Aveda salon in Minneapolis Educator and mentor Advanced training classes with Vivianne Mackinder, Nick Arrojo, and Ruth Roche, as well as many others."
+      ]
     },
+    "policies": [
+      {
+        "name": "Cancellation // Reschedule Policy",
+        "content": "I understand that things come up and schedules change. If you need to cancel or reschedule your appointment, please give me at least 24 hrs notice. This gives me time to contact anyone on my wait list and fill your time slot. If you cancel less than 24 hrs prior to your appointment, you will be charged 50% of your scheduled appointment. You will NOT be charged in the case of illness (esp Covid related) or dangerous driving conditions due to weather. Be sure to communicate that."
+      },
+      {
+        "name": "No Show Policy",
+        "content": "I understand that emergencies and accidents happen. If you are unable to come in for your scheduled appointment, please let me know as soon as possible. No-call and no-shows will be charged 100% of their missed appointment.\n\nYou will NOT be charged in the case of illness (esp Covid related) or dangerous driving conditions due to weather. Be sure to communicate that."
+      },
+      {
+        "name": "Late Policy",
+        "content": "If you are running late, please let me know as soon as possible. If you arrive more than 15 min late we may not be able to perform all scheduled services."
+      },
+      {
+        "name": "Appointment Deposit",
+        "content": "I am now requiring a deposit of 20% to secure an appointment, this amount will be deducted from your total day of service."
+      }
+    ],
     "serviceGroups": [
       {
         "name": "services",
@@ -1010,7 +1031,7 @@
         "name": "addons",
         "services": [
           { "name": "Olaplex add-on", "price": 40, "requiresConsultation": false },
-          { "name": "Deep conditioning add-on", "price": 25, "requiresConsultation": false }
+          { "name": "Gloss add-on", "price": 25, "requiresConsultation": false }
         ]
       }
     ]
