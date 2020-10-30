@@ -31,7 +31,7 @@
       <h2>About {{@model.name}}</h2>
       <strong>{{#if @model.bio.short}}{{@model.bio.short}}{{else}}service provider bio coming soon{{/if}}</strong>
       <hr>
-      <p>{{{@model.bio.long}}}</p>
+      <p>{{markdown-to-html @model.bio.long}}</p>
       <h2>Services</h2>
       <div class="gridish mobile-centered">
       {{#if @model.serviceGroups}}
