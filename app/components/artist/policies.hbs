@@ -1,0 +1,6 @@
+{{#if @policies}}
+<h3>Policies</h3>
+{{#each @policies as |policy| }}
+  <Artist::Policy @policy={{policy}} />
+{{/each}}
+{{/if}}

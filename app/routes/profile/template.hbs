@@ -29,26 +29,9 @@
     </div>
     <div class="column column-66">
       <h2>About {{@model.name}}</h2>
-      <strong>{{#if @model.bio.short}}{{@model.bio.short}}{{else}}service provider bio coming soon{{/if}}</strong>
-      <hr>
-      <p>{{{@model.bio.long}}}</p>
-      <h2>Services</h2>
-      <div class="gridish mobile-centered">
-      {{#if @model.serviceGroups}}
-      {{#each @model.serviceGroups as |sg|}}
-        <div class="card">
-          <h3>{{sg.name}}</h3>
-          <ul>
-          {{#each sg.services as |service|}}
-            <li>{{{service.name}}} - ${{service.price}} {{if service.requiresConsultation '**'}}</li>
-          {{/each}}
-          </ul>
-        </div>
-      {{/each}}
-      {{else}}
-        <p>please <LinkTo @route="contact">contact us</LinkTo> for service details and to book an appointment</p>
-      {{/if}}
-      </div>
+      <Artist::Bio @artist={{@model}} />
+      <Artist::Services @artist={{@model}} />
+      <Artist::Policies @policies={{@model.policies}} />
     </div>
   </div>
 </div>
