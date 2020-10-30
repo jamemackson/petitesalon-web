@@ -4,12 +4,25 @@ import { action } from '@ember/object';
 import { computed } from '@ember/object';
 import fetch from 'fetch';
 
+function arrayMove(arr, old_index, new_index) {
+  if (new_index >= arr.length) {
+    var k = new_index - arr.length + 1;
+    while (k--) {
+      arr.push(undefined);
+    }
+  }
+  arr.splice(new_index, 0, arr.splice(old_index, 1)[0]);
+  return arr; // for testing
+}
+
 export default class DataService extends Service {
   @tracked artists = undefined;
 
   @computed('artists')
   get minneapolisArtists() {
-    return this.artists.filter((a) => a.locations.includes('minneapolis'));
+    const data = this.artists.filter((a) => a.locations.includes('minneapolis'));
+    // calling arrayMove here to move haley into the first position (0) for minneapolis
+    return arrayMove(data, 0, 1);
   }
 
   @computed('artists')
