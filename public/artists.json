@@ -569,54 +569,6 @@
     ]
   },
   {
-    "name": "sue",
-    "slug": "sue",
-    "title": "nail artist | stp",
-    "image": "team/stpaul/sue",
-    "locations": ["saint-paul"],
-    "hours": [
-      { "day": "Mon", "start": 10, "end": 7 },
-      { "day": "Wed", "start": 10, "end": 7 },
-      { "day": "Thur", "start": 10, "end": 6 }
-    ],
-    "social": [
-      {
-        "network": "facebook",
-        "iconPrefix": "fab",
-        "link": "https://www.facebook.com/sue.meidegrabinske"
-      }
-    ],
-    "bio": {
-      "short": "",
-      "long": ""
-    },
-    "serviceGroups": [
-      {
-        "name": "manicures",
-        "services": [
-          { "name": "Manicure", "price": 35, "requiresConsultation": false },
-          { "name": "Shellac Manicure", "price": 40, "requiresConsultation": false },
-          { "name": "Hard Gel Full Set", "price": 50, "requiresConsultation": false },
-          { "name": "Hard Gel Fill", "price": 40, "requiresConsultation": false }
-        ]
-      },
-      {
-        "name": "pedicures",
-        "services": [
-          { "name": "Spa Pedicure", "price": 60, "requiresConsultation": false },
-          { "name": "Mini Pedicure", "price": 50, "requiresConsultation": false }
-        ]
-      },
-      {
-        "name": "add ons",
-        "services": [
-          { "name": "toe polish change", "price": 30, "requiresConsultation": false },
-          { "name": "Add shellac polish to any foot service", "price": 5, "requiresConsultation": false }
-        ]
-      }
-    ]
-  },
-  {
     "name": "atty",
     "slug": "atty",
     "title": "nail technician | mpls",
