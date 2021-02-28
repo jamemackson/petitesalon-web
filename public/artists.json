@@ -1078,5 +1078,50 @@
         "services": [{ "name": "Haircut", "price": 65, "requiresConsultation": false }]
       }
     ]
+  },
+  {
+    "name": "kacy",
+    "slug": "kacy",
+    "title": "stylist",
+    "image": "female-silhouette",
+    "locations": ["minneapolis"],
+    "hours": [
+      { "day": "Mon", "start": 10, "end": 6 },
+      { "day": "Tue", "start": 10, "end": 6 },
+      { "day": "Wed", "start": 10, "end": 8 },
+      { "day": "Thur", "start": 10, "end": 6 },
+      { "day": "Fri", "start": 10, "end": 6 },
+      { "day": "Sat", "start": 10, "end": 5 }
+    ],
+    "social": [
+      { "network": "facebook", "iconPrefix": "fab", "link": "https://www.facebook.com/kacy.dominguez" },
+      { "network": "instagram", "iconPrefix": "fab", "link": "https://www.instagram.com/kacybearhair/" }
+    ],
+    "bio": {
+      "short": "Kacy loves taking the time to get to know her clients in order to give you your best cut and color. She specializes in balayage and dry cutting, aiming for effortless style, but she also enjoys and is educated in many different cutting and coloring techniques to fit your taste!",
+      "long": "After graduating from a Sassoon connection school in 2009, she moved to Austin, Texas. There she apprenticed and worked as a stylist for over 10 years. In Austin she mastered her dry cutting and balayage skills. She has taken classes with and educator from Jacques Dessange in Paris, attended classes at the hair color energy summit in LA, and more. Now she's back in her home state and ready to help you with all your hair needs!"
+    },
+    "serviceGroups": [
+      {
+        "name": "haircuts & styling",
+        "services": [
+          { "name": "Haircut", "price": 70, "requiresConsultation": false },
+          { "name": "Blowout", "price": 50, "requiresConsultation": false },
+          { "name": "Kids Cut", "price": 40, "requiresConsultation": false },
+          { "name": "Updo", "price": 75, "requiresConsultation": false }
+        ]
+      },
+      {
+        "name": "color",
+        "services": [
+          { "name": "Tint", "price": 80, "requiresConsultation": false },
+          { "name": "Partial Foil", "price": 120, "requiresConsultation": false },
+          { "name": "Full Foil", "price": 145, "requiresConsultation": false },
+          { "name": "Balayage", "price": 165, "requiresConsultation": false },
+          { "name": "Bleach and Tone", "price": 150, "requiresConsultation": false },
+          { "name": "Partial Foil and Tint", "price": 170, "requiresConsultation": false }
+        ]
+      }
+    ]
   }
 ]
