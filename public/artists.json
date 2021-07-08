@@ -602,9 +602,9 @@
       {
         "name": "pedicures",
         "services": [
-          { "name": "pedicure (90 min)", "price": 85, "requiresConsultation": false },
-          { "name": "no polish pedicure (75 min)", "price": 75, "requiresConsultation": false },
-          { "name": "express pedicure (75 min)", "price": 75, "requiresConsultation": false }
+          { "name": "pedicure (90 min)", "price": 90, "requiresConsultation": false },
+          { "name": "no polish pedicure (75 min)", "price": 80, "requiresConsultation": false },
+          { "name": "express pedicure (75 min)", "price": 80, "requiresConsultation": false }
         ]
       },
       {
