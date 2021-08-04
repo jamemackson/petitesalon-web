@@ -589,7 +589,7 @@
     ],
     "bio": {
       "short": "Atty has been in the salon business since 1990 and a nail tech since 1998.  She takes pride in her attention to detail and providing a relaxing and clean environment for her clients.",
-      "long": "Proudly using:* CND Shellac Gel Polish.  Average two week wear.  Cures with LED lamp.  Must be removed in salon.* Dazzle Dry Nail Polish.  Non-toxic, ten to fourteen day wear, dries in 5 minutes.  Removes with regular polish remover."
+      "long": "Proudly using: Dazzle Dry Nail Polish.  Non-toxic, ten to fourteen day wear, dries in 5 minutes.  Removes with regular polish remover."
     },
     "serviceGroups": [
       {
@@ -605,13 +605,6 @@
           { "name": "pedicure (90 min)", "price": 90, "requiresConsultation": false },
           { "name": "no polish pedicure (75 min)", "price": 80, "requiresConsultation": false },
           { "name": "express pedicure (75 min)", "price": 80, "requiresConsultation": false }
-        ]
-      },
-      {
-        "name": "add ons",
-        "services": [
-          { "name": "gel polish (15 min)", "price": 10, "requiresConsultation": false },
-          { "name": "gel polish removal (15 min)", "price": 10, "requiresConsultation": false }
         ]
       }
     ]
@@ -1012,7 +1005,7 @@
       {
         "name": "haircuts & styling",
         "services": [
-          { "name": "haircut", "price": 105, "requiresConsultation": false },
+          { "name": "haircut", "price": 110, "requiresConsultation": false },
           { "name": "kids haircut", "price": 65, "requiresConsultation": false },
           { "name": "blow out / shampoo style", "price": 75, "requiresConsultation": false },
           { "name": "special event style", "price": 75, "requiresConsultation": false }
