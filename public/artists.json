@@ -1116,5 +1116,34 @@
         ]
       }
     ]
+  },
+  {
+    "name": "joshua",
+    "slug": "joshua",
+    "title": "creator. professional finesser.",
+    "image": "male-silhouette",
+    "locations": ["saint-paul"],
+    "hours": [
+      { "day": "Mon", "start": 9, "end": 9 },
+      { "day": "Wed", "start": 10, "end": 9 },
+      { "day": "Sat", "start": 9, "end": 9 }
+    ],
+    "social": [
+      { "network": "facebook", "iconPrefix": "fab", "link": "https://www.facebook.com/haley.fruenmasterhairstylist" },
+      { "network": "instagram", "iconPrefix": "fab", "link": "https://www.instagram.com/haleyfruen/" }
+    ],
+    "bio": {
+      "short": "",
+      "long": ""
+    },
+    "serviceGroups": [
+      {
+        "name": "haircuts & styling",
+        "services": [
+          { "name": "haircut", "price": 70, "requiresConsultation": false },
+          { "name": "Blowout", "price": 50, "requiresConsultation": false }
+        ]
+      }
+    ]
   }
 ]
