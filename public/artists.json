@@ -1118,7 +1118,7 @@
     ]
   },
   {
-    "name": "joshua",
+    "name": "joshua mayhugh",
     "slug": "joshua",
     "title": "creator. professional finesser.",
     "image": "male-silhouette",
@@ -1128,10 +1128,7 @@
       { "day": "Wed", "start": 10, "end": 9 },
       { "day": "Sat", "start": 9, "end": 9 }
     ],
-    "social": [
-      { "network": "facebook", "iconPrefix": "fab", "link": "https://www.facebook.com/haley.fruenmasterhairstylist" },
-      { "network": "instagram", "iconPrefix": "fab", "link": "https://www.instagram.com/haleyfruen/" }
-    ],
+    "social": [],
     "bio": {
       "short": "",
       "long": ""
