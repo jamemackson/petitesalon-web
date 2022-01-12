@@ -1005,7 +1005,7 @@
       {
         "name": "haircuts & styling",
         "services": [
-          { "name": "haircut", "price": 110, "requiresConsultation": false },
+          { "name": "haircut", "price": "125-150", "requiresConsultation": false },
           { "name": "kids haircut", "price": 65, "requiresConsultation": false },
           { "name": "blow out / shampoo style", "price": 75, "requiresConsultation": false },
           { "name": "special event style", "price": 75, "requiresConsultation": false }
@@ -1015,8 +1015,8 @@
         "name": "color",
         "services": [
           { "name": "tint", "price": "75", "requiresConsultation": false },
-          { "name": "full foil", "price": "150", "requiresConsultation": false },
-          { "name": "partial foil", "price": "110", "requiresConsultation": false },
+          { "name": "full foil", "price": "200", "requiresConsultation": false },
+          { "name": "partial foil", "price": "150", "requiresConsultation": false },
           { "name": "face frame foil", "price": "90", "requiresConsultation": false },
           { "name": "balayage", "price": "150", "requiresConsultation": false },
           { "name": "corrective color", "price": "350+", "requiresConsultation": false }
@@ -1139,6 +1139,60 @@
         "services": [
           { "name": "haircut", "price": 70, "requiresConsultation": false },
           { "name": "Blowout", "price": 50, "requiresConsultation": false }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "dani ryan",
+    "slug": "dani",
+    "title": "master esthetician + brazilian wax pro | mpls",
+    "image": "team/minneapolis/dani",
+    "locations": ["minneapolis"],
+    "hours": [
+      { "day": "Tue", "start": 12, "end": 7 },
+      { "day": "Wed", "start": 10, "end": 5 },
+      { "day": "Thur", "start": 12, "end": 7 },
+      { "day": "Fri", "start": 10, "end": 5 }
+    ],
+    "social": [],
+    "bio": {
+      "short": "Dani specializes in speed waxing, brow design + lamination, skincare and select lash services",
+      "long": "After graduating from Aveda-Mpls in 2010, Dani has tried her hand in several realms of esthetics, including med-spas, wax studios + salons/spas and for the last five years, owning an esthetics studio in Denver.<br><br>She moved to home to the Twin Cities with my husband and son in 2021 and am looking forward to growing my business here.<br><br>I bring advanced education and certifications in full-body speed waxing, goal focused skincare, brow lamination and lash lifting.<br><br>With over a decade in the industry, I offer skilled and thorough services every time!"
+    },
+    "serviceGroups": [
+      {
+        "name": "waxing",
+        "services": [
+          { "name": "Brow", "price": 25, "requiresConsultation": false },
+          { "name": "Lip", "price": 15, "requiresConsultation": false },
+          { "name": "Cheek", "price": 15, "requiresConsultation": false },
+          { "name": "Nose", "price": 20, "requiresConsultation": false },
+          { "name": "Chin", "price": 20, "requiresConsultation": false },
+          { "name": "Ear", "price": 15, "requiresConsultation": false },
+          { "name": "Underarm", "price": 25, "requiresConsultation": false },
+          { "name": "1/2 arm", "price": 25, "requiresConsultation": false },
+          { "name": "Full arm", "price": 50, "requiresConsultation": false },
+          { "name": "1/2 leg", "price": 40, "requiresConsultation": false },
+          { "name": "Full leg", "price": 80, "requiresConsultation": false },
+          { "name": "Back / chest", "price": 60, "requiresConsultation": false },
+          { "name": "1/2 chest", "price": 30, "requiresConsultation": false },
+          { "name": "Bikini", "price": 40, "requiresConsultation": false },
+          { "name": "Brazilian", "price": 65, "requiresConsultation": false },
+          { "name": "French Wax", "price": 50, "requiresConsultation": false }
+        ]
+      },
+      {
+        "name": "lifts, lashes & tints",
+        "services": [
+          { "name": "Brow", "price": 27, "requiresConsultation": false },
+          { "name": "Brow tint", "price": 25, "requiresConsultation": false },
+          { "name": "Brow tint w/ Wax", "price": 50, "requiresConsultation": false },
+          { "name": "Lash tint", "price": 30, "requiresConsultation": false },
+          { "name": "Lash lift", "price": 75, "requiresConsultation": false },
+          { "name": "Lash Lift & Tint", "price": 105, "requiresConsultation": false },
+          { "name": "Brow lamination", "price": 75, "requiresConsultation": false },
+          { "name": "Brow lamination w/ was & tint", "price": 115, "requiresConsultation": false }
         ]
       }
     ]
