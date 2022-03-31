@@ -967,9 +967,9 @@
       {
         "name": "services",
         "services": [
-          { "name": "Haircut", "price": 85, "requiresConsultation": false },
-          { "name": "Blowout", "price": 65, "requiresConsultation": false },
-          { "name": "Updo", "price": 125, "requiresConsultation": false }
+          { "name": "Haircut", "price": 95, "requiresConsultation": false },
+          { "name": "Blowout", "price": 75, "requiresConsultation": false },
+          { "name": "Updo", "price": 150, "requiresConsultation": false }
         ]
       },
       {
@@ -982,10 +982,10 @@
     ]
   },
   {
-    "name": "jacquie redlin",
+    "name": "Jacquie Redlin",
     "slug": "jacquie",
     "title": "stylist | mpls",
-    "image": "female-silhouette",
+    "image": "team/minneapolis/jacquie-redlin",
     "locations": ["minneapolis"],
     "hours": [
       { "day": "Mon", "start": "9", "end": "6" },
