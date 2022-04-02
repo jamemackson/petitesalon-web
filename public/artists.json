@@ -299,8 +299,8 @@
     ],
     "social": [{ "network": "facebook", "iconPrefix": "fab", "link": "https://www.facebook.com/marne.tschida" }],
     "bio": {
-      "short": "My goal with every client is that they leave my chair happy and feeling more beautiful than when they came in",
-      "long": "I’ve been with Petite Salon for 10 years and working in the salon industry for 17 years. My goal with every client is that they leave my chair happy and feeling more beautiful than when they came in. I want my clients to feel comfortable working with their hair when they leave the salon, from what products I recommend to how I used the products to what styling tools I used to achieve the look. I love the connection I build with each of my clients and look forward to helping you achieve your look! "
+      "short": "",
+      "long": ""
     },
     "serviceGroups": [
       {
@@ -326,7 +326,7 @@
         "name": "treatments",
         "services": [
           { "name": "conditioning treatment", "price": 20, "requiresConsultation": false },
-          { "name": "Keratin Complex treatment", "price": 200, "requiresConsultation": false }
+          { "name": "Keratin Complex treatment", "price": "200+", "requiresConsultation": false }
         ]
       },
       {
