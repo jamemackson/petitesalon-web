@@ -292,44 +292,41 @@
     "image": "team/stpaul/marne",
     "locations": ["saint-paul"],
     "hours": [
-      { "day": "Mon", "start": "9:45", "end": "7:30" },
-      { "day": "Tue", "start": "9:45", "end": "7:30" },
-      { "day": "Thur", "start": "9:45", "end": "7:30" },
-      { "day": "Fri", "start": "9:30", "end": "7:30" }
+      { "day": "Mon", "start": "10", "end": "7:30" },
+      { "day": "Thur", "start": "10", "end": "7:30" },
+      { "day": "Every other Friday", "start": "10", "end": "7:30" },
+      { "day": "Every other Saturday", "start": "10", "end": "6" }
     ],
     "social": [{ "network": "facebook", "iconPrefix": "fab", "link": "https://www.facebook.com/marne.tschida" }],
     "bio": {
-      "short": "",
-      "long": ""
+      "short": "My goal with every client is that they leave my chair happy and feeling more beautiful than when they came in",
+      "long": "I’ve been with Petite Salon for 10 years and working in the salon industry for 17 years. My goal with every client is that they leave my chair happy and feeling more beautiful than when they came in. I want my clients to feel comfortable working with their hair when they leave the salon, from what products I recommend to how I used the products to what styling tools I used to achieve the look. I love the connection I build with each of my clients and look forward to helping you achieve your look! "
     },
     "serviceGroups": [
       {
         "name": "haircuts & styling",
         "services": [
-          { "name": "womens haircut", "price": 50, "requiresConsultation": false },
-          { "name": "mens haircut", "price": 45, "requiresConsultation": false },
-          { "name": "Bang trim", "price": 0, "requiresConsultation": false },
+          { "name": "womens haircut", "price": 55, "requiresConsultation": false },
+          { "name": "mens haircut", "price": 50, "requiresConsultation": false },
           { "name": "blow out / shampoo style", "price": 40, "requiresConsultation": false },
-          { "name": "Updo", "price": 105, "requiresConsultation": false }
+          { "name": "bang trim", "price": 0, "requiresConsultation": false }
         ]
       },
       {
         "name": "color",
         "services": [
           { "name": "tint", "price": "70+", "requiresConsultation": false },
-          { "name": "full foil", "price": "95+", "requiresConsultation": false },
-          { "name": "partial foil", "price": "85+", "requiresConsultation": false },
-          { "name": "Balayge", "price": "120+", "requiresConsultation": false },
-          { "name": "bleach & tone", "price": "125+", "requiresConsultation": false }
+          { "name": "full foil", "price": "105+", "requiresConsultation": false },
+          { "name": "partial foil", "price": "90+", "requiresConsultation": false },
+          { "name": "Balayge", "price": "135+", "requiresConsultation": false },
+          { "name": "bleach & tone", "price": "140+", "requiresConsultation": false }
         ]
       },
       {
         "name": "treatments",
         "services": [
           { "name": "conditioning treatment", "price": 20, "requiresConsultation": false },
-          { "name": "Keratin Complex treatment", "price": 155, "requiresConsultation": false },
-          { "name": "thermal straightening / relaxers", "price": 205, "requiresConsultation": false },
-          { "name": "perm", "price": 90, "requiresConsultation": false }
+          { "name": "Keratin Complex treatment", "price": 200, "requiresConsultation": false }
         ]
       },
       {
@@ -1014,11 +1011,11 @@
       {
         "name": "color",
         "services": [
-          { "name": "tint", "price": "75", "requiresConsultation": false },
-          { "name": "full foil", "price": "200", "requiresConsultation": false },
-          { "name": "partial foil", "price": "150", "requiresConsultation": false },
+          { "name": "tint", "price": "85", "requiresConsultation": false },
+          { "name": "full foil", "price": "375", "requiresConsultation": false },
+          { "name": "partial foil", "price": "300", "requiresConsultation": false },
           { "name": "face frame foil", "price": "90", "requiresConsultation": false },
-          { "name": "balayage", "price": "150", "requiresConsultation": false },
+          { "name": "balayage", "price": "500", "requiresConsultation": false },
           { "name": "corrective color", "price": "350+", "requiresConsultation": false }
         ]
       },
